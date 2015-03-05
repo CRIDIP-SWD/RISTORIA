@@ -149,10 +149,11 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
                         <!-- Example Title -->
                         <div class="block-title">
                             <h2>Liste des Articles du menu de la semaine <?php echo $donnee_menu['semaine']; ?></h2>
+                            <div class="pull-right">
+                                <a href="#add-article" data-toggle="modal" class="btn btn-success"><i class="fa fa-plus-circle"></i> Nouveau Menu</a>
+                            </div>
                         </div>
-                        <div class="pull-right">
-                            <a href="#add-article" data-toggle="modal" class="btn btn-success"><i class="fa fa-plus-circle"></i> Nouveau Menu</a>
-                        </div>
+
                         <!-- END Example Title -->
 
                         <!-- Example Content -->

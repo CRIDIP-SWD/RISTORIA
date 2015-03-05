@@ -190,10 +190,11 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
                         <!-- Example Title -->
                         <div class="block-title">
                             <h2>Listing des menus</h2>
+                            <div class="pull-right">
+                                <a href="#add-menu" data-toggle="modal" class="btn btn-success"><i class="fa fa-plus-circle"></i> Nouveau Menu</a>
+                            </div>
                         </div>
-                        <div class="pull-right">
-                            <a href="#add-menu" data-toggle="modal" class="btn btn-success"><i class="fa fa-plus-circle"></i> Nouveau Menu</a>
-                        </div>
+
                         <!-- END Example Title -->
 
                         <!-- Example Content -->
