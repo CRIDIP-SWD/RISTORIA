@@ -196,6 +196,56 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
                         </div>
                         <!-- END Example Content -->
                     </div>
+                    <div id="add-article" class="modal" tabindex="-1" role="dialog" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                    <h3 class="modal-title">Ajout d'un article au menu de la semaine</h3>
+                                </div>
+                                <div class="modal-body">
+                                    <form class="form-bordered form-horizontal" action="<?php echo SITE,FOLDER; ?>inc/control/menu.php" method="POST">
+                                        <input type="hidden" name="idmenu" value="<?php echo $donnee_menu['idmenu']; ?>" />
+
+                                        <div class="form-group">
+                                            <label class="col-md-3 control-label" for="example-text-input">Designation de l'article</label>
+                                            <div class="col-md-9">
+                                                <input type="text" id="example-text-input" name="designation" class="form-control" placeholder="Désignation de l'article">
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label class="col-md-3 control-label" for="example-textarea-input">Description de l'article</label>
+                                            <div class="col-md-9">
+                                                <textarea id="example-textarea-input" name="description" rows="9" class="form-control" placeholder="Content.."></textarea>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label class="col-md-4 control-label" for="val_number">Prix Unitaire</label>
+                                            <div class="col-md-6">
+                                                <div class="input-group">
+                                                    <input type="text" id="val_number" name="prix_unitaire" class="form-control" placeholder="X.XX">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group form-actions">
+                                            <div class="pull-left">
+                                                <button type="submit" class="btn btn-success" name="add-article-control" value="Valider"><i class="fa fa-check-circle-o"></i> Valider</button>
+                                            </div>
+                                            <div class="pull-right">
+                                                <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times-circle-o"></i> Fermer la boite de dialogue</button>
+                                            </div>
+                                        </div>
+
+
+
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <!-- END Example Block -->
                 </div>
                 <!-- END Page Content -->
@@ -218,6 +268,8 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
         <script src="<?php echo SITE,FOLDER,ASSETS; ?>js/plugins.js"></script>
         <script src="<?php echo SITE,FOLDER,ASSETS; ?>js/app.js"></script>
         <script src="<?php echo SITE,FOLDER,ASSETS; ?>js/pages/tablesGeneral.js"></script>
+        <script src="<?php echo SITE,FOLDER,ASSETS; ?>js/pages/formsValidation.js"></script>
+        <script>$(function(){ FormsValidation.init(); });</script>
         <script>$(function(){ TablesGeneral.init(); });</script>
     </body>
 </html>

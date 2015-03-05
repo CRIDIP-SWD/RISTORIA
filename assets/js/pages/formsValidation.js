@@ -96,7 +96,7 @@ var FormsValidation = function() {
                     val_website: 'Please enter your website!',
                     val_credit_card: 'Please enter a valid credit card! Try 446-667-651!',
                     val_digits: 'Please enter only digits!',
-                    val_number: 'Format Invalide, X.XX',
+                    val_number: 'Format Invalide, ex: 1.30',
                     val_range: 'Please enter a number between 1 and 1000!',
                     val_terms: 'You must agree to the service terms!'
                 }
