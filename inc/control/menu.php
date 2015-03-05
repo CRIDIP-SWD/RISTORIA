@@ -84,7 +84,7 @@ if (isset($_POST['add-article-control']) && $_POST['add-article-control'] == 'Va
 //Suppression du Menu
 if (isset($_GET['supp-article-control']) && $_GET['supp-article-control'] == 'Valider') {
 
-    $idarticlemenu = $_GET['idarticlemenu'];
+    $idarticle = $_GET['idarticle'];
     $idmenu = $_GET['idmenu'];
 
     $sql_supp_article = mysql_query("DELETE FROM article WHERE idarticle='$idarticle'")or die(mysql_error());
