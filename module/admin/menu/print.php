@@ -36,7 +36,7 @@ ob_start();
 
     <div style="padding-top: 15px; padding-bottom: 15px;"></div>
 
-    <table cellspacing="0" style="width: 100%;">
+    <table cellspacing="0" style="width: 100%; border: solid 1px; border-radius: 10px 10px 10px 10px;">
         <tr>
             <th style="width: 50%;">Désignation</th>
             <th style="width: 50%; text-align: center;">Quantité Commander</th>
