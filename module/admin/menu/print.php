@@ -47,10 +47,10 @@ ob_start();
         {
         ?>
         <tr>
-            <td style="padding-left: 5px; padding-bottom: 5px; padding-top: 5px;">
+            <td style="padding-left: 5px; padding-bottom: 5px; padding-top: 5px; border: solid 1px; width: 50%;">
                 <?php echo $donnee_article['designation']; ?>
             </td>
-            <td style="padding-left: 5px; padding-bottom: 5px; padding-top: 5px;">
+            <td style="padding-left: 5px; padding-bottom: 5px; padding-top: 5px; border: solid 1px; width: 50%; text-align: center;">
                 <?php
                 $sql_sum_qte_article = mysql_query("SELECT SUM(qte) FROM article_commande WHERE idarticle = ".$donnee_article['idarticle'])or die(mysql_error());
                 echo mysql_result($sql_sum_qte_article, 0);
