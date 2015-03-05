@@ -66,17 +66,11 @@
                             <li>
                                 <a href="<?php echo SITE,FOLDER; ?>module/admin/commande/user/index.php"><i class="fa fa-user"></i> Commandes Utilisateurs</a>
                             </li>
-                            <li>
-                                <a href="<?php echo SITE,FOLDER; ?>module/admin/commande/presta/index.php"><i class="fa fa-truck"></i> Commandes prestataires</a>
-                            </li>
 
                             <li class="sidebar-header">
                                 <span class="sidebar-header-options clearfix">
                                 </span>
                                 <span class="sidebar-header-title">MENUS</span>
-                            </li>
-                            <li>
-                                <a href="<?php echo SITE,FOLDER; ?>module/admin/article/index.php"><i class="fa fa-cubes"></i> Gestion des Articles</a>
                             </li>
                             <li>
                                 <a href="<?php echo SITE,FOLDER; ?>module/admin/menu/index.php"><i class="gi gi-shop_window"></i> Gestion des Menus</a>
@@ -86,9 +80,6 @@
                                 <span class="sidebar-header-options clearfix">
                                 </span>
                                 <span class="sidebar-header-title">ETAT & IMPRESSION</span>
-                            </li>
-                            <li>
-                                <a href="<?php echo SITE,FOLDER; ?>module/admin/etat/user/index.php"><i class="fa fa-users"></i> Utilisateurs</a>
                             </li>
                             <li>
                                 <a href="<?php echo SITE,FOLDER; ?>module/admin/etat/commande/"><i class="fa fa-cubes"></i> Commande</a>
@@ -106,10 +97,8 @@
                                 <a href="<?php echo SITE,FOLDER; ?>module/admin/setting/index.php?idsetting=1"><i class="fa fa-building"></i> Gestion du centre de gestion</a>
                             </li>
                             <li>
-                                <a href="<?php echo SITE,FOLDER; ?>module/admin/prestataire/index.php"><i class="gi gi-vcard"></i> Gestion des Prestataires</a>
-                            </li>
-                            <li>
                                 <a href="<?php echo SITE,FOLDER; ?>module/admin/setting/purge.php"><i class="fa fa-refresh fa-spin"></i> Purge de la base de donnée</a>
+                            </li>
 
                         </ul>
                         <?php } ?>
