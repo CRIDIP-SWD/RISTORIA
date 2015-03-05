@@ -3,7 +3,7 @@
 define("TITLE_PAGE", "MENU");
 define("SUBTITLE_PAGE", "GESTION DES MENUS");
 //Breadcumb
-$li_start = "<li>".LOGICIEL."</li>";
+$li_start = "<li>".$logiciel."</li>";
 $li1 = "";
 $li2 = "";
 $li3 = "";

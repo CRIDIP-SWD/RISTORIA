@@ -12,37 +12,6 @@
                     <!-- END Left Header Navigation -->
 
                     <!-- Right Header Navigation -->
-                    <ul class="nav navbar-nav-custom pull-right">
-                    <?php
-                    if($count_commande > 0){
-                    ?>
-                        <li class="dropdown">
-                            <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">
-                                <i class="gi gi-cart_in"></i>
-                                <span class="label label-warning label-indicator animation-floating"><?php echo $count_commande; ?></span>
-                            </a>
-                            <ul class="dropdown-menu dropdown-custom dropdown-menu-right">
-                                <li class="dropdown-header text-center">Nouvelle Commande</li>
-                                <li>
-                                    <?php
-                                    $sql_commande = mysql_query("SELECT * FROM commande, utilisateur WHERE commande.iduser = utilisateur.iduser AND etat_commande = '1'")or die(mysql_error());
-                                    while($donnee_commande = mysql_fetch_array($sql_commande))
-                                    {
-                                    ?>
-                                    <a href="<?php echo SITE,FOLDER; ?>module/admin/commande/user/view.php?idcommande=<?php echo $donnee_commande['idcommande']; ?>">
-                                        <div class="alert alert-info alert-alt">
-                                            <small>
-                                                Num CMD: <?php echo $donnee_commande['num_commande']; ?><br>
-                                                Identité: <?php echo $donnee_commande['nom_user']; ?> <?php echo $donnee_commande['prenom_user']; ?><br>
-                                                Montant: <?php echo number_format($donnee_commande['montant_total'], 2, ',', ' ')." €"; ?>
-                                            </small>
-                                        </div>
-                                    </a>
-                                    <?php } ?>
-                                </li>
-                            </ul>
-                        </li>
-                    <?php } ?>
                         <!-- User Dropdown -->
                         <li class="dropdown">
                             <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">

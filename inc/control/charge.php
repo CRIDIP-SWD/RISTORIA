@@ -1,17 +1,6 @@
 
 <?php
 
-//Vérification si le menu n'a pas dépasser la date
-$sql_menu = mysql_query("SELECT * FROM menu");
-while($donnee_menu = mysql_fetch_array($sql_menu))
-{
-	if($donnee_menu['date_menu'] < $date_systeme)
-	{
-		$idmenu = $donnee_menu['idmenu'];
-		mysql_query("UPDATE menu SET etat_menu = '0' WHERE idmenu = '$idmenu'");
-	}
-}
-
 $sql_user = mysql_query("SELECT iduser, login, groupe FROM utilisateur WHERE login = '$login'")or die(mysql_error());
 $donnee_user = mysql_fetch_array($sql_user);
 $iduser = $donnee_user['iduser'];
@@ -44,9 +33,4 @@ if($key_acces != $serial){
 if($etat_programme == 0){
 	header("Location: systeme_inacessible.php");
 }
-?>
-<?php
-$sql_count_commande = mysql_query("SELECT COUNT(idcommande) FROM commande WHERE etat_commande = '1'");
-$count_commande = mysql_result($sql_count_commande, 0);
-
 ?>
