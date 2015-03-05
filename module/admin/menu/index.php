@@ -123,7 +123,6 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
                     <?php
                     }
                     ?>
-
                     <?php
                     if(isset($_GET['add-menu']) && $_GET['add-menu'] == 'false')
                     {
@@ -132,6 +131,54 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
                             <button aria-hidden="true" data-dismiss="alert" class="close" type="button">×</button>
                             <h4><i class="fa fa-times-circle"></i> Erreur</h4> Une erreur à eu lieu lors de l'ajout du menu dans la base.<br>
                             Veuillez Contacter le support technique. <strong>Erreur EX8870</strong>.
+                        </div>
+                    <?php
+                    }
+                    ?>
+
+                    <?php
+                    if(isset($_GET['modif-menu']) && $_GET['modif-menu'] == 'true')
+                    {
+                        ?>
+                        <div class="alert alert-success alert-dismissable">
+                            <button aria-hidden="true" data-dismiss="alert" class="close" type="button">×</button>
+                            <h4><i class="fa fa-check-circle"></i> Succès</h4> Le menu à bien été modifier.
+                        </div>
+                    <?php
+                    }
+                    ?>
+                    <?php
+                    if(isset($_GET['modif-menu']) && $_GET['modif-menu'] == 'false')
+                    {
+                        ?>
+                        <div class="alert alert-danger alert-dismissable">
+                            <button aria-hidden="true" data-dismiss="alert" class="close" type="button">×</button>
+                            <h4><i class="fa fa-times-circle"></i> Erreur</h4> Une erreur à eu lieu lors de la modification du menu dans la base.<br>
+                            Veuillez Contacter le support technique. <strong>Erreur EX8871</strong>.
+                        </div>
+                    <?php
+                    }
+                    ?>
+
+                    <?php
+                    if(isset($_GET['supp-menu']) && $_GET['supp-menu'] == 'true')
+                    {
+                        ?>
+                        <div class="alert alert-success alert-dismissable">
+                            <button aria-hidden="true" data-dismiss="alert" class="close" type="button">×</button>
+                            <h4><i class="fa fa-check-circle"></i> Succès</h4> Le menu à bien été supprimer.
+                        </div>
+                    <?php
+                    }
+                    ?>
+                    <?php
+                    if(isset($_GET['supp-menu']) && $_GET['supp-menu'] == 'false')
+                    {
+                        ?>
+                        <div class="alert alert-danger alert-dismissable">
+                            <button aria-hidden="true" data-dismiss="alert" class="close" type="button">×</button>
+                            <h4><i class="fa fa-times-circle"></i> Erreur</h4> Une erreur à eu lieu lors de la suppression du menu dans la base.<br>
+                            Veuillez Contacter le support technique. <strong>Erreur EX8872</strong>.
                         </div>
                     <?php
                     }
@@ -168,7 +215,7 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
                                         <td>SEMAINE <?php echo $donnee_menu['semaine']; ?></td>
                                         <td class="pull-right">
                                             <a class="btn btn-info btn-xs" href="#modif-menu" data-toggle="modal"><i class="fa fa-edit"></i></a>
-                                            <a class="btn btn-danger btn-xs" href="<?php echo SITE, FOLDER; ?>inc/control/menu.php?idmenu=1&supp-menu=valider"><i class="fa fa-times"></i></a>
+                                            <a class="btn btn-danger btn-xs" href="<?php echo SITE, FOLDER; ?>inc/control/menu.php?idmenu=1&supp-menu-control=Valider"><i class="fa fa-times"></i></a>
                                         </td>
                                     </tr>
                                     <div id="modif-menu" class="modal" tabindex="-1" role="dialog" aria-hidden="true">
@@ -181,6 +228,7 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
                                                 <div class="modal-body">
                                                     <form class="form-bordered form-horizontal" action="<?php echo SITE, FOLDER; ?>inc/control/menu.php" method="POST">
 
+                                                        <input type="hidden" name="idmenu" value="<?php echo $donnee_menu['idmenu']; ?>" />
                                                         <div class="form-group">
                                                             <label class="col-md-3 control-label" for="example-text-input">N° de la semaine</label>
                                                             <div class="col-md-9">

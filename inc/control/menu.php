@@ -21,6 +21,43 @@ if (isset($_POST['add-menu-control']) && $_POST['add-menu-control'] == 'Valider'
 
 ?>
 
+<?php
+//modification du Menu
+if (isset($_POST['modif-menu-control']) && $_POST['modif-menu-control'] == 'Valider') {
+
+    $idmenu = $_POST['idmenu'];
+    $semaine = $_POST['semaine'];
+
+    $sql_modif_menu = mysql_query("UPDATE `menu` SET `semaine`='$semaine' WHERE idmenu='$idmenu'")or die(mysql_error());
+
+    if($sql_modif_menu == TRUE)
+    {
+        header("Location: ../../module/admin/menu/index.php?modif-menu=true");
+    }else{
+        header("Location: ../../module/admin/menu/index.php?modif-menu=false");
+    }
+}
+
+?>
+
+<?php
+//modification du Menu
+if (isset($_GET['supp-menu-control']) && $_GET['supp-menu-control'] == 'Valider') {
+
+    $idmenu = $_GET['idmenu'];
+
+    $sql_supp_menu = mysql_query("DELETE FROM menu WHERE idmenu='$idmenu'")or die(mysql_error());
+
+    if($sql_supp_menu == TRUE)
+    {
+        header("Location: ../../module/admin/menu/index.php?supp-menu=true");
+    }else{
+        header("Location: ../../module/admin/menu/index.php?supp-menu=false");
+    }
+}
+
+?>
+
 
 
 

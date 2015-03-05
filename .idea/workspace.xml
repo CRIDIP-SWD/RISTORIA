@@ -28,10 +28,10 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/module/admin/menu/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8666667" vertical-offset="3349" max-vertical-offset="4454">
-              <caret line="223" column="87" selection-start-line="223" selection-start-column="87" selection-end-line="223" selection-end-column="87" />
+            <state vertical-scroll-proportion="0.8" vertical-offset="2652" max-vertical-offset="5270">
+              <caret line="180" column="90" selection-start-line="180" selection-start-column="90" selection-end-line="180" selection-end-column="90" />
               <folding>
-                <marker date="1425569982167" expanded="true" signature="8709:8748" placeholder="SELECT * FRO..menu..." />
+                <marker date="1425570533342" expanded="true" signature="11232:11271" placeholder="SELECT * FRO..menu..." />
               </folding>
             </state>
           </provider>
@@ -40,10 +40,11 @@
       <file leaf-file-name="menu.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/inc/control/menu.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.730769" vertical-offset="0" max-vertical-offset="544">
-              <caret line="21" column="2" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
+            <state vertical-scroll-proportion="-15.769231" vertical-offset="508" max-vertical-offset="1173">
+              <caret line="54" column="64" selection-start-line="54" selection-start-column="64" selection-end-line="54" selection-end-column="64" />
               <folding>
-                <marker date="1425569317481" expanded="true" signature="226:307" placeholder="INSERT INTO ..." />
+                <marker date="1425570493945" expanded="true" signature="226:307" placeholder="INSERT INTO ..." />
+                <marker date="1425570493945" expanded="true" signature="1256:1295" placeholder="DELETE FROM ..." />
               </folding>
             </state>
           </provider>
@@ -301,22 +302,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/_superglobals.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.58203125" vertical-offset="1215" max-vertical-offset="3944">
+          <caret line="89" column="22" selection-start-line="89" selection-start-column="13" selection-end-line="89" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/inc/control/menu.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.730769" vertical-offset="0" max-vertical-offset="544">
-          <caret line="21" column="2" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
+        <state vertical-scroll-proportion="-15.769231" vertical-offset="508" max-vertical-offset="1173">
+          <caret line="54" column="64" selection-start-line="54" selection-start-column="64" selection-end-line="54" selection-end-column="64" />
           <folding>
-            <marker date="1425569317481" expanded="true" signature="226:307" placeholder="INSERT INTO ..." />
+            <marker date="1425570493945" expanded="true" signature="226:307" placeholder="INSERT INTO ..." />
+            <marker date="1425570493945" expanded="true" signature="1256:1295" placeholder="DELETE FROM ..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/module/admin/menu/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8666667" vertical-offset="3349" max-vertical-offset="4454">
-          <caret line="223" column="87" selection-start-line="223" selection-start-column="87" selection-end-line="223" selection-end-column="87" />
+        <state vertical-scroll-proportion="0.8" vertical-offset="2652" max-vertical-offset="5270">
+          <caret line="180" column="90" selection-start-line="180" selection-start-column="90" selection-end-line="180" selection-end-column="90" />
           <folding>
-            <marker date="1425569982167" expanded="true" signature="8709:8748" placeholder="SELECT * FRO..menu..." />
+            <marker date="1425570533342" expanded="true" signature="11232:11271" placeholder="SELECT * FRO..menu..." />
           </folding>
         </state>
       </provider>
