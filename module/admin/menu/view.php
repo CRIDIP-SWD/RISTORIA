@@ -118,24 +118,24 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
                     <!-- AFFICHAGE DES RESULTATS -->
 
                     <?php
-                    if(isset($_GET['add-menu']) && $_GET['add-menu'] == 'true')
+                    if(isset($_GET['add-article']) && $_GET['add-article'] == 'true')
                     {
                     ?>
                         <div class="alert alert-success alert-dismissable">
                             <button aria-hidden="true" data-dismiss="alert" class="close" type="button">×</button>
-                            <h4><i class="fa fa-check-circle"></i> Succès</h4> Le menu à bien été ajouter.
+                            <h4><i class="fa fa-check-circle"></i> Succès</h4> L'article à bien été ajouter au menu.
                         </div>
                     <?php
                     }
                     ?>
                     <?php
-                    if(isset($_GET['add-menu']) && $_GET['add-menu'] == 'false')
+                    if(isset($_GET['add-article']) && $_GET['add-article'] == 'false')
                     {
                         ?>
                         <div class="alert alert-danger alert-dismissable">
                             <button aria-hidden="true" data-dismiss="alert" class="close" type="button">×</button>
-                            <h4><i class="fa fa-times-circle"></i> Erreur</h4> Une erreur à eu lieu lors de l'ajout du menu dans la base.<br>
-                            Veuillez Contacter le support technique. <strong>Erreur EX8870</strong>.
+                            <h4><i class="fa fa-times-circle"></i> Erreur</h4> Une erreur à eu lieu lors de l'ajout de l'article dans le menu.<br>
+                            Veuillez Contacter le support technique. <strong>Erreur EX8873</strong>.
                         </div>
                     <?php
                     }
