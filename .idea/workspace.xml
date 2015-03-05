@@ -46,10 +46,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="print.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="print.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/module/admin/menu/print.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.46875" vertical-offset="814" max-vertical-offset="1547">
+            <state vertical-scroll-proportion="-9.230769" vertical-offset="814" max-vertical-offset="1547">
               <caret line="62" column="53" selection-start-line="62" selection-start-column="53" selection-end-line="62" selection-end-column="53" />
               <folding>
                 <element signature="e#607#627#0#HTML" expanded="true" />
@@ -69,6 +69,18 @@
                 <marker date="1425581448446" expanded="true" signature="1922:1968" placeholder="SELECT * FRO..article..." />
                 <marker date="1425581448446" expanded="true" signature="2494:2549" placeholder="SELECT SUM(q..article_commande..." />
                 <marker date="1425581448446" expanded="true" signature="2494:2550" placeholder="SELECT SUM(q..article_commande..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/module/admin/setting/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.43359375" vertical-offset="3195" max-vertical-offset="5202">
+              <caret line="201" column="30" selection-start-line="201" selection-start-column="30" selection-end-line="201" selection-end-column="30" />
+              <folding>
+                <marker date="1425581728334" expanded="true" signature="79:122" placeholder="SELECT * FRO..setting..." />
               </folding>
             </state>
           </provider>
@@ -110,6 +122,7 @@
         <option value="$PROJECT_DIR$/inc/control/menu.php" />
         <option value="$PROJECT_DIR$/module/admin/menu/view.php" />
         <option value="$PROJECT_DIR$/module/admin/menu/print.php" />
+        <option value="$PROJECT_DIR$/module/admin/setting/index.php" />
       </list>
     </option>
   </component>
@@ -203,8 +216,26 @@
               <option name="myItemId" value="admin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="menu" />
+              <option name="myItemId" value="RISTORIA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RISTORIA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="module" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="setting" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -454,7 +485,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/module/admin/menu/print.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46875" vertical-offset="814" max-vertical-offset="1547">
+        <state vertical-scroll-proportion="-9.230769" vertical-offset="814" max-vertical-offset="1547">
           <caret line="62" column="53" selection-start-line="62" selection-start-column="53" selection-end-line="62" selection-end-column="53" />
           <folding>
             <element signature="e#607#627#0#HTML" expanded="true" />
@@ -474,6 +505,16 @@
             <marker date="1425581448446" expanded="true" signature="1922:1968" placeholder="SELECT * FRO..article..." />
             <marker date="1425581448446" expanded="true" signature="2494:2549" placeholder="SELECT SUM(q..article_commande..." />
             <marker date="1425581448446" expanded="true" signature="2494:2550" placeholder="SELECT SUM(q..article_commande..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/admin/setting/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43359375" vertical-offset="3195" max-vertical-offset="5202">
+          <caret line="201" column="30" selection-start-line="201" selection-start-column="30" selection-end-line="201" selection-end-column="30" />
+          <folding>
+            <marker date="1425581728334" expanded="true" signature="79:122" placeholder="SELECT * FRO..setting..." />
           </folding>
         </state>
       </provider>
