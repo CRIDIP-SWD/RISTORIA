@@ -43,12 +43,12 @@
       <file leaf-file-name="menu.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/inc/control/menu.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.66796875" vertical-offset="950" max-vertical-offset="1547">
-              <caret line="76" column="65" selection-start-line="76" selection-start-column="65" selection-end-line="76" selection-end-column="65" />
+            <state vertical-scroll-proportion="0.16992188" vertical-offset="1035" max-vertical-offset="1547">
+              <caret line="66" column="66" selection-start-line="66" selection-start-column="66" selection-end-line="66" selection-end-column="66" />
               <folding>
-                <marker date="1425573919160" expanded="true" signature="226:307" placeholder="INSERT INTO ..." />
-                <marker date="1425573919160" expanded="true" signature="1256:1295" placeholder="DELETE FROM ..." />
-                <marker date="1425573919160" expanded="true" signature="1864:2030" placeholder="DELETE FROM ..." />
+                <marker date="1425574005181" expanded="true" signature="226:307" placeholder="INSERT INTO ..." />
+                <marker date="1425574005181" expanded="true" signature="1256:1295" placeholder="DELETE FROM ..." />
+                <marker date="1425574005181" expanded="true" signature="1916:2082" placeholder="DELETE FROM ..." />
               </folding>
             </state>
           </provider>
@@ -419,12 +419,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/inc/control/menu.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.66796875" vertical-offset="950" max-vertical-offset="1547">
-          <caret line="76" column="65" selection-start-line="76" selection-start-column="65" selection-end-line="76" selection-end-column="65" />
+        <state vertical-scroll-proportion="0.16992188" vertical-offset="1035" max-vertical-offset="1547">
+          <caret line="66" column="66" selection-start-line="66" selection-start-column="66" selection-end-line="66" selection-end-column="66" />
           <folding>
-            <marker date="1425573919160" expanded="true" signature="226:307" placeholder="INSERT INTO ..." />
-            <marker date="1425573919160" expanded="true" signature="1256:1295" placeholder="DELETE FROM ..." />
-            <marker date="1425573919160" expanded="true" signature="1864:2030" placeholder="DELETE FROM ..." />
+            <marker date="1425574005181" expanded="true" signature="226:307" placeholder="INSERT INTO ..." />
+            <marker date="1425574005181" expanded="true" signature="1256:1295" placeholder="DELETE FROM ..." />
+            <marker date="1425574005181" expanded="true" signature="1916:2082" placeholder="DELETE FROM ..." />
           </folding>
         </state>
       </provider>
