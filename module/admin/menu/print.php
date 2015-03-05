@@ -59,7 +59,9 @@ ob_start();
         </tr>
         <?php } ?>
     </table>
-
+<page_footer>
+    page [[page_cu]]/[[page_nb]]
+</page_footer>
 
 
     </body>
