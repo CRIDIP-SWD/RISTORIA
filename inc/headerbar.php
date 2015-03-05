@@ -12,6 +12,7 @@
                     <!-- END Left Header Navigation -->
 
                     <!-- Right Header Navigation -->
+                    <ul class="nav navbar-nav-custom pull-right">
                         <!-- User Dropdown -->
                         <li class="dropdown">
                             <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">
