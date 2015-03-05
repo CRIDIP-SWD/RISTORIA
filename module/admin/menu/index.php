@@ -3,7 +3,7 @@
 define("TITLE_PAGE", "MENU");
 define("SUBTITLE_PAGE", "GESTION DES MENUS");
 //Breadcumb
-$li_start = "<li>".$logiciel."</li>";
+$li_start = "<li>".LOGICIEL."</li>";
 $li1 = "";
 $li2 = "";
 $li3 = "";
@@ -59,9 +59,9 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
                     <div class="sidebar-content">
                         <?php //include ('inc/chat.php'); ?>
 
-                        <?php include ('../../../inc/activity.php'); ?>
+                        <?php include ('inc/activity.php'); ?>
 
-                        <?php include ('../../../inc/message_ui.php'); ?>
+                        <?php include ('inc/message_ui.php'); ?>
                     </div>
                     <!-- END Sidebar Content -->
                 </div>
@@ -95,7 +95,7 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
                     <div class="content-header">
                         <div class="header-section">
                             <h1>
-                                <i class="gi gi-user"></i><?php echo TITLE_PAGE; ?><br><small><?php echo SUBTITLE_PAGE; ?></small>
+                                <i class="gi gi-brush"></i><?php echo TITLE_PAGE; ?><br><small><?php echo SUBTITLE_PAGE; ?></small>
                             </h1>
                         </div>
                     </div>
@@ -110,96 +110,20 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
                         ?>
                     </ul>
                     <!-- END Blank Header -->
-                    <!-- RESULTAT DES ETATS -->
-                    <?php
-                    if(isset($_GET['add-menu']) && $_GET['add-menu'] == 'true')
-                    {
-                    ?>
-                    <div class="alert alert-success alert-dismissable">
-                        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-                        <h4><i class="fa fa-check-circle"></i> Succès</h4> Le Menu à bien été ajouter
-                    </div>
-                    <?php } ?>
-                    <?php
-                    if(isset($_GET['add-menu']) && $_GET['add-menu'] == 'false')
-                    {
-                    ?>
-                    <div class="alert alert-danger alert-dismissable">
-                        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-                        <h4><i class="fa fa-times-circle"></i> Erreur</h4> Une erreur à été detectée lors de l'ajout du menu.<br>Contactez le support technique.
-                    </div>
-                    <?php } ?>
 
-
+                    <!-- Example Block -->
                     <div class="block">
+                        <!-- Example Title -->
                         <div class="block-title">
-                            <h2>Liste des Menus</h2>
-                            <div class="pull-right">
-                                <a href="#add-menu" data-toggle="modal" class="btn btn-primary"><i class="fa fa-plus"></i> Ajouter un menu</a>
-                            </div>
+                            <h2>Block Title</h2>
                         </div>
-                        <div class="table-responsive">
-                            <table id="menu" class="table table-vcenter table-condensed table-bordered">
-                                <thead>
-                                    <tr>
-                                        <th class="text-center">Semaine</th>
-                                        <th class="text-center">Date</th>
-                                        <th class="text-center">Action</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <?php
-                                    $sql_menu = mysql_query("SELECT * FROM menu ORDER BY date_menu ASC")or die(mysql_error());
-                                    while($donnee_menu = mysql_fetch_array($sql_menu))
-                                    {
-                                    ?>
-                                    <tr>
-                                        <td><?php echo $donnee_menu['semaine']; ?></td>
-                                        <td><?php echo date("d-m-Y", $donnee_menu['date_menu']); ?></td>
-                                        <td>
-                                            <a href="view.php?idmenu=<?php echo $donnee_menu['idmenu']; ?>" class="btn btn-primary">Voir le menu <i class="fa fa-arrow-right"></i></a>
-                                        </td>
-                                    </tr>   
-                                    <?php } ?>
-                                </tbody>
-                            </table>
-                        </div>
+                        <!-- END Example Title -->
+
+                        <!-- Example Content -->
+                        <p>Your content..</p>
+                        <!-- END Example Content -->
                     </div>
-
-                    <div id="add-menu" class="modal" tabindex="-1" role="dialog" aria-hidden="true">
-                        <div class="modal-dialog">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                                    <h3 class="modal-title">Nouveau Menu</h3>
-                                </div>
-                                <div class="modal-body">
-                                    <form class="form-horizontal form-bordered" action="<?php echo SITE,FOLDER; ?>inc/control/menu.php" method="POST">
-
-                                        <div class="form-group">
-                                            <label class="col-md-3 control-label" for="example-text-input">Semaine</label>
-                                            <div class="col-md-9">
-                                                <input type="text" id="example-text-input" name="semaine" class="form-control" placeholder="Taper le numéro de la semaine">
-                                            </div>
-                                        </div>
-
-                                        <div class="form-group">
-                                            <label class="col-md-4 control-label" for="masked_date2">Date du menu</label>
-                                            <div class="col-md-6">
-                                                <input type="text" id="masked_date2" name="date_menu" class="form-control" placeholder="dd-mm-yyyy">
-                                            </div>
-                                        </div>
-
-                                        <div class="form-group form-actions">
-                                            <button type="submit" class="btn btn-success" name="add-menu-valid" value="Valider"><i class="fa fa-check"></i> Ajouter le menu</button>
-                                        </div>
-
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
+                    <!-- END Example Block -->
                 </div>
                 <!-- END Page Content -->
 
@@ -214,17 +138,11 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
 
         <!-- Include Jquery library from Google's CDN but if something goes wrong get Jquery from local file (Remove 'http:' if you have SSL) -->
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-        <script>!window.jQuery && document.write(decodeURI('%3Cscript src="../../../../assets/js/vendor/jquery-1.11.1.min.js"%3E%3C/script%3E'));</script>
+        <script>!window.jQuery && document.write(decodeURI('%3Cscript src="js/vendor/jquery-1.11.1.min.js"%3E%3C/script%3E'));</script>
 
         <!-- Bootstrap.js, Jquery plugins and Custom JS code -->
         <script src="<?php echo SITE,FOLDER,ASSETS; ?>js/vendor/bootstrap.min.js"></script>
         <script src="<?php echo SITE,FOLDER,ASSETS; ?>js/plugins.js"></script>
         <script src="<?php echo SITE,FOLDER,ASSETS; ?>js/app.js"></script>
-        <script src="<?php echo SITE,FOLDER,ASSETS; ?>js/pages/tablesDatatables.js"></script>
-        <script src="<?php echo SITE,FOLDER,ASSETS; ?>js/pages/compAnimations.js"></script>
-        <script src="<?php echo SITE,FOLDER,ASSETS; ?>js/pages/formsValidation.js"></script>
-        <script>$(function(){ FormsValidation.init(); });</script>
-        <script>$(function(){ CompAnimations.init(); });</script>
-        <script>$(function(){ TablesDatatables.init(); });</script>
     </body>
 </html>
