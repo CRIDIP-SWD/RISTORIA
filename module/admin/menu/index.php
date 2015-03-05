@@ -137,8 +137,8 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
                                     <tr>
                                         <td>SEMAINE <?php echo $donnee_menu['semaine']; ?></td>
                                         <td>
-                                            <a class="btn btn-info btn-xs" href="#modif-menu" data-toggle="modal"><i class="fa fa-edit"></i></a>
-                                            <a class="btn btn-danger btn-xs" href="<?php echo SITE, FOLDER; ?>inc/control/menu.php?idmenu=1&supp-menu=valider"><i class="fa fa-times"></i></a>
+                                            <a class="btn btn-info btn-xs text-right" href="#modif-menu" data-toggle="modal"><i class="fa fa-edit"></i></a>
+                                            <a class="btn btn-danger btn-xs text-right" href="<?php echo SITE, FOLDER; ?>inc/control/menu.php?idmenu=1&supp-menu=valider"><i class="fa fa-times"></i></a>
                                         </td>
                                     </tr>
                                 <?php } ?>
