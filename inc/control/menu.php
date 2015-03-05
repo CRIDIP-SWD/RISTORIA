@@ -41,7 +41,7 @@ if (isset($_POST['modif-menu-control']) && $_POST['modif-menu-control'] == 'Vali
 ?>
 
 <?php
-//modification du Menu
+//Suppression du Menu
 if (isset($_GET['supp-menu-control']) && $_GET['supp-menu-control'] == 'Valider') {
 
     $idmenu = $_GET['idmenu'];
@@ -79,6 +79,27 @@ if (isset($_POST['add-article-control']) && $_POST['add-article-control'] == 'Va
 }
 
 ?>
+
+<?php
+//Suppression du Menu
+if (isset($_GET['supp-article-control']) && $_GET['supp-article-control'] == 'Valider') {
+
+    $idarticlemenu = $_GET['idarticlemenu'];
+    $idmenu = $_GET['idmenu'];
+
+    $sql_supp_article = mysql_query("DELETE FROM article_menu WHERE idarticlemenu='$idarticlemenu'")or die(mysql_error());
+
+    if($sql_supp_article == TRUE)
+    {
+        header("Location: ../../module/admin/menu/view.php?idmenu=$idmenu&supp-article=true");
+    }else{
+        header("Location: ../../module/admin/menu/view.php?idmenu=$idmenu&supp-article=false");
+    }
+}
+
+?>
+
+
 
 
 
