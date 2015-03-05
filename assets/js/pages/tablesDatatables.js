@@ -31,7 +31,6 @@ var TablesDatatables = function() {
             });
             /* Initialize Datatables */
             $('#menu').dataTable({
-                "aoColumnDefs": [ { "bSortable": false, "aTargets": [ 0, 1 ] } ],
                 "iDisplayLength": 10,
                 "aLengthMenu": [[10, 20, 30, -1], [10, 20, 30, "All"]]
             });
