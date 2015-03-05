@@ -87,7 +87,7 @@ if (isset($_GET['supp-article-control']) && $_GET['supp-article-control'] == 'Va
     $idarticlemenu = $_GET['idarticlemenu'];
     $idmenu = $_GET['idmenu'];
 
-    $sql_supp_article = mysql_query("DELETE FROM article_menu WHERE idarticlemenu='$idarticlemenu'")or die(mysql_error());
+    $sql_supp_article = mysql_query("DELETE FROM article WHERE idarticle='$idarticle'")or die(mysql_error());
 
     if($sql_supp_article == TRUE)
     {
