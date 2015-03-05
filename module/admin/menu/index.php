@@ -117,6 +117,9 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
                         <div class="block-title">
                             <h2>Listing des menus</h2>
                         </div>
+                        <div class="pull-right">
+                            <a href="#add-menu" data-toggle="modal" class="btn btn-success"><i class="fa fa-plus-circle"></i> Nouveau Menu</a>
+                        </div>
                         <!-- END Example Title -->
 
                         <!-- Example Content -->
@@ -144,8 +147,35 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
                                 <?php } ?>
                                 </tbody>
                             </table>
+
                         </div>
                         <!-- END Example Content -->
+                    </div>
+                    <div id="add-menu" class="modal" tabindex="-1" role="dialog" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                    <h3 class="modal-title">Nouveau Menu</h3>
+                                </div>
+                                <div class="modal-body">
+                                    <form class="form-bordered form-horizontal" action="<?php echo SITE, FOLDER; ?>inc/control/menu.php" method="POST">
+
+                                        <div class="form-group">
+                                            <label class="col-md-3 control-label" for="example-text-input">N° de la semaine</label>
+                                            <div class="col-md-9">
+                                                <input type="text" id="example-text-input" name="semaine" class="form-control" placeholder="Text">
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group form-actions">
+                                            <button type="submit" class="btn btn-success"><i class="fa fa-check-circle-o"></i> Valider </button>
+                                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times-circle-o"></i> Fermer la boite de dialogue </button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <!-- END Example Block -->
                 </div>
