@@ -17,24 +17,6 @@ var TablesDatatables = function() {
                 "aLengthMenu": [[10, 20, 30, -1], [10, 20, 30, "All"]]
             });
             /* Initialize Datatables */
-            $('#famille-article').dataTable({
-                "aoColumnDefs": [ { "bSortable": false, "aTargets": [ 0, 1 ] } ],
-                "iDisplayLength": 10,
-                "aLengthMenu": [[10, 20, 30, -1], [10, 20, 30, "All"]]
-            });
-            /* Initialize Datatables */
-            $('#article').dataTable({
-                "aoColumnDefs": [ { "bSortable": false, "aTargets": [ 1, 2 ] } ],
-                "iDisplayLength": 10,
-                "aLengthMenu": [[10, 20, 30, -1], [10, 20, 30, "All"]]
-            });
-            /* Initialize Datatables */
-            $('#menu').dataTable({
-                "aoColumnDefs": [ { "bSortable": false, "aTargets": [ 0, 1 ] } ],
-                "iDisplayLength": 10,
-                "aLengthMenu": [[10, 20, 30, -1], [10, 20, 30, "All"]]
-            });
-            /* Initialize Datatables */
             $('#user').dataTable({
                 "aoColumnDefs": [ { "bSortable": false, "aTargets": [ 1, 2 ] } ],
                 "iDisplayLength": 10,
