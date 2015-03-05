@@ -150,7 +150,7 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
                         <div class="block-title">
                             <h2>Liste des Articles du menu de la semaine <?php echo $donnee_menu['semaine']; ?></h2>
                             <div class="pull-right">
-                                <a href="#add-article" data-toggle="modal" class="btn btn-success"><i class="fa fa-plus-circle"></i> Nouveau Menu</a>
+                                <a href="#add-article" data-toggle="modal" class="btn btn-success"><i class="fa fa-plus-circle"></i> Ajouter un article</a>
                             </div>
                         </div>
 
@@ -184,7 +184,8 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
                                         <td class="text-center">
                                             <?php
                                             $sql_sum_qte_article = mysql_query("SELECT SUM(qte) FROM article_commande WHERE idarticle = ".$donnee_article['idarticle'])or die(mysql_error());
-                                            echo mysql_result($sql_sum_qte_article, 0);
+                                            $result = mysql_result($sql_sum_qte_article, 0);
+                                            if($result == "0"){echo "0";}else{echo $result;}
                                             ?>
                                         </td>
                                     </tr>

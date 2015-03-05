@@ -25,10 +25,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/module/admin/menu/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.36666667" vertical-offset="3111" max-vertical-offset="5304">
+            <state vertical-scroll-proportion="-6.678571" vertical-offset="3111" max-vertical-offset="5304">
               <caret line="194" column="34" selection-start-line="194" selection-start-column="34" selection-end-line="194" selection-end-column="34" />
               <folding>
                 <marker date="1425571864046" expanded="true" signature="11245:11284" placeholder="SELECT * FRO..menu..." />
@@ -37,16 +37,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="view.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="view.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/module/admin/menu/view.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.576923" vertical-offset="2482" max-vertical-offset="3859">
-              <caret line="153" column="34" selection-start-line="153" selection-start-column="34" selection-end-line="153" selection-end-column="34" />
+            <state vertical-scroll-proportion="0.6640625" vertical-offset="2839" max-vertical-offset="3876">
+              <caret line="187" column="72" selection-start-line="187" selection-start-column="72" selection-end-line="187" selection-end-column="72" />
               <folding>
-                <marker date="1425571855882" expanded="true" signature="104:147" placeholder="SELECT * FRO..menu..." />
-                <marker date="1425571855882" expanded="true" signature="9160:9206" placeholder="SELECT * FRO..article..." />
-                <marker date="1425571855882" expanded="true" signature="10154:10209" placeholder="SELECT SUM(q..article_commande..." />
-                <marker date="1425571855882" expanded="true" signature="10154:10210" placeholder="SELECT SUM(q..article_commande..." />
+                <marker date="1425572024913" expanded="true" signature="104:147" placeholder="SELECT * FRO..menu..." />
+                <marker date="1425572024913" expanded="true" signature="9166:9212" placeholder="SELECT * FRO..article..." />
+                <marker date="1425572024913" expanded="true" signature="10160:10215" placeholder="SELECT SUM(q..article_commande..." />
+                <marker date="1425572024913" expanded="true" signature="10160:10216" placeholder="SELECT SUM(q..article_commande..." />
               </folding>
             </state>
           </provider>
@@ -81,8 +81,8 @@
         <option value="$PROJECT_DIR$/inc/config.php" />
         <option value="$PROJECT_DIR$/inc/control/menu.php" />
         <option value="$PROJECT_DIR$/inc/db.conf.php" />
-        <option value="$PROJECT_DIR$/module/admin/menu/view.php" />
         <option value="$PROJECT_DIR$/module/admin/menu/index.php" />
+        <option value="$PROJECT_DIR$/module/admin/menu/view.php" />
       </list>
     </option>
   </component>
@@ -351,25 +351,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module/admin/menu/view.php">
+    <entry file="file://$PROJECT_DIR$/module/admin/menu/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.576923" vertical-offset="2482" max-vertical-offset="3859">
-          <caret line="153" column="34" selection-start-line="153" selection-start-column="34" selection-end-line="153" selection-end-column="34" />
+        <state vertical-scroll-proportion="-6.678571" vertical-offset="3111" max-vertical-offset="5304">
+          <caret line="194" column="34" selection-start-line="194" selection-start-column="34" selection-end-line="194" selection-end-column="34" />
           <folding>
-            <marker date="1425571855882" expanded="true" signature="104:147" placeholder="SELECT * FRO..menu..." />
-            <marker date="1425571855882" expanded="true" signature="9160:9206" placeholder="SELECT * FRO..article..." />
-            <marker date="1425571855882" expanded="true" signature="10154:10209" placeholder="SELECT SUM(q..article_commande..." />
-            <marker date="1425571855882" expanded="true" signature="10154:10210" placeholder="SELECT SUM(q..article_commande..." />
+            <marker date="1425571864046" expanded="true" signature="11245:11284" placeholder="SELECT * FRO..menu..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module/admin/menu/index.php">
+    <entry file="file://$PROJECT_DIR$/module/admin/menu/view.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36666667" vertical-offset="3111" max-vertical-offset="5304">
-          <caret line="194" column="34" selection-start-line="194" selection-start-column="34" selection-end-line="194" selection-end-column="34" />
+        <state vertical-scroll-proportion="0.6640625" vertical-offset="2839" max-vertical-offset="3876">
+          <caret line="187" column="72" selection-start-line="187" selection-start-column="72" selection-end-line="187" selection-end-column="72" />
           <folding>
-            <marker date="1425571864046" expanded="true" signature="11245:11284" placeholder="SELECT * FRO..menu..." />
+            <marker date="1425572024913" expanded="true" signature="104:147" placeholder="SELECT * FRO..menu..." />
+            <marker date="1425572024913" expanded="true" signature="9166:9212" placeholder="SELECT * FRO..article..." />
+            <marker date="1425572024913" expanded="true" signature="10160:10215" placeholder="SELECT SUM(q..article_commande..." />
+            <marker date="1425572024913" expanded="true" signature="10160:10216" placeholder="SELECT SUM(q..article_commande..." />
           </folding>
         </state>
       </provider>
