@@ -28,19 +28,19 @@
       <file leaf-file-name="view.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/module/admin/menu/view.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.16992188" vertical-offset="3500" max-vertical-offset="5406">
-              <caret line="211" column="56" selection-start-line="211" selection-start-column="56" selection-end-line="211" selection-end-column="56" />
+            <state vertical-scroll-proportion="0.5683594" vertical-offset="3398" max-vertical-offset="5508">
+              <caret line="217" column="62" selection-start-line="217" selection-start-column="62" selection-end-line="217" selection-end-column="62" />
               <folding>
-                <marker date="1425577245926" expanded="true" signature="104:147" placeholder="SELECT * FRO..menu..." />
-                <marker date="1425577245926" expanded="true" signature="8996:9088" placeholder="..." />
-                <marker date="1425577245926" expanded="true" signature="9037:9088" placeholder="..." />
-                <marker date="1425577245926" expanded="true" signature="9489:9592" placeholder="..." />
-                <marker date="1425577245926" expanded="true" signature="9594:9640" placeholder="SELECT * FRO..article..." />
-                <marker date="1425577245926" expanded="true" signature="9867:9977" placeholder="..." />
-                <marker date="1425577245926" expanded="true" signature="9912:9977" placeholder="..." />
-                <marker date="1425577245926" expanded="true" signature="10220:10290" placeholder="..." />
-                <marker date="1425577245926" expanded="true" signature="10588:10643" placeholder="SELECT SUM(q..article_commande..." />
-                <marker date="1425577245926" expanded="true" signature="10588:10644" placeholder="SELECT SUM(q..article_commande..." />
+                <marker date="1425577307798" expanded="true" signature="104:147" placeholder="SELECT * FRO..menu..." />
+                <marker date="1425577307798" expanded="true" signature="8996:9088" placeholder="..." />
+                <marker date="1425577307798" expanded="true" signature="9037:9088" placeholder="..." />
+                <marker date="1425577307798" expanded="true" signature="9489:9592" placeholder="..." />
+                <marker date="1425577307798" expanded="true" signature="9594:9640" placeholder="SELECT * FRO..article..." />
+                <marker date="1425577307798" expanded="true" signature="9867:9977" placeholder="..." />
+                <marker date="1425577307798" expanded="true" signature="9912:9977" placeholder="..." />
+                <marker date="1425577307798" expanded="true" signature="10220:10290" placeholder="..." />
+                <marker date="1425577307798" expanded="true" signature="10588:10643" placeholder="SELECT SUM(q..article_commande..." />
+                <marker date="1425577307798" expanded="true" signature="10588:10644" placeholder="SELECT SUM(q..article_commande..." />
               </folding>
             </state>
           </provider>
@@ -396,19 +396,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/module/admin/menu/view.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16992188" vertical-offset="3500" max-vertical-offset="5406">
-          <caret line="211" column="56" selection-start-line="211" selection-start-column="56" selection-end-line="211" selection-end-column="56" />
+        <state vertical-scroll-proportion="0.5683594" vertical-offset="3398" max-vertical-offset="5508">
+          <caret line="217" column="62" selection-start-line="217" selection-start-column="62" selection-end-line="217" selection-end-column="62" />
           <folding>
-            <marker date="1425577245926" expanded="true" signature="104:147" placeholder="SELECT * FRO..menu..." />
-            <marker date="1425577245926" expanded="true" signature="8996:9088" placeholder="..." />
-            <marker date="1425577245926" expanded="true" signature="9037:9088" placeholder="..." />
-            <marker date="1425577245926" expanded="true" signature="9489:9592" placeholder="..." />
-            <marker date="1425577245926" expanded="true" signature="9594:9640" placeholder="SELECT * FRO..article..." />
-            <marker date="1425577245926" expanded="true" signature="9867:9977" placeholder="..." />
-            <marker date="1425577245926" expanded="true" signature="9912:9977" placeholder="..." />
-            <marker date="1425577245926" expanded="true" signature="10220:10290" placeholder="..." />
-            <marker date="1425577245926" expanded="true" signature="10588:10643" placeholder="SELECT SUM(q..article_commande..." />
-            <marker date="1425577245926" expanded="true" signature="10588:10644" placeholder="SELECT SUM(q..article_commande..." />
+            <marker date="1425577307798" expanded="true" signature="104:147" placeholder="SELECT * FRO..menu..." />
+            <marker date="1425577307798" expanded="true" signature="8996:9088" placeholder="..." />
+            <marker date="1425577307798" expanded="true" signature="9037:9088" placeholder="..." />
+            <marker date="1425577307798" expanded="true" signature="9489:9592" placeholder="..." />
+            <marker date="1425577307798" expanded="true" signature="9594:9640" placeholder="SELECT * FRO..article..." />
+            <marker date="1425577307798" expanded="true" signature="9867:9977" placeholder="..." />
+            <marker date="1425577307798" expanded="true" signature="9912:9977" placeholder="..." />
+            <marker date="1425577307798" expanded="true" signature="10220:10290" placeholder="..." />
+            <marker date="1425577307798" expanded="true" signature="10588:10643" placeholder="SELECT SUM(q..article_commande..." />
+            <marker date="1425577307798" expanded="true" signature="10588:10644" placeholder="SELECT SUM(q..article_commande..." />
           </folding>
         </state>
       </provider>

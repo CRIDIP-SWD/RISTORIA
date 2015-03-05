@@ -209,7 +209,13 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
                                                     <form class="form-bordered form-horizontal" action="<?php echo SITE,FOLDER; ?>inc/control/menu.php" method="POST">
                                                         <input type="hidden" name="idmenu" value="<?php echo $donnee_menu['idmenu']; ?>" />
 
-                                                        
+                                                        <div class="form-group">
+                                                            <label class="col-md-3 control-label" for="example-text-input">Text Input</label>
+                                                            <div class="col-md-9">
+                                                                <input type="text" id="example-text-input" name="example-text-input" class="form-control" placeholder="Text">
+                                                                <span class="help-block">This is a help text</span>
+                                                            </div>
+                                                        </div>
 
                                                         <div class="form-group form-actions">
                                                             <div class="pull-left">
