@@ -12,6 +12,7 @@
 	date_default_timezone_set("EUROPE/PARIS");
 	$date_systeme = date("d-m-Y");
 	$heure_systeme = date("H:i");
+    $semaine = date("W");
 	$date_strt = strtotime($date_systeme);
 
  ?>

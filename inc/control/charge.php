@@ -1,4 +1,12 @@
+<?php
+//Verification de l'état du menu
+$sql_menu = mysql_query("SELECT * FROM menu")or die(mysql_error());
+$donnee_menu = mysql_fetch_array($sql_menu);
 
+if($donnee_menu['semaine'] > $semaine){
+    mysql_query("UPDATE menu WHERE etat_menu = '1'")or die(mysql_error());
+}
+?>
 <?php
 
 $sql_user = mysql_query("SELECT iduser, login, groupe FROM utilisateur WHERE login = '$login'")or die(mysql_error());
