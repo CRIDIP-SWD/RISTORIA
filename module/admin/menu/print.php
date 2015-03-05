@@ -60,7 +60,9 @@ ob_start();
         <?php } ?>
     </table>
 <page_footer>
-    page [[page_cu]]/[[page_nb]]
+    <div style="text-align: right; font-weight: bold;">
+        page [[page_cu]]/[[page_nb]]
+    </div>
 </page_footer>
 
 
