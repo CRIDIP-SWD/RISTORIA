@@ -217,13 +217,6 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
                                                         </div>
 
                                                         <div class="form-group">
-                                                            <label class="col-md-3 control-label" for="example-textarea-input">Description de l'article</label>
-                                                            <div class="col-md-9">
-                                                                <textarea id="example-textarea-input" name="description" rows="9" class="form-control" placeholder="Content.."></textarea>
-                                                            </div>
-                                                        </div>
-
-                                                        <div class="form-group">
                                                             <label class="col-md-4 control-label" for="val_number">Prix Unitaire</label>
                                                             <div class="col-md-6">
                                                                 <div class="input-group">
