@@ -36,10 +36,10 @@ ob_start();
 
     <div style="padding-top: 15px; padding-bottom: 15px;"></div>
 
-    <table cellspacing="0" style="width: 100%; border: solid 1px; border-radius: 10px 10px 10px 10px;">
+    <table cellspacing="0" style="width: 100%; border: solid 2px; border-radius: 10px 10px 10px 10px;">
         <tr>
-            <th style="width: 50%;">Désignation</th>
-            <th style="width: 50%; text-align: center;">Quantité Commander</th>
+            <th style="width: 50%; text-align: center; height: 20px;">Désignation</th>
+            <th style="width: 50%; text-align: center; height: 20px;">Quantité Commander</th>
         </tr>
         <?php
         $sql_article = mysql_query("SELECT * FROM article WHERE idmenu = '$idmenu'")or die(mysql_error());
@@ -47,10 +47,10 @@ ob_start();
         {
         ?>
         <tr>
-            <td>
+            <td style="padding: 5px 5px 5px 0px;">
                 <?php echo $donnee_article['designation']; ?>
             </td>
-            <td>
+            <td style="padding: 5px 5px 5px 0px;">
                 <?php
                 $sql_sum_qte_article = mysql_query("SELECT SUM(qte) FROM article_commande WHERE idarticle = ".$donnee_article['idarticle'])or die(mysql_error());
                 echo mysql_result($sql_sum_qte_article, 0);
