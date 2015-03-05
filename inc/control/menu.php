@@ -72,9 +72,9 @@ if (isset($_POST['add-article-control']) && $_POST['add-article-control'] == 'Va
 
     if($sql_add_article == TRUE)
     {
-        header("Location: ../../module/admin/menu/view.php?idarticle=$idmenu&add-article=true");
+        header("Location: ../../module/admin/menu/view.php?idmenu=$idmenu&add-article=true");
     }else{
-        header("Location: ../../module/admin/menu/view.php?idarticle=$idmenu&add-article=false");
+        header("Location: ../../module/admin/menu/view.php?idmenu=$idmenu&add-article=false");
     }
 }
 
