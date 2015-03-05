@@ -110,6 +110,33 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
                         ?>
                     </ul>
                     <!-- END Blank Header -->
+                    <!-- AFFICHAGE DES RESULTATS -->
+
+                    <?php
+                    if(isset($_GET['add-menu']) && $_GET['add-menu'] == 'true')
+                    {
+                    ?>
+                        <div class="alert alert-success alert-dismissable">
+                            <button aria-hidden="true" data-dismiss="alert" class="close" type="button">×</button>
+                            <h4><i class="fa fa-check-circle"></i> Succès</h4> Le menu à bien été ajouter.
+                        </div>
+                    <?php
+                    }
+                    ?>
+
+                    <?php
+                    if(isset($_GET['add-menu']) && $_GET['add-menu'] == 'false')
+                    {
+                        ?>
+                        <div class="alert alert-danger alert-dismissable">
+                            <button aria-hidden="true" data-dismiss="alert" class="close" type="button">×</button>
+                            <h4><i class="fa fa-times-circle"></i> Erreur</h4> Une erreur à eu lieu lors de l'ajout du menu dans la base.<br>
+                            Veuillez Contacter le support technique. <strong>Erreur EX8870</strong>.
+                        </div>
+                    <?php
+                    }
+                    ?>
+
 
                     <!-- Example Block -->
                     <div class="block">
@@ -164,12 +191,12 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
                                         <div class="form-group">
                                             <label class="col-md-3 control-label" for="example-text-input">N° de la semaine</label>
                                             <div class="col-md-9">
-                                                <input type="text" id="example-text-input" name="semaine" class="form-control" placeholder="Text">
+                                                <input type="text" id="example-text-input" name="semaine" class="form-control" placeholder="N° de la semaine uniquement">
                                             </div>
                                         </div>
 
                                         <div class="form-group form-actions">
-                                            <button type="submit" class="btn btn-success"><i class="fa fa-check-circle-o"></i> Valider </button>
+                                            <button type="submit" class="btn btn-success" name="add-menu-control" value="Valider"><i class="fa fa-check-circle-o"></i> Valider </button>
                                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times-circle-o"></i> Fermer la boite de dialogue </button>
                                         </div>
                                     </form>
