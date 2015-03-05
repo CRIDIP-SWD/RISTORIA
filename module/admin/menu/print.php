@@ -36,6 +36,29 @@ ob_start();
 
     <div style="padding-top: 15px; padding-bottom: 15px;"></div>
 
+    <table cellspacing="0" style="width: 100%;">
+        <tr>
+            <th style="width: 50%;">Désignation</th>
+            <th style="width: 50%; text-align: center;">Quantité Commander</th>
+        </tr>
+        <?php
+        $sql_article = mysql_query("SELECT * FROM article WHERE idmenu = '$idmenu'")or die(mysql_error());
+        while($donnee_article = mysql_fetch_array($sql_article))
+        {
+        ?>
+        <tr>
+            <td>
+                <?php echo $donnee_article['designation']; ?>
+            </td>
+            <td>
+                <?php
+                $sql_sum_qte_article = mysql_query("SELECT SUM(qte) FROM article_commande WHERE idarticle = ".$donnee_article['idarticle'])or die(mysql_error());
+                echo mysql_result($sql_sum_qte_article, 0);
+                ?>
+            </td>
+        </tr>
+        <?php } ?>
+    </table>
 
 
 

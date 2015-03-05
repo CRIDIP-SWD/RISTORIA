@@ -49,17 +49,23 @@
       <file leaf-file-name="print.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/module/admin/menu/print.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.49804688" vertical-offset="374" max-vertical-offset="1088">
-              <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.93359375" vertical-offset="474" max-vertical-offset="1479">
+              <caret line="56" column="18" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="18" />
               <folding>
                 <element signature="e#607#627#0#HTML" expanded="true" />
                 <element signature="e#658#676#0#HTML" expanded="true" />
                 <element signature="e#699#742#0#HTML" expanded="true" />
                 <element signature="e#1229#1350#0#HTML" expanded="true" />
                 <element signature="e#1503#1551#0#HTML" expanded="true" />
-                <marker date="1425579838736" expanded="true" signature="128:169" placeholder="SELECT * FRO..setting..." />
-                <marker date="1425579838736" expanded="true" signature="302:345" placeholder="SELECT * FRO..menu..." />
-                <marker date="1425579838736" expanded="true" signature="1231:1354" placeholder="SELECT * FRO..article_commande..." />
+                <element signature="e#1587#1607#0#HTML" expanded="true" />
+                <element signature="e#1638#1657#0#HTML" expanded="true" />
+                <element signature="e#1691#1730#0#HTML" expanded="true" />
+                <marker date="1425580215527" expanded="true" signature="128:169" placeholder="SELECT * FRO..setting..." />
+                <marker date="1425580215527" expanded="true" signature="302:345" placeholder="SELECT * FRO..menu..." />
+                <marker date="1425580215527" expanded="true" signature="1231:1354" placeholder="SELECT * FRO..article_commande..." />
+                <marker date="1425580215527" expanded="true" signature="1819:1865" placeholder="SELECT * FRO..article..." />
+                <marker date="1425580215527" expanded="true" signature="2177:2232" placeholder="SELECT SUM(q..article_commande..." />
+                <marker date="1425580215527" expanded="true" signature="2177:2233" placeholder="SELECT SUM(q..article_commande..." />
               </folding>
             </state>
           </provider>
@@ -437,17 +443,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/module/admin/menu/print.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49804688" vertical-offset="374" max-vertical-offset="1088">
-          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.93359375" vertical-offset="474" max-vertical-offset="1479">
+          <caret line="56" column="18" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="18" />
           <folding>
             <element signature="e#607#627#0#HTML" expanded="true" />
             <element signature="e#658#676#0#HTML" expanded="true" />
             <element signature="e#699#742#0#HTML" expanded="true" />
             <element signature="e#1229#1350#0#HTML" expanded="true" />
             <element signature="e#1503#1551#0#HTML" expanded="true" />
-            <marker date="1425579838736" expanded="true" signature="128:169" placeholder="SELECT * FRO..setting..." />
-            <marker date="1425579838736" expanded="true" signature="302:345" placeholder="SELECT * FRO..menu..." />
-            <marker date="1425579838736" expanded="true" signature="1231:1354" placeholder="SELECT * FRO..article_commande..." />
+            <element signature="e#1587#1607#0#HTML" expanded="true" />
+            <element signature="e#1638#1657#0#HTML" expanded="true" />
+            <element signature="e#1691#1730#0#HTML" expanded="true" />
+            <marker date="1425580215527" expanded="true" signature="128:169" placeholder="SELECT * FRO..setting..." />
+            <marker date="1425580215527" expanded="true" signature="302:345" placeholder="SELECT * FRO..menu..." />
+            <marker date="1425580215527" expanded="true" signature="1231:1354" placeholder="SELECT * FRO..article_commande..." />
+            <marker date="1425580215527" expanded="true" signature="1819:1865" placeholder="SELECT * FRO..article..." />
+            <marker date="1425580215527" expanded="true" signature="2177:2232" placeholder="SELECT SUM(q..article_commande..." />
+            <marker date="1425580215527" expanded="true" signature="2177:2233" placeholder="SELECT SUM(q..article_commande..." />
           </folding>
         </state>
       </provider>
