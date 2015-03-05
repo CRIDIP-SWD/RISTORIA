@@ -58,7 +58,7 @@ blockquote:before {
 .table-hover > tbody > tr:hover > th,
 ul.wysihtml5-toolbar a.btn.wysihtml5-command-active,
 .slider-track {
-    background-color: #f2eceb;
+    background: url("../img/placeholders/photos/photo23@2x.jpg");
 }
 
 blockquote,
