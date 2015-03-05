@@ -4,7 +4,7 @@
 	$logiciel = 'RESTOGEST';
 	$description = '';
 	define('SITE', 'http://vps116895.ovh.net/');
-	define('FOLDER', 'ristogest/');
+	define('FOLDER', 'ristoria/');
 	define('ASSETS', 'assets/');
 	$theme = 'fire';
 
