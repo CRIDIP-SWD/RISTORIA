@@ -25,97 +25,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="view.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/module/admin/menu/view.php">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/module/menu/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-41.923077" vertical-offset="2786" max-vertical-offset="5321">
-              <caret line="228" column="28" selection-start-line="228" selection-start-column="28" selection-end-line="228" selection-end-column="28" />
+            <state vertical-scroll-proportion="0.099609375" vertical-offset="2516" max-vertical-offset="3094">
+              <caret line="151" column="26" selection-start-line="151" selection-start-column="26" selection-end-line="151" selection-end-column="26" />
               <folding>
-                <marker date="1425579464291" expanded="true" signature="104:147" placeholder="SELECT * FRO..menu..." />
-                <marker date="1425579464291" expanded="true" signature="10283:10375" placeholder="..." />
-                <marker date="1425579464291" expanded="true" signature="10324:10375" placeholder="..." />
-                <marker date="1425579464291" expanded="true" signature="10776:10879" placeholder="..." />
-                <marker date="1425579464291" expanded="true" signature="10881:10927" placeholder="SELECT * FRO..article..." />
-                <marker date="1425579464291" expanded="true" signature="11154:11264" placeholder="..." />
-                <marker date="1425579464291" expanded="true" signature="11199:11264" placeholder="..." />
-                <marker date="1425579464291" expanded="true" signature="11507:11577" placeholder="..." />
-                <marker date="1425579464291" expanded="true" signature="11875:11930" placeholder="SELECT SUM(q..article_commande..." />
-                <marker date="1425579464291" expanded="true" signature="11875:11931" placeholder="SELECT SUM(q..article_commande..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="print.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/module/admin/menu/print.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.230769" vertical-offset="814" max-vertical-offset="1547">
-              <caret line="62" column="53" selection-start-line="62" selection-start-column="53" selection-end-line="62" selection-end-column="53" />
-              <folding>
-                <element signature="e#607#627#0#HTML" expanded="true" />
-                <element signature="e#658#676#0#HTML" expanded="true" />
-                <element signature="e#699#742#0#HTML" expanded="true" />
-                <element signature="e#1229#1350#0#HTML" expanded="true" />
-                <element signature="e#1503#1551#0#HTML" expanded="true" />
-                <element signature="e#1587#1662#0#HTML" expanded="true" />
-                <element signature="e#1693#1746#0#HTML" expanded="true" />
-                <element signature="e#1780#1833#0#HTML" expanded="true" />
-                <element signature="e#2108#2204#0#HTML" expanded="true" />
-                <element signature="e#2302#2418#0#HTML" expanded="true" />
-                <element signature="e#2770#2815#0#HTML" expanded="true" />
-                <marker date="1425581448446" expanded="true" signature="128:169" placeholder="SELECT * FRO..setting..." />
-                <marker date="1425581448446" expanded="true" signature="302:345" placeholder="SELECT * FRO..menu..." />
-                <marker date="1425581448446" expanded="true" signature="1231:1354" placeholder="SELECT * FRO..article_commande..." />
-                <marker date="1425581448446" expanded="true" signature="1922:1968" placeholder="SELECT * FRO..article..." />
-                <marker date="1425581448446" expanded="true" signature="2494:2549" placeholder="SELECT SUM(q..article_commande..." />
-                <marker date="1425581448446" expanded="true" signature="2494:2550" placeholder="SELECT SUM(q..article_commande..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/module/admin/setting/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.538462" vertical-offset="3195" max-vertical-offset="5202">
-              <caret line="201" column="30" selection-start-line="201" selection-start-column="30" selection-end-line="201" selection-end-column="30" />
-              <folding>
-                <marker date="1425581728334" expanded="true" signature="79:122" placeholder="SELECT * FRO..setting..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.384615" vertical-offset="2280" max-vertical-offset="3043">
-              <caret line="150" column="145" selection-start-line="150" selection-start-column="145" selection-end-line="150" selection-end-column="145" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="themes.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assets/css/themes.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.75317603" vertical-offset="4056" max-vertical-offset="4794">
-              <caret line="263" column="67" selection-start-line="263" selection-start-column="67" selection-end-line="263" selection-end-column="67" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="menu.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/inc/control/menu.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.5" vertical-offset="1137" max-vertical-offset="1904">
-              <caret line="86" column="33" selection-start-line="86" selection-start-column="33" selection-end-line="86" selection-end-column="33" />
-              <folding>
-                <marker date="1425579378610" expanded="true" signature="226:307" placeholder="INSERT INTO ..." />
-                <marker date="1425579378610" expanded="true" signature="1255:1294" placeholder="DELETE FROM ..." />
-                <marker date="1425579378610" expanded="true" signature="1915:2081" placeholder="DELETE FROM ..." />
-                <marker date="1425579378610" expanded="true" signature="2584:2632" placeholder="DELETE FROM ..." />
+                <marker date="1425582719922" expanded="true" signature="7226:7265" placeholder="SELECT * FRO..menu..." />
               </folding>
             </state>
           </provider>
@@ -146,6 +62,7 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/assets/css/themes/fire.css" />
         <option value="$PROJECT_DIR$/assets/css/themes.css" />
+        <option value="$PROJECT_DIR$/module/menu/index.php" />
       </list>
     </option>
   </component>
@@ -236,7 +153,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
+              <option name="myItemId" value="menu" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -251,14 +168,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="module" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="setting" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -291,60 +200,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="control" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RISTORIA" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RISTORIA" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RISTORIA" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RISTORIA" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RISTORIA" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RISTORIA" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -511,29 +366,10 @@
         <state vertical-scroll-proportion="-12.5" vertical-offset="1137" max-vertical-offset="1904">
           <caret line="86" column="33" selection-start-line="86" selection-start-column="33" selection-end-line="86" selection-end-column="33" />
           <folding>
-            <marker date="1425579378610" expanded="true" signature="226:307" placeholder="INSERT INTO ..." />
-            <marker date="1425579378610" expanded="true" signature="1255:1294" placeholder="DELETE FROM ..." />
-            <marker date="1425579378610" expanded="true" signature="1915:2081" placeholder="DELETE FROM ..." />
-            <marker date="1425579378610" expanded="true" signature="2584:2632" placeholder="DELETE FROM ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/admin/menu/view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-41.923077" vertical-offset="2786" max-vertical-offset="5321">
-          <caret line="228" column="28" selection-start-line="228" selection-start-column="28" selection-end-line="228" selection-end-column="28" />
-          <folding>
-            <marker date="1425579464291" expanded="true" signature="104:147" placeholder="SELECT * FRO..menu..." />
-            <marker date="1425579464291" expanded="true" signature="10283:10375" placeholder="..." />
-            <marker date="1425579464291" expanded="true" signature="10324:10375" placeholder="..." />
-            <marker date="1425579464291" expanded="true" signature="10776:10879" placeholder="..." />
-            <marker date="1425579464291" expanded="true" signature="10881:10927" placeholder="SELECT * FRO..article..." />
-            <marker date="1425579464291" expanded="true" signature="11154:11264" placeholder="..." />
-            <marker date="1425579464291" expanded="true" signature="11199:11264" placeholder="..." />
-            <marker date="1425579464291" expanded="true" signature="11507:11577" placeholder="..." />
-            <marker date="1425579464291" expanded="true" signature="11875:11930" placeholder="SELECT SUM(q..article_commande..." />
-            <marker date="1425579464291" expanded="true" signature="11875:11931" placeholder="SELECT SUM(q..article_commande..." />
+            <marker date="1425579378610" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1425579378610" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1425579378610" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1425579378610" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
           </folding>
         </state>
       </provider>
@@ -543,42 +379,6 @@
         <state vertical-scroll-proportion="0.3321234" vertical-offset="3506" max-vertical-offset="4250">
           <caret line="217" column="16" selection-start-line="217" selection-start-column="16" selection-end-line="217" selection-end-column="16" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/admin/menu/print.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.230769" vertical-offset="814" max-vertical-offset="1547">
-          <caret line="62" column="53" selection-start-line="62" selection-start-column="53" selection-end-line="62" selection-end-column="53" />
-          <folding>
-            <element signature="e#607#627#0#HTML" expanded="true" />
-            <element signature="e#658#676#0#HTML" expanded="true" />
-            <element signature="e#699#742#0#HTML" expanded="true" />
-            <element signature="e#1229#1350#0#HTML" expanded="true" />
-            <element signature="e#1503#1551#0#HTML" expanded="true" />
-            <element signature="e#1587#1662#0#HTML" expanded="true" />
-            <element signature="e#1693#1746#0#HTML" expanded="true" />
-            <element signature="e#1780#1833#0#HTML" expanded="true" />
-            <element signature="e#2108#2204#0#HTML" expanded="true" />
-            <element signature="e#2302#2418#0#HTML" expanded="true" />
-            <element signature="e#2770#2815#0#HTML" expanded="true" />
-            <marker date="1425581448446" expanded="true" signature="128:169" placeholder="SELECT * FRO..setting..." />
-            <marker date="1425581448446" expanded="true" signature="302:345" placeholder="SELECT * FRO..menu..." />
-            <marker date="1425581448446" expanded="true" signature="1231:1354" placeholder="SELECT * FRO..article_commande..." />
-            <marker date="1425581448446" expanded="true" signature="1922:1968" placeholder="SELECT * FRO..article..." />
-            <marker date="1425581448446" expanded="true" signature="2494:2549" placeholder="SELECT SUM(q..article_commande..." />
-            <marker date="1425581448446" expanded="true" signature="2494:2550" placeholder="SELECT SUM(q..article_commande..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/admin/setting/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.538462" vertical-offset="3195" max-vertical-offset="5202">
-          <caret line="201" column="30" selection-start-line="201" selection-start-column="30" selection-end-line="201" selection-end-column="30" />
-          <folding>
-            <marker date="1425581728334" expanded="true" signature="79:122" placeholder="SELECT * FRO..setting..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -595,19 +395,84 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.384615" vertical-offset="2280" max-vertical-offset="3043">
-          <caret line="150" column="145" selection-start-line="150" selection-start-column="145" selection-end-line="150" selection-end-column="145" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/themes.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.75317603" vertical-offset="4056" max-vertical-offset="4794">
           <caret line="263" column="67" selection-start-line="263" selection-start-column="67" selection-end-line="263" selection-end-column="67" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.52734375" vertical-offset="2280" max-vertical-offset="3043">
+          <caret line="150" column="145" selection-start-line="150" selection-start-column="145" selection-end-line="150" selection-end-column="145" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/admin/setting/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43359375" vertical-offset="3195" max-vertical-offset="5202">
+          <caret line="201" column="30" selection-start-line="201" selection-start-column="30" selection-end-line="201" selection-end-column="30" />
+          <folding>
+            <marker date="1425581728334" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..setting..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/admin/menu/print.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.46875" vertical-offset="814" max-vertical-offset="1547">
+          <caret line="62" column="53" selection-start-line="62" selection-start-column="53" selection-end-line="62" selection-end-column="53" />
+          <folding>
+            <element signature="e#607#627#0#HTML" expanded="true" />
+            <element signature="e#658#676#0#HTML" expanded="true" />
+            <element signature="e#699#742#0#HTML" expanded="true" />
+            <element signature="e#1229#1350#0#HTML" expanded="true" />
+            <element signature="e#1503#1551#0#HTML" expanded="true" />
+            <element signature="e#1587#1662#0#HTML" expanded="true" />
+            <element signature="e#1693#1746#0#HTML" expanded="true" />
+            <element signature="e#1780#1833#0#HTML" expanded="true" />
+            <element signature="e#2108#2204#0#HTML" expanded="true" />
+            <element signature="e#2302#2418#0#HTML" expanded="true" />
+            <element signature="e#2770#2815#0#HTML" expanded="true" />
+            <marker date="1425581448446" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..setting..." />
+            <marker date="1425581448446" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..menu..." />
+            <marker date="1425581448446" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..article_commande..." />
+            <marker date="1425581448446" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..article..." />
+            <marker date="1425581448446" expanded="true" signature="-1:-1" placeholder="SELECT SUM(q..article_commande..." />
+            <marker date="1425581448446" expanded="true" signature="-1:-1" placeholder="SELECT SUM(q..article_commande..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/admin/menu/view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.1289062" vertical-offset="2786" max-vertical-offset="5321">
+          <caret line="228" column="28" selection-start-line="228" selection-start-column="28" selection-end-line="228" selection-end-column="28" />
+          <folding>
+            <marker date="1425579464291" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..menu..." />
+            <marker date="1425579464291" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1425579464291" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1425579464291" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1425579464291" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..article..." />
+            <marker date="1425579464291" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1425579464291" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1425579464291" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1425579464291" expanded="true" signature="-1:-1" placeholder="SELECT SUM(q..article_commande..." />
+            <marker date="1425579464291" expanded="true" signature="-1:-1" placeholder="SELECT SUM(q..article_commande..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/menu/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.099609375" vertical-offset="2516" max-vertical-offset="3094">
+          <caret line="151" column="26" selection-start-line="151" selection-start-column="26" selection-end-line="151" selection-end-column="26" />
+          <folding>
+            <marker date="1425582719922" expanded="true" signature="7226:7265" placeholder="SELECT * FRO..menu..." />
+          </folding>
         </state>
       </provider>
     </entry>
