@@ -69,7 +69,7 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
             </div>
             <!-- END Alternative Sidebar -->
 
-            <?php include ('inc/sidebar.php'); ?>
+            <?php include ('../../inc/sidebar.php'); ?>
 
             <!-- Main Container -->
             <div id="main-container">
@@ -87,7 +87,7 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
                     'navbar-fixed-bottom'       for a bottom fixed header (fixed sidebars with scroll will be auto initialized, functionality can be found in js/app.js - handleSidebar()))
                         'header-fixed-bottom'   has to be added on #page-container only if the class 'navbar-fixed-bottom' was added
                 -->
-                <?php include ('inc/headerbar.php'); ?>
+                <?php include ('../../inc/headerbar.php'); ?>
 
                 <!-- Page content -->
                 <div id="page-content">

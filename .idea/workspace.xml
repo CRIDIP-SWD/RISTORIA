@@ -25,41 +25,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/module/commande/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.153846" vertical-offset="1868" max-vertical-offset="3179">
-              <caret line="130" column="37" selection-start-line="130" selection-start-column="37" selection-end-line="130" selection-end-column="37" />
+            <state vertical-scroll-proportion="-1.8261719" vertical-offset="2448" max-vertical-offset="3179">
+              <caret line="89" column="38" selection-start-line="89" selection-start-column="38" selection-end-line="89" selection-end-column="38" />
               <folding>
                 <element signature="n#style#0;n#select#0;n#div#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#1;n#div#1;n#body#0;n#!!top" expanded="true" />
-                <marker date="1425583397995" expanded="true" signature="8385:8423" placeholder="SELECT * FRO..menu..." />
+                <marker date="1425583784848" expanded="true" signature="8397:8435" placeholder="SELECT * FRO..menu..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="charge.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/inc/control/charge.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="833">
-              <caret line="1" column="32" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
-              <folding>
-                <marker date="1425583689026" expanded="true" signature="64:82" placeholder="SELECT * FRO..menu..." />
-                <marker date="1425583689026" expanded="true" signature="305:373" placeholder="SELECT iduse..utilisateur..." />
-                <marker date="1425583689026" expanded="true" signature="509:559" placeholder="SELECT * FRO..utilisateur..." />
-                <marker date="1425583689026" expanded="true" signature="723:766" placeholder="SELECT * FRO..setting..." />
-                <marker date="1425583689026" expanded="true" signature="1214:1266" placeholder="SELECT * FRO..key_ristogest..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/inc/config.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.45333335" vertical-offset="0" max-vertical-offset="525">
-              <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -89,9 +63,9 @@
         <option value="$PROJECT_DIR$/assets/css/themes/fire.css" />
         <option value="$PROJECT_DIR$/assets/css/themes.css" />
         <option value="$PROJECT_DIR$/module/menu/index.php" />
-        <option value="$PROJECT_DIR$/module/commande/index.php" />
         <option value="$PROJECT_DIR$/inc/config.php" />
         <option value="$PROJECT_DIR$/inc/control/charge.php" />
+        <option value="$PROJECT_DIR$/module/commande/index.php" />
       </list>
     </option>
   </component>
@@ -487,36 +461,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module/commande/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.153846" vertical-offset="1868" max-vertical-offset="3179">
-          <caret line="130" column="37" selection-start-line="130" selection-start-column="37" selection-end-line="130" selection-end-column="37" />
-          <folding>
-            <element signature="n#style#0;n#select#0;n#div#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#1;n#div#1;n#body#0;n#!!top" expanded="true" />
-            <marker date="1425583397995" expanded="true" signature="8385:8423" placeholder="SELECT * FRO..menu..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inc/control/charge.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="833">
-          <caret line="1" column="32" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
-          <folding>
-            <marker date="1425583689026" expanded="true" signature="64:82" placeholder="SELECT * FRO..menu..." />
-            <marker date="1425583689026" expanded="true" signature="305:373" placeholder="SELECT iduse..utilisateur..." />
-            <marker date="1425583689026" expanded="true" signature="509:559" placeholder="SELECT * FRO..utilisateur..." />
-            <marker date="1425583689026" expanded="true" signature="723:766" placeholder="SELECT * FRO..setting..." />
-            <marker date="1425583689026" expanded="true" signature="1214:1266" placeholder="SELECT * FRO..key_ristogest..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/inc/config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.45333335" vertical-offset="0" max-vertical-offset="525">
           <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/control/charge.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.032380953" vertical-offset="0" max-vertical-offset="833">
+          <caret line="1" column="32" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
+          <folding>
+            <marker date="1425583689026" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..menu..." />
+            <marker date="1425583689026" expanded="true" signature="-1:-1" placeholder="SELECT iduse..utilisateur..." />
+            <marker date="1425583689026" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..utilisateur..." />
+            <marker date="1425583689026" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..setting..." />
+            <marker date="1425583689026" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..key_ristogest..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/commande/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.8261719" vertical-offset="2448" max-vertical-offset="3179">
+          <caret line="89" column="38" selection-start-line="89" selection-start-column="38" selection-end-line="89" selection-end-column="38" />
+          <folding>
+            <element signature="n#style#0;n#select#0;n#div#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#1;n#div#1;n#body#0;n#!!top" expanded="true" />
+            <marker date="1425583784848" expanded="true" signature="8397:8435" placeholder="SELECT * FRO..menu..." />
+          </folding>
         </state>
       </provider>
     </entry>
