@@ -155,6 +155,7 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
                             <h2>Liste des Articles du menu de la semaine <?php echo $donnee_menu['semaine']; ?></h2>
                             <div class="pull-right">
                                 <a href="#add-article" data-toggle="modal" class="btn btn-success"><i class="fa fa-plus-circle"></i> Ajouter un article</a>
+                                <a href="print.php?idmenu=<?php echo $idmenu; ?>" class="btn btn-info"><i class="fa fa-print"></i> Imprimer le récapitulatif de ce menu</a>
                             </div>
                         </div>
 
