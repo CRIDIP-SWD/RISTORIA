@@ -115,12 +115,40 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
                     <div class="block">
                         <!-- Example Title -->
                         <div class="block-title">
-                            <h2>Block Title</h2>
+                            <h2>Listing des menus</h2>
                         </div>
                         <!-- END Example Title -->
 
                         <!-- Example Content -->
-                        <p>Your content..</p>
+                        <div class="table-responsive">
+                            <table id="example-datatable" class="table table-vcenter table-condensed table-bordered">
+                                <thead>
+                                    <tr>
+                                        <th class="text-center">ID</th>
+                                        <th class="text-center"><i class="gi gi-user"></i></th>
+                                        <th>Client</th>
+                                        <th>Email</th>
+                                        <th>Subscription</th>
+                                        <th class="text-center">Actions</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="text-center">1</td>
+                                        <td class="text-center"><img src="img/placeholders/avatars/avatar5.jpg" alt="avatar" class="img-circle"></td>
+                                        <td><a href="javascript:void(0)">client1</a></td>
+                                        <td>client1@company.com</td>
+                                        <td><span class="label label-primary">Personal</span></td>
+                                        <td class="text-center">
+                                            <div class="btn-group">
+                                                <a href="javascript:void(0)" data-toggle="tooltip" title="Edit" class="btn btn-xs btn-default"><i class="fa fa-pencil"></i></a>
+                                                <a href="javascript:void(0)" data-toggle="tooltip" title="Delete" class="btn btn-xs btn-danger"><i class="fa fa-times"></i></a>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
                         <!-- END Example Content -->
                     </div>
                     <!-- END Example Block -->
