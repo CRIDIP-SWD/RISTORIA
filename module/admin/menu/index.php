@@ -121,7 +121,7 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
 
                         <!-- Example Content -->
                         <div class="table-responsive">
-                            <table id="example-datatable" class="table table-vcenter table-condensed table-bordered">
+                            <table id="general-table" class="table table-striped table-vcenter table-bordered table-hover">
                                 <thead>
                                     <tr>
                                         <th class="text-center">Semaine</th>
@@ -168,7 +168,7 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
         <script src="<?php echo SITE,FOLDER,ASSETS; ?>js/vendor/bootstrap.min.js"></script>
         <script src="<?php echo SITE,FOLDER,ASSETS; ?>js/plugins.js"></script>
         <script src="<?php echo SITE,FOLDER,ASSETS; ?>js/app.js"></script>
-        <script src="<?php echo SITE,FOLDER,ASSETS; ?>js/pages/tablesDatatables.js"></script>
-        <script>$(function(){ TablesDatatables.init(); });</script>
+        <script src="<?php echo SITE,FOLDER,ASSETS; ?>js/pages/tablesGeneral.js"></script>
+        <script>$(function(){ TablesGeneral.init(); });</script>
     </body>
 </html>
