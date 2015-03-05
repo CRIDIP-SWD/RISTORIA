@@ -218,7 +218,6 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
                                             ?>
                                         </td>
                                         <td class="pull-right">
-                                            <a href="#modif-article" data-toggle="modal" class="btn btn-default btn-xs"><i class="fa fa-edit"></i></a>
                                             <a class="btn btn-danger btn-xs" href="<?php echo SITE,FOLDER; ?>inc/control/menu.php?idarticle=<?php echo $donnee_article['idarticle']; ?>&idmenu=<?php echo $idmenu; ?>&supp-article-control=Valider"><i class="fa fa-times-circle-o"></i></a>
                                         </td>
                                     </tr>
