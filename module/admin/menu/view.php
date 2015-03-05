@@ -203,7 +203,7 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
                                             <div class="modal-content">
                                                 <div class="modal-header">
                                                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                                                    <h3 class="modal-title">Ajout d'un article au menu de la semaine</h3>
+                                                    <h3 class="modal-title">Modification d'un article</h3>
                                                 </div>
                                                 <div class="modal-body">
                                                     <form class="form-bordered form-horizontal" action="<?php echo SITE,FOLDER; ?>inc/control/menu.php" method="POST">
@@ -219,7 +219,7 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
                                                         <div class="form-group">
                                                             <label class="col-md-3 control-label" for="example-textarea-input">Description de l'article</label>
                                                             <div class="col-md-9">
-                                                                <textarea id="example-textarea-input" name="description" rows="9" class="form-control" value="<?php echo $donnee_article['description']; ?>"></textarea>
+                                                                <textarea id="example-textarea-input" name="description" rows="9" class="form-control"><?php echo $donnee_article['description']; ?></textarea>
                                                             </div>
                                                         </div>
 

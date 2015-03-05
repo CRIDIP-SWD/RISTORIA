@@ -28,19 +28,19 @@
       <file leaf-file-name="view.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/module/admin/menu/view.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="2.2285156" vertical-offset="3092" max-vertical-offset="5763">
-              <caret line="249" column="39" selection-start-line="249" selection-start-column="39" selection-end-line="249" selection-end-column="39" />
+            <state vertical-scroll-proportion="0.5019531" vertical-offset="3500" max-vertical-offset="5763">
+              <caret line="221" column="196" selection-start-line="221" selection-start-column="196" selection-end-line="221" selection-end-column="196" />
               <folding>
-                <marker date="1425576697949" expanded="true" signature="104:147" placeholder="SELECT * FRO..menu..." />
-                <marker date="1425576697949" expanded="true" signature="8996:9088" placeholder="..." />
-                <marker date="1425576697949" expanded="true" signature="9037:9088" placeholder="..." />
-                <marker date="1425576697949" expanded="true" signature="9489:9592" placeholder="..." />
-                <marker date="1425576697949" expanded="true" signature="9594:9640" placeholder="SELECT * FRO..article..." />
-                <marker date="1425576697949" expanded="true" signature="9867:9977" placeholder="..." />
-                <marker date="1425576697949" expanded="true" signature="9912:9977" placeholder="..." />
-                <marker date="1425576697949" expanded="true" signature="10220:10290" placeholder="..." />
-                <marker date="1425576697949" expanded="true" signature="10588:10643" placeholder="SELECT SUM(q..article_commande..." />
-                <marker date="1425576697949" expanded="true" signature="10588:10644" placeholder="SELECT SUM(q..article_commande..." />
+                <marker date="1425576895819" expanded="true" signature="104:147" placeholder="SELECT * FRO..menu..." />
+                <marker date="1425576895819" expanded="true" signature="8996:9088" placeholder="..." />
+                <marker date="1425576895819" expanded="true" signature="9037:9088" placeholder="..." />
+                <marker date="1425576895819" expanded="true" signature="9489:9592" placeholder="..." />
+                <marker date="1425576895819" expanded="true" signature="9594:9640" placeholder="SELECT * FRO..article..." />
+                <marker date="1425576895819" expanded="true" signature="9867:9977" placeholder="..." />
+                <marker date="1425576895819" expanded="true" signature="9912:9977" placeholder="..." />
+                <marker date="1425576895819" expanded="true" signature="10220:10290" placeholder="..." />
+                <marker date="1425576895819" expanded="true" signature="10588:10643" placeholder="SELECT SUM(q..article_commande..." />
+                <marker date="1425576895819" expanded="true" signature="10588:10644" placeholder="SELECT SUM(q..article_commande..." />
               </folding>
             </state>
           </provider>
@@ -396,19 +396,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/module/admin/menu/view.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.2285156" vertical-offset="3092" max-vertical-offset="5763">
-          <caret line="249" column="39" selection-start-line="249" selection-start-column="39" selection-end-line="249" selection-end-column="39" />
+        <state vertical-scroll-proportion="0.5019531" vertical-offset="3500" max-vertical-offset="5763">
+          <caret line="221" column="196" selection-start-line="221" selection-start-column="196" selection-end-line="221" selection-end-column="196" />
           <folding>
-            <marker date="1425576697949" expanded="true" signature="104:147" placeholder="SELECT * FRO..menu..." />
-            <marker date="1425576697949" expanded="true" signature="8996:9088" placeholder="..." />
-            <marker date="1425576697949" expanded="true" signature="9037:9088" placeholder="..." />
-            <marker date="1425576697949" expanded="true" signature="9489:9592" placeholder="..." />
-            <marker date="1425576697949" expanded="true" signature="9594:9640" placeholder="SELECT * FRO..article..." />
-            <marker date="1425576697949" expanded="true" signature="9867:9977" placeholder="..." />
-            <marker date="1425576697949" expanded="true" signature="9912:9977" placeholder="..." />
-            <marker date="1425576697949" expanded="true" signature="10220:10290" placeholder="..." />
-            <marker date="1425576697949" expanded="true" signature="10588:10643" placeholder="SELECT SUM(q..article_commande..." />
-            <marker date="1425576697949" expanded="true" signature="10588:10644" placeholder="SELECT SUM(q..article_commande..." />
+            <marker date="1425576895819" expanded="true" signature="104:147" placeholder="SELECT * FRO..menu..." />
+            <marker date="1425576895819" expanded="true" signature="8996:9088" placeholder="..." />
+            <marker date="1425576895819" expanded="true" signature="9037:9088" placeholder="..." />
+            <marker date="1425576895819" expanded="true" signature="9489:9592" placeholder="..." />
+            <marker date="1425576895819" expanded="true" signature="9594:9640" placeholder="SELECT * FRO..article..." />
+            <marker date="1425576895819" expanded="true" signature="9867:9977" placeholder="..." />
+            <marker date="1425576895819" expanded="true" signature="9912:9977" placeholder="..." />
+            <marker date="1425576895819" expanded="true" signature="10220:10290" placeholder="..." />
+            <marker date="1425576895819" expanded="true" signature="10588:10643" placeholder="SELECT SUM(q..article_commande..." />
+            <marker date="1425576895819" expanded="true" signature="10588:10644" placeholder="SELECT SUM(q..article_commande..." />
           </folding>
         </state>
       </provider>
