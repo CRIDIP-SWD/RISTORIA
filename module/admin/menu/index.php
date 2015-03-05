@@ -171,6 +171,32 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
                                             <a class="btn btn-danger btn-xs" href="<?php echo SITE, FOLDER; ?>inc/control/menu.php?idmenu=1&supp-menu=valider"><i class="fa fa-times"></i></a>
                                         </td>
                                     </tr>
+                                    <div id="modif-menu" class="modal" tabindex="-1" role="dialog" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                                    <h3 class="modal-title">Modification du menu</h3>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <form class="form-bordered form-horizontal" action="<?php echo SITE, FOLDER; ?>inc/control/menu.php" method="POST">
+
+                                                        <div class="form-group">
+                                                            <label class="col-md-3 control-label" for="example-text-input">N° de la semaine</label>
+                                                            <div class="col-md-9">
+                                                                <input type="text" id="example-text-input" name="semaine" class="form-control" Value="<?php echo $donnee_menu['semaine']; ?>">
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="form-group form-actions text-center">
+                                                            <button type="submit" class="btn btn-success" name="modif-menu-control" value="Valider"><i class="fa fa-check-circle-o"></i> Valider </button>
+                                                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times-circle-o"></i> Fermer la boite de dialogue </button>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 <?php } ?>
                                 </tbody>
                             </table>
@@ -195,7 +221,7 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
                                             </div>
                                         </div>
 
-                                        <div class="form-group form-actions">
+                                        <div class="form-group form-actions text-center">
                                             <button type="submit" class="btn btn-success" name="add-menu-control" value="Valider"><i class="fa fa-check-circle-o"></i> Valider </button>
                                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times-circle-o"></i> Fermer la boite de dialogue </button>
                                         </div>

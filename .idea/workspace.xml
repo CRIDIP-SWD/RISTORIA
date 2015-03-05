@@ -25,22 +25,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/module/admin/menu/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-20.642857" vertical-offset="1683" max-vertical-offset="4012">
-              <caret line="133" column="44" selection-start-line="133" selection-start-column="44" selection-end-line="133" selection-end-column="44" />
+            <state vertical-scroll-proportion="0.8666667" vertical-offset="3349" max-vertical-offset="4454">
+              <caret line="223" column="87" selection-start-line="223" selection-start-column="87" selection-end-line="223" selection-end-column="87" />
               <folding>
-                <marker date="1425569548573" expanded="true" signature="8709:8748" placeholder="SELECT * FRO..menu..." />
+                <marker date="1425569982167" expanded="true" signature="8709:8748" placeholder="SELECT * FRO..menu..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="menu.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="menu.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/inc/control/menu.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6972656" vertical-offset="0" max-vertical-offset="544">
+            <state vertical-scroll-proportion="-13.730769" vertical-offset="0" max-vertical-offset="544">
               <caret line="21" column="2" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
               <folding>
                 <marker date="1425569317481" expanded="true" signature="226:307" placeholder="INSERT INTO ..." />
@@ -301,22 +301,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module/admin/menu/index.php">
+    <entry file="file://$PROJECT_DIR$/inc/control/menu.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.642857" vertical-offset="1683" max-vertical-offset="4012">
-          <caret line="133" column="44" selection-start-line="133" selection-start-column="44" selection-end-line="133" selection-end-column="44" />
+        <state vertical-scroll-proportion="-13.730769" vertical-offset="0" max-vertical-offset="544">
+          <caret line="21" column="2" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
           <folding>
-            <marker date="1425569548573" expanded="true" signature="8709:8748" placeholder="SELECT * FRO..menu..." />
+            <marker date="1425569317481" expanded="true" signature="226:307" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/inc/control/menu.php">
+    <entry file="file://$PROJECT_DIR$/module/admin/menu/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6972656" vertical-offset="0" max-vertical-offset="544">
-          <caret line="21" column="2" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
+        <state vertical-scroll-proportion="0.8666667" vertical-offset="3349" max-vertical-offset="4454">
+          <caret line="223" column="87" selection-start-line="223" selection-start-column="87" selection-end-line="223" selection-end-column="87" />
           <folding>
-            <marker date="1425569317481" expanded="true" signature="226:307" placeholder="INSERT INTO ..." />
+            <marker date="1425569982167" expanded="true" signature="8709:8748" placeholder="SELECT * FRO..menu..." />
           </folding>
         </state>
       </provider>
