@@ -28,8 +28,8 @@
       <file leaf-file-name="view.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/module/admin/menu/view.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9667969" vertical-offset="3398" max-vertical-offset="5763">
-              <caret line="229" column="193" selection-start-line="229" selection-start-column="193" selection-end-line="229" selection-end-column="193" />
+            <state vertical-scroll-proportion="2.2285156" vertical-offset="3092" max-vertical-offset="5763">
+              <caret line="249" column="39" selection-start-line="249" selection-start-column="39" selection-end-line="249" selection-end-column="39" />
               <folding>
                 <marker date="1425576697949" expanded="true" signature="104:147" placeholder="SELECT * FRO..menu..." />
                 <marker date="1425576697949" expanded="true" signature="8996:9088" placeholder="..." />
@@ -396,8 +396,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/module/admin/menu/view.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9667969" vertical-offset="3398" max-vertical-offset="5763">
-          <caret line="229" column="193" selection-start-line="229" selection-start-column="193" selection-end-line="229" selection-end-column="193" />
+        <state vertical-scroll-proportion="2.2285156" vertical-offset="3092" max-vertical-offset="5763">
+          <caret line="249" column="39" selection-start-line="249" selection-start-column="39" selection-end-line="249" selection-end-column="39" />
           <folding>
             <marker date="1425576697949" expanded="true" signature="104:147" placeholder="SELECT * FRO..menu..." />
             <marker date="1425576697949" expanded="true" signature="8996:9088" placeholder="..." />
