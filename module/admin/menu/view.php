@@ -241,12 +241,6 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
                                                                 <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times-circle-o"></i> Fermer la boite de dialogue</button>
                                                             </div>
                                                         </div>
-
-
-                                                        <div class="form-group form-actions text-center">
-                                                            <button type="submit" class="btn btn-success" name="modif-menu-control" value="Valider"><i class="fa fa-check-circle-o"></i> Valider </button>
-                                                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times-circle-o"></i> Fermer la boite de dialogue </button>
-                                                        </div>
                                                     </form>
                                                 </div>
                                             </div>
