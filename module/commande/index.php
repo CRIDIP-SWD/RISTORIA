@@ -168,7 +168,7 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
                                         <td><?php echo $donnee_commande['num_commande']; ?></td>
                                         <td>
                                             <strong>Semaine <?php echo $donnee_commande['semaine']; ?></strong><br>
-                                            <h5><i><?php echo $donnee_commande['date_commande']; ?></i></h5>
+                                            <h5><i><?php echo date("d-m-Y", $donnee_commande['date_commande']); ?></i></h5>
                                         </td>
                                         <td>
                                             <?php echo number_format($donnee_commande['montant_total'], 2, ',', ' ')." €"; ?>

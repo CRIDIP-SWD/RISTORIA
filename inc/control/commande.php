@@ -33,7 +33,7 @@ VALUES (NULL,'$idmenu','$num_commande','','$iduser','0')")or die(mysql_error());
 if(isset($_POST['add-date-commande-control']) && $_POST['add-date-commande-control'] == 'Valider')
 {
     $idcommande = $_POST['idcommande'];
-    $date_commande = $_POST['date_commande'];
+    $date_commande = strtotime($_POST['date_commande']);
 
     $sql_add_date_commande = mysql_query("UPDATE commande SET date_commande = '$date_commande' WHERE idcommande = '$idcommande'")or die(mysql_error());
 

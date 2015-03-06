@@ -168,7 +168,7 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
 
                                         <?php }else{ ?>
                                         <td>
-                                            <?php echo $donnee_commande['date_commande']; ?>
+                                            <?php echo date("d-m-Y", $donnee_commande['date_commande']); ?>
                                         </td>
                                         <?php } ?>
                                     </tr>
