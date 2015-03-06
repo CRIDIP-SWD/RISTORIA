@@ -45,3 +45,39 @@ if(isset($_POST['add-date-commande-control']) && $_POST['add-date-commande-contr
     }
 }
 ?>
+
+<?php
+//Ajout d'un article à la commande
+if(isset($_POST['add-article-control']) && $_POST['add-article-control'] == 'Valider')
+{
+    $idcommande = $_POST['idcommande'];
+    $idarticle = $_POST['idarticle'];
+
+    //Import base commande & Article
+    $sql_import_commande = mysql_query("SELECT * FROM commande WHERE idcommande = '$idcommande'")or die(mysql_error());
+    $import_commande = mysql_fetch_array($sql_import_commande);
+    $montant_total = $import_commande['montant_total'];
+
+    $sql_import_article = mysql_query("SELECT * FROM article WHERE idarticle = '$idarticle'")or die(mysql_error());
+    $import_article = mysql_fetch_array($sql_import_article);
+    $prix_unitaire = $import_article['prix_unitaire'];
+
+    //Calcul du nouveau montant
+    $calc_nouv_total = $montant_total+$prix_unitaire;
+
+    //Update commande
+    $sql_up_commande = mysql_query("UDPATE commande SET montant_total = '$calc_nouv_total' WHERE idcommande = '$idcommande'")or die(mysql_error());
+
+    //Ajout de l'article
+
+    $sql_add_article = mysql_query("INSERT INTO `article_commande`(`idarticlecommande`, `idcommande`, `idarticle`, `qte`, `total_ligne`)
+                        VALUES (NULL,'$idcommande','$idarticle','1','$prix_unitaire')")or die(mysql_error());
+
+    if($sql_add_article == TRUE)
+    {
+        header("Location: ../../module/commande/view.php?idcommande=$idcommande&add-article=true");
+    }else{
+        header("Location: ../../module/commande/view.php?idcommande=$idcommande&add-article=false");
+    }
+}
+?>
