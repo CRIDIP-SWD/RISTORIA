@@ -54,9 +54,9 @@
         <entry file="file://$PROJECT_DIR$/inc/sidebar.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.36914062" vertical-offset="610" max-vertical-offset="2057">
-              <caret line="47" column="156" selection-start-line="47" selection-start-column="156" selection-end-line="47" selection-end-column="156" />
+              <caret line="47" column="185" selection-start-line="47" selection-start-column="185" selection-end-line="47" selection-end-column="185" />
               <folding>
-                <marker date="1425658866853" expanded="true" signature="6164:6184" placeholder="SELECT * FRO..module..." />
+                <marker date="1425658915600" expanded="true" signature="6164:6184" placeholder="SELECT * FRO..module..." />
               </folding>
             </state>
           </provider>
@@ -585,9 +585,9 @@
     <entry file="file://$PROJECT_DIR$/inc/sidebar.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.36914062" vertical-offset="610" max-vertical-offset="2057">
-          <caret line="47" column="156" selection-start-line="47" selection-start-column="156" selection-end-line="47" selection-end-column="156" />
+          <caret line="47" column="185" selection-start-line="47" selection-start-column="185" selection-end-line="47" selection-end-column="185" />
           <folding>
-            <marker date="1425658866853" expanded="true" signature="6164:6184" placeholder="SELECT * FRO..module..." />
+            <marker date="1425658915600" expanded="true" signature="6164:6184" placeholder="SELECT * FRO..module..." />
           </folding>
         </state>
       </provider>
