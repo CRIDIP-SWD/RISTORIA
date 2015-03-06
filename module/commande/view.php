@@ -193,7 +193,52 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
                         <!-- END Example Title -->
 
                         <!-- Example Content -->
-                        <p>Your content..</p>
+                        <div class="table-responsive">
+                            <!--
+                            Available Table Classes:
+                                'table'             - basic table
+                                'table-bordered'    - table with full borders
+                                'table-borderless'  - table with no borders
+                                'table-striped'     - striped table
+                                'table-condensed'   - table with smaller top and bottom cell padding
+                                'table-hover'       - rows highlighted on mouse hover
+                                'table-vcenter'     - middle align content vertically
+                            -->
+                            <table id="general-table" class="table table-striped table-vcenter table-bordered">
+                                <thead>
+                                <tr>
+                                    <td>Produit</td>
+                                    <td>Prix_unitaire</td>
+                                    <td>Qte</td>
+                                    <td>Prix total</td>
+                                    <td>Action</td>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <?php
+                                $sql_article = mysql_query("SELECT * FROM article_commande, commande, article WHERE article_commande.idcommande = commande.idcommande
+                                                AND article_commande.idarticle = article.idarticle
+                                                AND article_commande.idcommande = '$idcommande'")or die(mysql_error());
+                                while($donnee_article = mysql_fetch_array($sql_article)) {
+                                    ?>
+                                    <tr>
+                                        <td>
+                                            <strong><?php echo $donnee_article['designation']; ?></strong><br>
+                                            <h5><i><?php echo $donnee_article['description']; ?></i></h5>
+                                        </td>
+                                        <td><?php echo number_format($donnee_article['prix_unitaire'], 2, ',', ' ')." €"; ?></td>
+                                        <td><?php echo $donnee_article['qte']; ?></td>
+                                        <td><?php echo number_format($donnee_article['total_ligne'], 2, ',', ' ')." €"; ?></td>
+                                        <td>
+                                            
+                                        </td>
+                                    </tr>
+                                <?php
+                                }
+                                ?>
+                                </tbody>
+                            </table>
+                        </div>
                         <!-- END Example Content -->
                     </div>
                     <!-- END Example Block -->
@@ -251,6 +296,8 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
         <script src="<?php echo SITE,FOLDER,ASSETS; ?>js/plugins.js"></script>
         <script src="<?php echo SITE,FOLDER,ASSETS; ?>js/app.js"></script>
         <script src="<?php echo SITE,FOLDER,ASSETS; ?>js/pages/formsValidation.js"></script>
+        <script src="<?php echo SITE,FOLDER,ASSETS; ?>js/pages/tablesGeneral.js"></script>
+        <script>$(function(){ TablesGeneral.init(); });</script>
         <script>$(function(){ FormsValidation.init(); });</script>
     </body>
 </html>
