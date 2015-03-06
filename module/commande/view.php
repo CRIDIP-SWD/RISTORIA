@@ -237,6 +237,14 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
                                 }
                                 ?>
                                 </tbody>
+                                <tfoot>
+                                <tr>
+                                    <td colspan="3">Total de la commande</td>
+                                    <td>
+                                        <?php echo number_format($donnee_commande['montant_total'], 2, ',', ' ')." €"; ?>
+                                    </td>
+                                </tr>
+                                </tfoot>
                             </table>
                         </div>
                         <!-- END Example Content -->
@@ -272,6 +280,39 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
                                    </div>
 
                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="add-article" class="modal" tabindex="-1" role="dialog" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                <h3 class="modal-title">Ajout de la date à la commande</h3>
+                            </div>
+                            <div class="modal-body">
+                                <form class="form-horizontal form-bordered" action="<?php echo SITE,FOLDER; ?>inc/control/commande.php" method="POST">
+
+                                    <input type="hidden" name="idcommande" value="<?php echo $idcommande; ?>" />
+
+                                    <div class="form-group">
+                                        <label class="col-md-4 control-label" for="masked_date2">Date de la commande</label>
+                                        <div class="col-md-6">
+                                            <input type="text" id="masked_date2" name="date_commande" class="form-control" placeholder="jj-mm-aaaa">
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group form-actions">
+                                        <div class="pull-left">
+                                            <button type="submit" class="btn btn-success" name="add-date-commande-control" value="Valider"><i class="fa fa-check-circle-o"></i> Valider</button>
+                                        </div>
+                                        <div class="pull-right">
+                                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times-circle-o"></i> Fermer la boite de dialogue</button>
+                                        </div>
+                                    </div>
+
+                                </form>
                             </div>
                         </div>
                     </div>

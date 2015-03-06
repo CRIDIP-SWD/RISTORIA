@@ -25,10 +25,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/module/commande/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.16796875" vertical-offset="2277" max-vertical-offset="3638">
+            <state vertical-scroll-proportion="-19.0" vertical-offset="1869" max-vertical-offset="3638">
               <caret line="139" column="24" selection-start-line="139" selection-start-column="24" selection-end-line="185" selection-end-column="30" />
               <folding>
                 <element signature="tag#div#1;tag#div#2;tag#div#0;tag#div#1;tag#div#1;tag#body#0" expanded="false" />
@@ -40,16 +40,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="view.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="view.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/module/commande/view.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.5" vertical-offset="3619" max-vertical-offset="5236">
-              <caret line="232" column="0" selection-start-line="232" selection-start-column="0" selection-end-line="232" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0703125" vertical-offset="4826" max-vertical-offset="5933">
+              <caret line="286" column="36" selection-start-line="286" selection-start-column="36" selection-end-line="286" selection-end-column="36" />
               <folding>
                 <element signature="n#style#0;n#table#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#1;n#body#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#td#1;n#tr#1;n#table#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#1;n#body#0;n#!!top" expanded="true" />
-                <marker date="1425643917846" expanded="true" signature="113:294" placeholder="SELECT * FRO..commande..." />
-                <marker date="1425643917846" expanded="true" signature="12304:12604" placeholder="SELECT * FRO..article_commande..." />
+                <marker date="1425644101879" expanded="true" signature="113:294" placeholder="SELECT * FRO..commande..." />
+                <marker date="1425644101879" expanded="true" signature="12304:12604" placeholder="SELECT * FRO..article_commande..." />
               </folding>
             </state>
           </provider>
@@ -537,28 +537,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module/commande/view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.5" vertical-offset="3619" max-vertical-offset="5236">
-          <caret line="232" column="0" selection-start-line="232" selection-start-column="0" selection-end-line="232" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#table#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#1;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#1;n#tr#1;n#table#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#1;n#body#0;n#!!top" expanded="true" />
-            <marker date="1425643917846" expanded="true" signature="113:294" placeholder="SELECT * FRO..commande..." />
-            <marker date="1425643917846" expanded="true" signature="12304:12604" placeholder="SELECT * FRO..article_commande..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/module/commande/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16796875" vertical-offset="2277" max-vertical-offset="3638">
+        <state vertical-scroll-proportion="-19.0" vertical-offset="1869" max-vertical-offset="3638">
           <caret line="139" column="24" selection-start-line="139" selection-start-column="24" selection-end-line="185" selection-end-column="30" />
           <folding>
             <element signature="tag#div#1;tag#div#2;tag#div#0;tag#div#1;tag#div#1;tag#body#0" expanded="false" />
             <element signature="n#style#0;n#select#0;n#div#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#1;n#div#1;n#body#0;n#!!top" expanded="true" />
             <marker date="1425642822305" expanded="true" signature="8974:9223" placeholder="SELECT * FRO..commande..." />
             <marker date="1425642822305" expanded="true" signature="12376:12414" placeholder="SELECT * FRO..menu..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/commande/view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0703125" vertical-offset="4826" max-vertical-offset="5933">
+          <caret line="286" column="36" selection-start-line="286" selection-start-column="36" selection-end-line="286" selection-end-column="36" />
+          <folding>
+            <element signature="n#style#0;n#table#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#1;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#1;n#tr#1;n#table#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#1;n#body#0;n#!!top" expanded="true" />
+            <marker date="1425644101879" expanded="true" signature="113:294" placeholder="SELECT * FRO..commande..." />
+            <marker date="1425644101879" expanded="true" signature="12304:12604" placeholder="SELECT * FRO..article_commande..." />
           </folding>
         </state>
       </provider>
