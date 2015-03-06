@@ -25,14 +25,40 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/module/commande/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6347656" vertical-offset="2412" max-vertical-offset="3332">
-              <caret line="161" column="174" selection-start-line="161" selection-start-column="174" selection-end-line="161" selection-end-column="174" />
+            <state vertical-scroll-proportion="6.5384617" vertical-offset="2244" max-vertical-offset="3604">
+              <caret line="122" column="90" selection-start-line="122" selection-start-column="90" selection-end-line="122" selection-end-column="90" />
               <folding>
                 <element signature="n#style#0;n#select#0;n#div#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#1;n#div#1;n#body#0;n#!!top" expanded="true" />
-                <marker date="1425634826633" expanded="true" signature="8397:8435" placeholder="SELECT * FRO..menu..." />
+                <marker date="1425635962843" expanded="true" signature="9250:9288" placeholder="SELECT * FRO..menu..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="view.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/module/commande/view.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.29882812" vertical-offset="1938" max-vertical-offset="3536">
+              <caret line="123" column="24" selection-start-line="123" selection-start-column="24" selection-end-line="123" selection-end-column="24" />
+              <folding>
+                <marker date="1425636417429" expanded="true" signature="113:208" placeholder="SELECT * FRO..commande..." />
+                <marker date="1425636417429" expanded="true" signature="8983:9021" placeholder="SELECT * FRO..menu..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="commande.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/inc/control/commande.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-13.076923" vertical-offset="0" max-vertical-offset="493">
+              <caret line="20" column="78" selection-start-line="20" selection-start-column="78" selection-end-line="20" selection-end-column="78" />
+              <folding>
+                <marker date="1425635767004" expanded="true" signature="273:440" placeholder="INSERT INTO ..." />
+                <marker date="1425635767004" expanded="true" signature="545:604" placeholder="SELECT * FRO..commande..." />
               </folding>
             </state>
           </provider>
@@ -65,7 +91,9 @@
         <option value="$PROJECT_DIR$/inc/control/charge.php" />
         <option value="$PROJECT_DIR$/assets/css/themes.css" />
         <option value="$PROJECT_DIR$/assets/css/themes/fire.css" />
+        <option value="$PROJECT_DIR$/inc/control/commande.php" />
         <option value="$PROJECT_DIR$/module/commande/index.php" />
+        <option value="$PROJECT_DIR$/module/commande/view.php" />
       </list>
     </option>
   </component>
@@ -184,7 +212,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
+              <option name="myItemId" value="inc" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -198,33 +226,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
+              <option name="myItemId" value="inc" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RISTORIA" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RISTORIA" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
+              <option name="myItemId" value="control" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -243,6 +249,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Maxime\Documents\GitHub\RISTORIA\module\commande" />
       <recent name="C:\Users\Maxime\Documents\GitHub\RISTORIA\module\admin\menu" />
     </key>
   </component>
@@ -364,16 +371,6 @@
           <folding>
             <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#div#2;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
             <marker date="1425576281927" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..module..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/admin/menu/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3984375" vertical-offset="3570" max-vertical-offset="5304">
-          <caret line="222" column="36" selection-start-line="222" selection-start-column="36" selection-end-line="248" selection-end-column="42" />
-          <folding>
-            <marker date="1425571864046" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..menu..." />
           </folding>
         </state>
       </provider>
@@ -505,13 +502,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/inc/control/commande.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.076923" vertical-offset="0" max-vertical-offset="493">
+          <caret line="20" column="78" selection-start-line="20" selection-start-column="78" selection-end-line="20" selection-end-column="78" />
+          <folding>
+            <marker date="1425635767004" expanded="true" signature="273:440" placeholder="INSERT INTO ..." />
+            <marker date="1425635767004" expanded="true" signature="545:604" placeholder="SELECT * FRO..commande..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/admin/menu/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6972656" vertical-offset="2703" max-vertical-offset="5304">
+          <caret line="180" column="100" selection-start-line="179" selection-start-column="28" selection-end-line="180" selection-end-column="100" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/module/commande/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6347656" vertical-offset="2412" max-vertical-offset="3332">
-          <caret line="161" column="174" selection-start-line="161" selection-start-column="174" selection-end-line="161" selection-end-column="174" />
+        <state vertical-scroll-proportion="6.5384617" vertical-offset="2244" max-vertical-offset="3604">
+          <caret line="122" column="90" selection-start-line="122" selection-start-column="90" selection-end-line="122" selection-end-column="90" />
           <folding>
             <element signature="n#style#0;n#select#0;n#div#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#1;n#div#1;n#body#0;n#!!top" expanded="true" />
-            <marker date="1425634826633" expanded="true" signature="8397:8435" placeholder="SELECT * FRO..menu..." />
+            <marker date="1425635962843" expanded="true" signature="9250:9288" placeholder="SELECT * FRO..menu..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/commande/view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.29882812" vertical-offset="1938" max-vertical-offset="3536">
+          <caret line="123" column="24" selection-start-line="123" selection-start-column="24" selection-end-line="123" selection-end-column="24" />
+          <folding>
+            <marker date="1425636417429" expanded="true" signature="113:208" placeholder="SELECT * FRO..commande..." />
+            <marker date="1425636417429" expanded="true" signature="8983:9021" placeholder="SELECT * FRO..menu..." />
           </folding>
         </state>
       </provider>

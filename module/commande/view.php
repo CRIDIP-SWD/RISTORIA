@@ -1,10 +1,15 @@
 <?php include ('../../inc/header.php'); ?>
 <?php
-$iduser = $_GET['iduser'];
+$idcommande = $_GET['idcommande'];
+$sql_commande = mysql_query("SELECT * FROM commande, menu WHERE commande.idmenu = menu.idmenu AND idcommande = '$idcommande'")or die(mysql_error());
+$donnee_commande = mysql_fetch_array($sql_commande);
+if(empty($donnee_commande['date_commande'])){
+    header("Location: view.php?idcommande=$idcommande#modif-date-commande");
+}
 ?>
 <?php
 define("TITLE_PAGE", "COMMANDE");
-define("SUBTITLE_PAGE", "LISTE DE VOS COMMANDES");
+define("SUBTITLE_PAGE", "COMMANDE ".$donnee_commande['num_commande']." Semaine".$donnee_commande['semaine']);
 //Breadcumb
 $li_start = "<li>".$logiciel."</li>";
 $li1 = "";
@@ -114,24 +119,15 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
                     </ul>
                     <!-- END Blank Header -->
                     <!-- ETAT -->
-                    <?if(isset($_GET['add-commande']) && $_GET['add-commande'] == 'false')
-                    {
-                        ?>
-                        <div class="alert alert-danger alert-dismissable">
-                            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-                            <h4><i class="fa fa-times-circle"></i> Erreur</h4> Une erreur à eu lieu lors de la création de la commande.<br>
-                            Veuillez Contacter le support technique. <strong>Erreur EX8880</strong>.
-                        </div>
-                    <?php
-                    }
-                    ?>
+
                     <!-- Example Block -->
+                        
                     <div class="block">
                         <!-- Example Title -->
                         <div class="block-title">
-                            <h2>Liste de vos commandes</h2>
+                            <h2>Votre commande</h2>
                             <div class="pull-right">
-                                <a href="#add-commande" data-toggle="modal" class="btn btn-info"><i class="fa fa-plus-circle"></i> Nouvelle commande</a>
+                                <a href="#add-article" data-toggle="modal" class="btn btn-info"><i class="fa fa-plus-circle"></i> Ajouter un produit</a>
                             </div>
                         </div>
                         <!-- END Example Title -->
