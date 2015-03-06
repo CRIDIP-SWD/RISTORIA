@@ -159,7 +159,8 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
                                 </thead>
                                 <tbody>
                                 <?php
-                                $sql_commande = mysql_query("SELECT * FROM commande, menu WHERE commande.idmenu = menu.idmenu")or die(mysql_error());
+                                $sql_commande = mysql_query("SELECT * FROM commande, menu, utilisateur WHERE commande.idmenu = menu.idmenu
+                                                AND commande.iduser = utilisateur.iduser")or die(mysql_error());
                                 while($donnee_commande = mysql_fetch_array($sql_commande)) {
                                     ?>
                                     <tr>
