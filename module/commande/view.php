@@ -158,6 +158,26 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
                             Veuillez contacter le service technique. <strong>Erreur EX8882</strong>
                         </div>
                     <?php } ?>
+
+                    <?php
+                    if(isset($_GET['supp-article']) && $_GET['supp-article'] == 'true')
+                    {
+                        ?>
+                        <div class="alert alert-success alert-dismissable">
+                            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                            <h4><i class="fa fa-check-circle"></i> Succès !</h4> L'article à été supprimer à la commande
+                        </div>
+                    <?php } ?>
+                    <?php
+                    if(isset($_GET['supp-article']) && $_GET['supp-article'] == 'false')
+                    {
+                        ?>
+                        <div class="alert alert-danger alert-dismissable">
+                            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                            <h4><i class="fa fa-times-circle"></i> Erreur !</h4> Une erreur à eu lieu lors de la suppression d'un article dans la commande.<br>
+                            Veuillez contacter le service technique. <strong>Erreur EX8883</strong>
+                        </div>
+                    <?php } ?>
                     <!-- Example Block -->
                     <div class="row">
                         <div class="col-md-12">
@@ -251,7 +271,7 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
                                         <td><?php echo $donnee_article['qte']; ?></td>
                                         <td><?php echo number_format($donnee_article['total_ligne'], 2, ',', ' ')." €"; ?></td>
                                         <td>
-
+                                            <a class="btn btn-danger btn-xs" href="<?php echo SITE,FOLDER; ?>inc/control/commande.php?idarticlecommande=<?php echo $donnee_article['idarticlecommande']; ?>&idcommande=<?php echo $idcommande; ?>&montant_total=<?php echo $donnee_commande['montant_total']; ?>&prix_unitaire=<?php echo $donnee_article['prix_unitaire']; ?>&supp-article-control=Valider"><i class="fa fa-times-circle-o"></i></a>
                                         </td>
                                     </tr>
                                 <?php

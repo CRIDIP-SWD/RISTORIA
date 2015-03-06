@@ -28,12 +28,15 @@
       <file leaf-file-name="view.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/module/commande/view.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.807693" vertical-offset="5081" max-vertical-offset="6494">
-              <caret line="320" column="107" selection-start-line="320" selection-start-column="107" selection-end-line="320" selection-end-column="107" />
+            <state vertical-scroll-proportion="-13.153846" vertical-offset="2667" max-vertical-offset="6834">
+              <caret line="177" column="90" selection-start-line="177" selection-start-column="90" selection-end-line="177" selection-end-column="90" />
               <folding>
-                <marker date="1425649990248" expanded="true" signature="113:294" placeholder="SELECT * FRO..commande..." />
-                <marker date="1425649990248" expanded="true" signature="13518:13818" placeholder="SELECT * FRO..article_commande..." />
-                <marker date="1425649990248" expanded="true" signature="19308:19370" placeholder="SELECT * FRO..article..." />
+                <marker date="1425651711819" expanded="true" signature="113:294" placeholder="SELECT * FRO..commande..." />
+                <marker date="1425651711819" expanded="true" signature="14744:15044" placeholder="SELECT * FRO..article_commande..." />
+                <marker date="1425651711819" expanded="true" signature="16650:16736" placeholder="..." />
+                <marker date="1425651711819" expanded="true" signature="16687:16736" placeholder="..." />
+                <marker date="1425651711819" expanded="true" signature="16806:16873" placeholder="..." />
+                <marker date="1425651711819" expanded="true" signature="20971:21033" placeholder="SELECT * FRO..article..." />
               </folding>
             </state>
           </provider>
@@ -42,16 +45,19 @@
       <file leaf-file-name="commande.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/inc/control/commande.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3359375" vertical-offset="984" max-vertical-offset="1496">
-              <caret line="68" column="42" selection-start-line="68" selection-start-column="42" selection-end-line="68" selection-end-column="42" />
+            <state vertical-scroll-proportion="0.9003906" vertical-offset="1307" max-vertical-offset="1921">
+              <caret line="104" column="98" selection-start-line="104" selection-start-column="98" selection-end-line="104" selection-end-column="98" />
               <folding>
-                <marker date="1425650016196" expanded="true" signature="326:489" placeholder="INSERT INTO ..." />
-                <marker date="1425650016196" expanded="true" signature="594:653" placeholder="SELECT * FRO..commande..." />
-                <marker date="1425650016196" expanded="true" signature="1299:1384" placeholder="UPDATE comma..." />
-                <marker date="1425650016196" expanded="true" signature="1954:2009" placeholder="SELECT * FRO..commande..." />
-                <marker date="1425650016196" expanded="true" signature="2194:2246" placeholder="SELECT * FRO..article..." />
-                <marker date="1425650016196" expanded="true" signature="2534:2621" placeholder="UPDATE comma..." />
-                <marker date="1425650016196" expanded="true" signature="2709:2895" placeholder="INSERT INTO ..." />
+                <marker date="1425651137807" expanded="true" signature="326:489" placeholder="INSERT INTO ..." />
+                <marker date="1425651137807" expanded="true" signature="594:653" placeholder="SELECT * FRO..commande..." />
+                <marker date="1425651137807" expanded="true" signature="1299:1384" placeholder="UPDATE comma..." />
+                <marker date="1425651137807" expanded="true" signature="1954:2009" placeholder="SELECT * FRO..commande..." />
+                <marker date="1425651137807" expanded="true" signature="2194:2246" placeholder="SELECT * FRO..article..." />
+                <marker date="1425651137807" expanded="true" signature="2534:2621" placeholder="UPDATE comma..." />
+                <marker date="1425651137807" expanded="true" signature="2709:2895" placeholder="INSERT INTO ..." />
+                <marker date="1425651137807" expanded="true" signature="3637:3689" placeholder="UPDATE comma..." />
+                <marker date="1425651137807" expanded="true" signature="3637:3722" placeholder="UPDATE comma..." />
+                <marker date="1425651137807" expanded="true" signature="3796:3871" placeholder="DELETE FROM ..." />
               </folding>
             </state>
           </provider>
@@ -85,8 +91,8 @@
         <option value="$PROJECT_DIR$/assets/css/themes/fire.css" />
         <option value="$PROJECT_DIR$/module/commande/index.php" />
         <option value="$PROJECT_DIR$/inc/control/charge.php" />
-        <option value="$PROJECT_DIR$/module/commande/view.php" />
         <option value="$PROJECT_DIR$/inc/control/commande.php" />
+        <option value="$PROJECT_DIR$/module/commande/view.php" />
       </list>
     </option>
   </component>
@@ -526,28 +532,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/module/commande/view.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.807693" vertical-offset="5081" max-vertical-offset="6494">
-          <caret line="320" column="107" selection-start-line="320" selection-start-column="107" selection-end-line="320" selection-end-column="107" />
+        <state vertical-scroll-proportion="-13.153846" vertical-offset="2667" max-vertical-offset="6834">
+          <caret line="177" column="90" selection-start-line="177" selection-start-column="90" selection-end-line="177" selection-end-column="90" />
           <folding>
-            <marker date="1425649990248" expanded="true" signature="113:294" placeholder="SELECT * FRO..commande..." />
-            <marker date="1425649990248" expanded="true" signature="13518:13818" placeholder="SELECT * FRO..article_commande..." />
-            <marker date="1425649990248" expanded="true" signature="19308:19370" placeholder="SELECT * FRO..article..." />
+            <marker date="1425651711819" expanded="true" signature="113:294" placeholder="SELECT * FRO..commande..." />
+            <marker date="1425651711819" expanded="true" signature="14744:15044" placeholder="SELECT * FRO..article_commande..." />
+            <marker date="1425651711819" expanded="true" signature="16650:16736" placeholder="..." />
+            <marker date="1425651711819" expanded="true" signature="16687:16736" placeholder="..." />
+            <marker date="1425651711819" expanded="true" signature="16806:16873" placeholder="..." />
+            <marker date="1425651711819" expanded="true" signature="20971:21033" placeholder="SELECT * FRO..article..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/inc/control/commande.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3359375" vertical-offset="984" max-vertical-offset="1496">
-          <caret line="68" column="42" selection-start-line="68" selection-start-column="42" selection-end-line="68" selection-end-column="42" />
+        <state vertical-scroll-proportion="0.9003906" vertical-offset="1307" max-vertical-offset="1921">
+          <caret line="104" column="98" selection-start-line="104" selection-start-column="98" selection-end-line="104" selection-end-column="98" />
           <folding>
-            <marker date="1425650016196" expanded="true" signature="326:489" placeholder="INSERT INTO ..." />
-            <marker date="1425650016196" expanded="true" signature="594:653" placeholder="SELECT * FRO..commande..." />
-            <marker date="1425650016196" expanded="true" signature="1299:1384" placeholder="UPDATE comma..." />
-            <marker date="1425650016196" expanded="true" signature="1954:2009" placeholder="SELECT * FRO..commande..." />
-            <marker date="1425650016196" expanded="true" signature="2194:2246" placeholder="SELECT * FRO..article..." />
-            <marker date="1425650016196" expanded="true" signature="2534:2621" placeholder="UPDATE comma..." />
-            <marker date="1425650016196" expanded="true" signature="2709:2895" placeholder="INSERT INTO ..." />
+            <marker date="1425651137807" expanded="true" signature="326:489" placeholder="INSERT INTO ..." />
+            <marker date="1425651137807" expanded="true" signature="594:653" placeholder="SELECT * FRO..commande..." />
+            <marker date="1425651137807" expanded="true" signature="1299:1384" placeholder="UPDATE comma..." />
+            <marker date="1425651137807" expanded="true" signature="1954:2009" placeholder="SELECT * FRO..commande..." />
+            <marker date="1425651137807" expanded="true" signature="2194:2246" placeholder="SELECT * FRO..article..." />
+            <marker date="1425651137807" expanded="true" signature="2534:2621" placeholder="UPDATE comma..." />
+            <marker date="1425651137807" expanded="true" signature="2709:2895" placeholder="INSERT INTO ..." />
+            <marker date="1425651137807" expanded="true" signature="3637:3689" placeholder="UPDATE comma..." />
+            <marker date="1425651137807" expanded="true" signature="3637:3722" placeholder="UPDATE comma..." />
+            <marker date="1425651137807" expanded="true" signature="3796:3871" placeholder="DELETE FROM ..." />
           </folding>
         </state>
       </provider>
