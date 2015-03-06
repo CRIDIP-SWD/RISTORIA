@@ -151,10 +151,10 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
                             <table id="general-table" class="table table-striped table-vcenter table-bordered">
                                 <thead>
                                     <tr>
-                                        <td>Numero de Commande</td>
-                                        <td>Date de la commande</td>
-                                        <td>Montant total de la commande</td>
-                                        <td>Action</td>
+                                        <th>Numero de Commande</th>
+                                        <th>Date de la commande</th>
+                                        <th>Montant total de la commande</th>
+                                        <th>Action</th>
                                     </tr>
                                 </thead>
                                 <tbody>
