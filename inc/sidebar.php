@@ -44,6 +44,9 @@
                             <li>
                                 <a href="<?php echo SITE,FOLDER; ?>module/commande/index.php?iduser=<?php echo $iduser; ?>"><i class="gi gi-stopwatch sidebar-nav-icon"></i>Liste des Commandes</a>
                             </li>
+                            <li>
+                                <a href="<?php echo SITE,FOLDER; ?>module/commande/index.php?iduser=<?php echo $iduser; ?>&#add-commande" data-toggle="modal"><i class="gi gi-stopwatch sidebar-nav-icon"></i>Liste des Commandes</a>
+                            </li>
                         </ul>
                         <?php } ?>
                         <?php
