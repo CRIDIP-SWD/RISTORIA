@@ -230,6 +230,7 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
                         </div>
                     </div>
                 </div>
+
                 <!-- END Page Content -->
 
                 <?php include ('../../inc/footer.php'); ?>
