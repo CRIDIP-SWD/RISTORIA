@@ -348,7 +348,7 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
                                                 while($donnee_choix_article = mysql_fetch_array($sql_choix_article))
                                                 {
                                                 ?>
-                                                <option value="<?php echo $donnee_choix_article['idarticle']; ?>"><?php echo $donnee_choix_article['designation']; ?></option>
+                                                <option value="<?php echo $donnee_choix_article['idarticle']; ?>"><?php echo $donnee_choix_article['designation']; ?> - <?php echo number_format($donnee_choix_article['prix_unitaire'], 2, ',', ' ')." €"; ?></option>
                                                 <?php } ?>
                                             </select>
                                         </div>
