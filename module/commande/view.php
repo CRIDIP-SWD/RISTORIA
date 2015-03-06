@@ -121,7 +121,7 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
                     <!-- ETAT -->
 
                     <!-- Example Block -->
-                        
+
                     <div class="block">
                         <!-- Example Title -->
                         <div class="block-title">

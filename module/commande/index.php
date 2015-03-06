@@ -114,7 +114,7 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
                     </ul>
                     <!-- END Blank Header -->
                     <!-- ETAT -->
-                    <?if(isset($_GET['add-commande']) && $_GET['add-commande'] == 'false')
+                    <?php if(isset($_GET['add-commande']) && $_GET['add-commande'] == 'false')
                     {
                         ?>
                         <div class="alert alert-danger alert-dismissable">
