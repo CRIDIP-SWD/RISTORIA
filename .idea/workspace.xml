@@ -28,14 +28,14 @@
       <file leaf-file-name="charge.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/inc/control/charge.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.19428572" vertical-offset="0" max-vertical-offset="833">
-              <caret line="6" column="50" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
+            <state vertical-scroll-proportion="0.16190477" vertical-offset="0" max-vertical-offset="833">
+              <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
               <folding>
-                <marker date="1425649483742" expanded="true" signature="64:82" placeholder="SELECT * FRO..menu..." />
-                <marker date="1425649483742" expanded="true" signature="305:373" placeholder="SELECT iduse..utilisateur..." />
-                <marker date="1425649483742" expanded="true" signature="509:559" placeholder="SELECT * FRO..utilisateur..." />
-                <marker date="1425649483742" expanded="true" signature="723:766" placeholder="SELECT * FRO..setting..." />
-                <marker date="1425649483742" expanded="true" signature="1214:1266" placeholder="SELECT * FRO..key_ristogest..." />
+                <marker date="1425649639152" expanded="true" signature="64:82" placeholder="SELECT * FRO..menu..." />
+                <marker date="1425649639152" expanded="true" signature="305:373" placeholder="SELECT iduse..utilisateur..." />
+                <marker date="1425649639152" expanded="true" signature="509:559" placeholder="SELECT * FRO..utilisateur..." />
+                <marker date="1425649639152" expanded="true" signature="723:766" placeholder="SELECT * FRO..setting..." />
+                <marker date="1425649639152" expanded="true" signature="1214:1266" placeholder="SELECT * FRO..key_ristogest..." />
               </folding>
             </state>
           </provider>
@@ -527,14 +527,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/inc/control/charge.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19428572" vertical-offset="0" max-vertical-offset="833">
-          <caret line="6" column="50" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
+        <state vertical-scroll-proportion="0.16190477" vertical-offset="0" max-vertical-offset="833">
+          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
           <folding>
-            <marker date="1425649483742" expanded="true" signature="64:82" placeholder="SELECT * FRO..menu..." />
-            <marker date="1425649483742" expanded="true" signature="305:373" placeholder="SELECT iduse..utilisateur..." />
-            <marker date="1425649483742" expanded="true" signature="509:559" placeholder="SELECT * FRO..utilisateur..." />
-            <marker date="1425649483742" expanded="true" signature="723:766" placeholder="SELECT * FRO..setting..." />
-            <marker date="1425649483742" expanded="true" signature="1214:1266" placeholder="SELECT * FRO..key_ristogest..." />
+            <marker date="1425649639152" expanded="true" signature="64:82" placeholder="SELECT * FRO..menu..." />
+            <marker date="1425649639152" expanded="true" signature="305:373" placeholder="SELECT iduse..utilisateur..." />
+            <marker date="1425649639152" expanded="true" signature="509:559" placeholder="SELECT * FRO..utilisateur..." />
+            <marker date="1425649639152" expanded="true" signature="723:766" placeholder="SELECT * FRO..setting..." />
+            <marker date="1425649639152" expanded="true" signature="1214:1266" placeholder="SELECT * FRO..key_ristogest..." />
           </folding>
         </state>
       </provider>
