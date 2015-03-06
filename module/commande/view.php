@@ -344,7 +344,7 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
                                             <select id="example-select2" name="idarticle" class="select-select2" style="width: 100%;" data-placeholder="Choisissez un article...">
                                                 <option></option><!-- Required for data-placeholder attribute to work with Select2 plugin -->
                                                 <?php
-                                                $sql_choix_article = mysql_query("SELECT * FROM article, menu WHERE article.idmenu = menu.idmenu")or die(mysql_error());
+                                                $sql_choix_article = mysql_query("SELECT * FROM article, menu WHERE article.idmenu = menu.idmenu AND menu.idmenu=".$donnee_commande['idmenu'])or die(mysql_error());
                                                 while($donnee_choix_article = mysql_fetch_array($sql_choix_article))
                                                 {
                                                 ?>
