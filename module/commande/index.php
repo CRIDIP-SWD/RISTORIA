@@ -174,7 +174,7 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
                                             <?php echo number_format($donnee_commande['montant_total'], 2, ',', ' ')." €"; ?>
                                         </td>
                                         <td>
-                                            <a class="btn btn-default btn-xs" href=""><i class="fa fa-eye"></i></a>
+                                            <a class="btn btn-default btn-xs" href="view.php?idcommande=<?php echo $donnee_commande['idcommande']; ?>"><i class="fa fa-eye"></i></a>
                                             <a class="btn btn-danger btn-xs" href=""><i class="fa fa-times-circle-o"></i></a>
                                         </td>
                                     </tr>
