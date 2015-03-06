@@ -83,12 +83,12 @@
         <entry file="file://$PROJECT_DIR$/inc/control/purge.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.5504762" vertical-offset="0" max-vertical-offset="525">
-              <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+              <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
               <folding>
-                <marker date="1425653411271" expanded="true" signature="151:170" placeholder="DELETE FROM ..." />
-                <marker date="1425653411271" expanded="true" signature="232:260" placeholder="DELETE FROM ..." />
-                <marker date="1425653411271" expanded="true" signature="314:334" placeholder="DELETE FROM ..." />
-                <marker date="1425653411271" expanded="true" signature="389:405" placeholder="DELETE FROM ..." />
+                <marker date="1425653442936" expanded="true" signature="151:170" placeholder="DELETE FROM ..." />
+                <marker date="1425653442936" expanded="true" signature="232:260" placeholder="DELETE FROM ..." />
+                <marker date="1425653442936" expanded="true" signature="314:334" placeholder="DELETE FROM ..." />
+                <marker date="1425653442936" expanded="true" signature="389:405" placeholder="DELETE FROM ..." />
               </folding>
             </state>
           </provider>
@@ -622,12 +622,12 @@
     <entry file="file://$PROJECT_DIR$/inc/control/purge.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5504762" vertical-offset="0" max-vertical-offset="525">
-          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
           <folding>
-            <marker date="1425653411271" expanded="true" signature="151:170" placeholder="DELETE FROM ..." />
-            <marker date="1425653411271" expanded="true" signature="232:260" placeholder="DELETE FROM ..." />
-            <marker date="1425653411271" expanded="true" signature="314:334" placeholder="DELETE FROM ..." />
-            <marker date="1425653411271" expanded="true" signature="389:405" placeholder="DELETE FROM ..." />
+            <marker date="1425653442936" expanded="true" signature="151:170" placeholder="DELETE FROM ..." />
+            <marker date="1425653442936" expanded="true" signature="232:260" placeholder="DELETE FROM ..." />
+            <marker date="1425653442936" expanded="true" signature="314:334" placeholder="DELETE FROM ..." />
+            <marker date="1425653442936" expanded="true" signature="389:405" placeholder="DELETE FROM ..." />
           </folding>
         </state>
       </provider>

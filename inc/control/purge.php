@@ -15,7 +15,7 @@ if(isset($_GET['purge']) && $_GET['purge'] == 'valider')
 	if($sql_del_article == TRUE && 
 	   $sql_del_article_cmd == TRUE &&
 	   $sql_del_cmd == TRUE &&
-	   $sql_del_menu == TRUE &&
+	   $sql_del_menu == TRUE)
 	{
 		header("Location: ../../module/admin/setting/purge.php?purge=true");
 	}else{
