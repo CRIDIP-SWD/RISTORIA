@@ -230,7 +230,7 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
                                         <td><?php echo $donnee_article['qte']; ?></td>
                                         <td><?php echo number_format($donnee_article['total_ligne'], 2, ',', ' ')." €"; ?></td>
                                         <td>
-                                            
+
                                         </td>
                                     </tr>
                                 <?php
