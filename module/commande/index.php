@@ -137,7 +137,51 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
                         <!-- END Example Title -->
 
                         <!-- Example Content -->
-                        <p>Your content..</p>
+                        <div class="table-responsive">
+                            <!--
+                            Available Table Classes:
+                                'table'             - basic table
+                                'table-bordered'    - table with full borders
+                                'table-borderless'  - table with no borders
+                                'table-striped'     - striped table
+                                'table-condensed'   - table with smaller top and bottom cell padding
+                                'table-hover'       - rows highlighted on mouse hover
+                                'table-vcenter'     - middle align content vertically
+                            -->
+                            <table id="general-table" class="table table-striped table-vcenter table-bordered">
+                                <thead>
+                                    <tr>
+                                        <td>Numero de Commande</td>
+                                        <td>Date de la commande</td>
+                                        <td>Montant total de la commande</td>
+                                        <td>Action</td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                <?php
+                                $sql_commande = mysql_query("SELECT * FROM commande, menu WHERE commande.idmenu = menu.idmenu")or die(mysql_error());
+                                while($donnee_commande = mysql_fetch_array($sql_commande)) {
+                                    ?>
+                                    <tr>
+                                        <td><?php echo $donnee_commande['num_commande']; ?></td>
+                                        <td>
+                                            <strong>Semaine <?php echo $donnee_commande['semaine']; ?></strong><br>
+                                            <h5><i><?php echo $donnee_commande['date_commande']; ?></i></h5>
+                                        </td>
+                                        <td>
+                                            <?php echo number_format($donnee_commande['montant_total'], 2, ',', ' ')." €"; ?>
+                                        </td>
+                                        <td>
+                                            <a class="btn btn-default btn-xs" href=""><i class="fa fa-eye"></i></a>
+                                            <a class="btn btn-red btn-xs" href=""><i class="fa fa-times-circle-o"></i></a>
+                                        </td>
+                                    </tr>
+                                <?php
+                                }
+                                ?>
+                                </tbody>
+                            </table>
+                        </div>
                         <!-- END Example Content -->
                     </div>
                     <!-- END Example Block -->
@@ -203,5 +247,7 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
         <script src="<?php echo SITE,FOLDER,ASSETS; ?>js/vendor/bootstrap.min.js"></script>
         <script src="<?php echo SITE,FOLDER,ASSETS; ?>js/plugins.js"></script>
         <script src="<?php echo SITE,FOLDER,ASSETS; ?>js/app.js"></script>
+        <script src="<?php echo SITE,FOLDER,ASSETS; ?>js/pages/tablesGeneral.js"></script>
+        <script>$(function(){ TablesGeneral.init(); });</script>
     </body>
 </html>
