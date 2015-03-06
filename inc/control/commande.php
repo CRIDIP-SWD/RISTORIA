@@ -66,7 +66,7 @@ if(isset($_POST['add-article-control']) && $_POST['add-article-control'] == 'Val
     $calc_nouv_total = $montant_total+$prix_unitaire;
 
     //Update commande
-    $sql_up_commande = mysql_query("UDPATE commande SET montant_total = '$calc_nouv_total' WHERE idcommande = '$idcommande'")or die(mysql_error());
+    $sql_up_commande = mysql_query("UPDATE commande SET montant_total = '$calc_nouv_total' WHERE idcommande = '$idcommande'")or die(mysql_error());
 
     //Ajout de l'article
 

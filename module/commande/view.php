@@ -318,7 +318,7 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
                                     <input type="hidden" name="idcommande" value="<?php echo $idcommande; ?>" />
 
                                     <div class="form-group">
-                                        <label class="col-md-3 control-label" for="example-select2">Select2</label>
+                                        <label class="col-md-3 control-label" for="example-select2">Article</label>
                                         <div class="col-md-9">
                                             <select id="example-select2" name="idarticle" class="select-select2" style="width: 100%;" data-placeholder="Choisissez un article...">
                                                 <option></option><!-- Required for data-placeholder attribute to work with Select2 plugin -->
