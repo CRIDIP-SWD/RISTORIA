@@ -229,6 +229,7 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
                             <h2>Votre commande</h2>
                             <div class="pull-right">
                                 <a href="#add-article" data-toggle="modal" class="btn btn-info"><i class="fa fa-plus-circle"></i> Ajouter un produit</a>
+                                <a class="btn btn-default" href="print.php?idcommande=<?php echo $idcommande; ?>"><i class="fa fa-print"></i> Imprimer la commande</a>
                             </div>
                         </div>
                         <!-- END Example Title -->
