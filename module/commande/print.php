@@ -60,7 +60,7 @@ $donnee_commande = mysql_fetch_array($sql_commande);
 
     <div style="padding-top: 15px; padding-bottom: 15px;"></div>
     <div style="font-size: 20px;"><strong>N° de la commande:</strong> <?php echo $donnee_commande['num_commande']; ?></div>
-    <div style="font-size: 20px;"><strong>Date de la commande:</strong> <?php echo $donnee_commande['date_commande']; ?></div>
+    <div style="font-size: 20px;"><strong>Date de la commande:</strong> <?php echo date("d-m-Y", $donnee_commande['date_commande']); ?></div>
     <div style="padding-top: 15px; padding-bottom: 15px;"></div>
 
     <table cellspacing="0" style="width: 100%; border: solid 2px; border-radius: 5px 5px 5px 5px;">
