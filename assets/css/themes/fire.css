@@ -21,7 +21,7 @@ header.navbar-inverse.navbar-fixed-top, .table-pricing.table-featured th, .table
     color: #f2eceb;
 }
 #page-content, .table-hover > tbody > tr:hover > td, .table-hover > tbody > tr:hover > th, ul.wysihtml5-toolbar a.btn.wysihtml5-command-active, .slider-track {
-    background: url(../../img/placeholders/photos/photo23@2x.jpg);
+    background: url(../../img/placeholders/photos/nourriture.jpg);
 }
 blockquote, .table thead > tr > th, .table tbody > tr > th, .table tfoot > tr > th, .table thead > tr > td, .table tbody > tr > td, .table tfoot > tr > td, .table tbody + tbody, .table-bordered, .table-bordered > thead > tr > th, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > tbody > tr > td, .table-bordered > tfoot > tr > td, .list-group-item, .nav-tabs > li > a:hover, .pager > li > a, .pager > li > span, .pager > li.disabled > a:hover, .dropzone, ul.wysihtml5-toolbar a.btn.wysihtml5-command-active {
     border-color: #f2eceb;
