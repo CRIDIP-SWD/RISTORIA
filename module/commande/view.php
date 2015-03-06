@@ -208,7 +208,7 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
                             <div class="modal-body">
                                <form class="form-horizontal form-bordered" action="<?php echo SITE,FOLDER; ?>inc/control/commande.php" method="POST">
 
-                                   <input type="hidden" name="idcommande" value="<?php echo idcommande; ?>" />
+                                   <input type="hidden" name="idcommande" value="<?php echo $idcommande; ?>" />
 
                                    <div class="form-group">
                                        <label class="col-md-4 control-label" for="masked_date2">Date de la commande</label>
