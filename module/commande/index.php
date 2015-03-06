@@ -154,6 +154,15 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
                                        </div>
                                    </div>
 
+                                   <div class="form-group form-actions">
+                                       <div class="pull-left">
+                                           <button type="submit" class="btn btn-success" name="add-commande-control" value="Valider"><i class="fa fa-check-circle-o"></i> Valider</button>
+                                       </div>
+                                       <div class="pull-right">
+                                           <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times-circle-o"></i> Fermer la boite de dialogue</button>
+                                       </div>
+                                   </div>
+
                                </form>
                             </div>
                         </div>
