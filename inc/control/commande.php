@@ -1,4 +1,8 @@
 <?php
+include ('../db.conf.php');
+BaseConnect();
+?>
+<?php
 //Création de la commande
 if(isset($_POST['add-commande-control']) && $_POST['add-commande-control'] == 'Valider')
 {
