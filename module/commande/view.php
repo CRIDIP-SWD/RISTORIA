@@ -127,6 +127,16 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
                             <h4><i class="fa fa-info-circle"></i> Information !</h4> Veuillez saisir la date de la commande.
                         </div>
                     <?php } ?>
+                    <?php
+                    if(isset($_GET['add-date-commande']) && $_GET['add-date-commande'] == 'false')
+                    {
+                        ?>
+                        <div class="alert alert-danger alert-dismissable">
+                            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                            <h4><i class="fa fa-times-circle"></i> Erreur !</h4> Une erreur à eu lieu lors de la création de la date dans la commande.<br>
+                            Veuillez contacter le service technique. <strong>Erreur EX8881</strong>
+                        </div>
+                    <?php } ?>
                     <!-- Example Block -->
                     <div class="row">
                         <div class="col-md-12">
@@ -149,7 +159,7 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
                                         if(empty($donnee_commande['date_commande']))
                                         {
                                         ?>
-                                        <td>
+                                        <td style="color: #ff0000;">
                                             Inconnu
                                         </td>
                                         <td>
@@ -169,9 +179,6 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
                                         </td>
                                     </tr>
                                 </table>
-                                <!-- Example Content -->
-                                <p>Your content..</p>
-                                <!-- END Example Content -->
                             </div>
                         </div>
                     </div>
@@ -191,37 +198,28 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
                     </div>
                     <!-- END Example Block -->
                 </div>
-                <div id="add-commande" class="modal" tabindex="-1" role="dialog" aria-hidden="true">
+                <div id="add-date-commande" class="modal" tabindex="-1" role="dialog" aria-hidden="true">
                     <div class="modal-dialog">
                         <div class="modal-content">
                             <div class="modal-header">
                                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                                <h3 class="modal-title">Nouvelle Commande</h3>
+                                <h3 class="modal-title">Ajout de la date à la commande</h3>
                             </div>
                             <div class="modal-body">
                                <form class="form-horizontal form-bordered" action="<?php echo SITE,FOLDER; ?>inc/control/commande.php" method="POST">
 
-                                   <input type="hidden" name="iduser" value="<?php echo $iduser; ?>" />
+                                   <input type="hidden" name="idcommande" value="<?php echo idcommande; ?>" />
 
                                    <div class="form-group">
-                                       <label class="col-md-4 control-label" for="example-select2">Selection de la semaine</label>
+                                       <label class="col-md-4 control-label" for="masked_date2">Date de la commande</label>
                                        <div class="col-md-6">
-                                           <select id="example-select2" name="idmenu" class="select-select2" style="width: 100%;" data-placeholder="Selectionner la semaine du menu">
-                                               <option></option><!-- Required for data-placeholder attribute to work with Select2 plugin -->
-                                               <?php
-                                               $sql_menu = mysql_query("SELECT * FROM menu WHERE etat_menu = 0")or die(mysql_error());
-                                               while($donnee_menu = mysql_fetch_array($sql_menu))
-                                               {
-                                               ?>
-                                               <option value="<?php echo $donnee_menu['idmenu']; ?>">Semaine <?php echo $donnee_menu['semaine']; ?></option>
-                                               <?php } ?>
-                                           </select>
+                                           <input type="text" id="masked_date2" name="date_commande" class="form-control" placeholder="jj-mm-aaaa">
                                        </div>
                                    </div>
 
                                    <div class="form-group form-actions">
                                        <div class="pull-left">
-                                           <button type="submit" class="btn btn-success" name="add-commande-control" value="Valider"><i class="fa fa-check-circle-o"></i> Valider</button>
+                                           <button type="submit" class="btn btn-success" name="add-date-commande-control" value="Valider"><i class="fa fa-check-circle-o"></i> Valider</button>
                                        </div>
                                        <div class="pull-right">
                                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times-circle-o"></i> Fermer la boite de dialogue</button>
