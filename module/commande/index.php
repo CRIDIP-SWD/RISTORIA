@@ -125,6 +125,28 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
                     <?php
                     }
                     ?>
+
+                    <?php if(isset($_GET['supp-commande']) && $_GET['supp-commande'] == 'true')
+                    {
+                        ?>
+                        <div class="alert alert-success alert-dismissable">
+                            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                            <h4><i class="fa fa-check-circle"></i> Succès</h4> La commande à bien été supprimer.
+                        </div>
+                    <?php
+                    }
+                    ?>
+                    <?php if(isset($_GET['supp-commande']) && $_GET['supp-commande'] == 'false')
+                    {
+                        ?>
+                        <div class="alert alert-danger alert-dismissable">
+                            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                            <h4><i class="fa fa-times-circle"></i> Erreur</h4> Une erreur à eu lieu lors de la suppression de la commande.<br>
+                            Veuillez Contacter le support technique. <strong>Erreur EX8884</strong>.
+                        </div>
+                    <?php
+                    }
+                    ?>
                     <!-- Example Block -->
                     <div class="block">
                         <!-- Example Title -->
@@ -182,7 +204,7 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
                                         </td>
                                         <td>
                                             <a class="btn btn-default btn-xs" href="view.php?idcommande=<?php echo $donnee_commande['idcommande']; ?>"><i class="fa fa-eye"></i></a>
-                                            <a class="btn btn-danger btn-xs" href=""><i class="fa fa-times-circle-o"></i></a>
+                                            <a class="btn btn-danger btn-xs" href="<?php echo SITE, FOLDER; ?>inc/control/commande.php?idcommande=<?php echo $idcommande; ?>&iduser=<?php echo $iduser; ?>&supp-commande-control=Valider"><i class="fa fa-times-circle-o"></i></a>
                                         </td>
                                     </tr>
                                 <?php

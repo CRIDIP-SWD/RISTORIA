@@ -29,6 +29,26 @@ VALUES (NULL,'$idmenu','$num_commande','','$iduser','0')")or die(mysql_error());
 ?>
 
 <?php
+//Suppression de la commande
+if(isset($_GET['supp-commande-control']) && $_GET['supp-commande-control'] == 'Valider')
+{
+    $idcommande = $_GET['idcommande'];
+    $iduser = $_GET['iduser'];
+
+    $sql_delete_article = mysql_query("DELETE FROM article_commande WHERE idcommande = '$idcommande'")or die(mysql_error());
+    $sql_delete_commande = mysql_query("DELETE FROM commande WHERE idcommande = '$idcommande'")or die(mysql_error());
+
+    if($sql_delete_commande == TRUE)
+    {
+        header("Location: ../../module/commande/index.php?iduser=$iduser&supp-commande=true");
+    }else{
+        header("Location: ../../module/commande/index.php?iduser=$iduser&supp-commande=false");
+    }
+}
+
+?>
+
+<?php
 //Ajout de la date à la commande
 if(isset($_POST['add-date-commande-control']) && $_POST['add-date-commande-control'] == 'Valider')
 {
