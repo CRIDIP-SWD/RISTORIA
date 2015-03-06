@@ -1,11 +1,10 @@
 <?php include ('../../inc/header.php'); ?>
 <?php
 $idcommande = $_GET['idcommande'];
-$sql_commande = mysql_query("SELECT * FROM commande, menu WHERE commande.idmenu = menu.idmenu AND idcommande = '$idcommande'")or die(mysql_error());
+$sql_commande = mysql_query("SELECT * FROM commande, menu, utilisateur WHERE commande.idmenu = menu.idmenu
+                AND commande.iduser = utilisateur.iduser
+                AND idcommande = '$idcommande'")or die(mysql_error());
 $donnee_commande = mysql_fetch_array($sql_commande);
-if(empty($donnee_commande['date_commande'])){
-    header("Location: view.php?idcommande=$idcommande#modif-date-commande");
-}
 ?>
 <?php
 define("TITLE_PAGE", "COMMANDE");
@@ -119,9 +118,63 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
                     </ul>
                     <!-- END Blank Header -->
                     <!-- ETAT -->
-
+                    <?php
+                    if(empty($donnee_commande['date_commande']))
+                    {
+                    ?>
+                        <div class="alert alert-info alert-dismissable">
+                            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                            <h4><i class="fa fa-info-circle"></i> Information !</h4> Veuillez saisir la date de la commande.
+                        </div>
+                    <?php } ?>
                     <!-- Example Block -->
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="block">
+                                <!-- Example Title -->
+                                <div class="block-title">
+                                    <h2>Information</h2>
+                                </div>
+                                <!-- END Example Title -->
+                                <table style="width: 50%">
+                                    <tr>
+                                        <td>Identité:</td>
+                                        <td>
+                                            <?php echo $donnee_commande['nom_user']; ?> <?php echo $donnee_commande['prenom_user']; ?>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Date de la commande:</td>
+                                        <?php
+                                        if(empty($donnee_commande['date_commande']))
+                                        {
+                                        ?>
+                                        <td>
+                                            Inconnu
+                                        </td>
+                                        <td>
+                                            <a class="btn btn-danger btn-xs" href="#add-date-commande" data-toggle="modal"><i class="fa fa-edit"></i> Modifier la date de la commande</a>
+                                        </td>
 
+                                        <?php }else{ ?>
+                                        <td>
+                                            <?php echo $donnee_commande['date_commande']; ?>
+                                        </td>
+                                        <?php } ?>
+                                    </tr>
+                                    <tr>
+                                        <td>Montant de la Commande:</td>
+                                        <td>
+                                            <strong><?php echo number_format($donnee_commande['montant_total'], 2, ',', ' ')." €"; ?></strong>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <!-- Example Content -->
+                                <p>Your content..</p>
+                                <!-- END Example Content -->
+                            </div>
+                        </div>
+                    </div>
                     <div class="block">
                         <!-- Example Title -->
                         <div class="block-title">

@@ -175,7 +175,7 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
                                         </td>
                                         <td>
                                             <a class="btn btn-default btn-xs" href=""><i class="fa fa-eye"></i></a>
-                                            <a class="btn btn-red btn-xs" href=""><i class="fa fa-times-circle-o"></i></a>
+                                            <a class="btn btn-danger btn-xs" href=""><i class="fa fa-times-circle-o"></i></a>
                                         </td>
                                     </tr>
                                 <?php
