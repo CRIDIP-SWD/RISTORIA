@@ -75,16 +75,16 @@ $donnee_commande = mysql_fetch_array($sql_commande);
         {
         ?>
         <tr>
-            <td style="padding-left: 5px; border: solid 1px; padding-top: 10px; padding-bottom: 10px;">
-                <?php echo $donnee_article['designation_article']; ?>
+            <td style="width: 25%;padding-left: 5px; border: solid 1px; padding-top: 10px; padding-bottom: 10px;">
+                <?php echo $donnee_article['designation']; ?>
             </td>
-            <td style="padding-left: 5px; border: solid 1px; padding-top: 10px; padding-bottom: 10px; text-align: right;">
+            <td style="width: 25%;padding-left: 5px; border: solid 1px; padding-top: 10px; padding-bottom: 10px; text-align: right;">
                 <?php echo number_format($donnee_article['prix_unitaire'], 2, ',', ' ')." €"; ?>
             </td>
-            <td style="text-align: center; border: solid 1px; padding-top: 10px; padding-bottom: 10px; padding-right: 10px;">
+            <td style="width: 25%;text-align: center; border: solid 1px; padding-top: 10px; padding-bottom: 10px; padding-right: 10px;">
                 <?php echo $donnee_article['qte']; ?>
             </td>
-            <td style="text-align: right; border: solid 1px; padding-top: 10px; padding-bottom: 10px;">
+            <td style="width: 25%;text-align: right; border: solid 1px; padding-top: 10px; padding-bottom: 10px;">
                 <?php echo number_format($donnee_article['total_ligne'], 2, ',', ' ')." €"; ?>
             </td>
         </tr>
