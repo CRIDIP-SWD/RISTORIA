@@ -13,7 +13,7 @@
         factory( jQuery.datepicker );
     }
 }(function( datepicker ) {
-    datepicker.regional['fr'] = {
+    datepicker['fr'] = {
         closeText: 'Fermer',
         prevText: 'PrÃ©cÃ©dent',
         nextText: 'Suivant',
@@ -31,8 +31,8 @@
         isRTL: false,
         showMonthAfterYear: false,
         yearSuffix: ''};
-    datepicker.setDefaults(datepicker.regional['fr']);
+    datepicker.setDefaults(datepicker['fr']);
 
-    return datepicker.regional['fr'];
+    return datepicker['fr'];
 
 }));
