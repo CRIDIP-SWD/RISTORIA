@@ -308,7 +308,7 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
                                    <div class="form-group">
                                        <label class="col-md-4 control-label" for="masked_date2">Date de la commande</label>
                                        <div class="col-md-6">
-                                           <input type="text" id="masked_date2" name="date_commande" class="form-control input-datepickers" data-date-format="dd-mm-yyyy" placeholder="jj-mm-aaaa">
+                                           <input type="text" id="masked_date2" name="date_commande" class="form-control input-datepicker" data-date-format="dd-mm-yyyy" placeholder="jj-mm-aaaa">
                                        </div>
                                    </div>
 
@@ -386,6 +386,7 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
 
         <!-- Bootstrap.js, Jquery plugins and Custom JS code -->
         <script src="<?php echo SITE,FOLDER,ASSETS; ?>js/vendor/bootstrap.min.js"></script>
+        <script src="<?php echo SITE,FOLDER,ASSETS; ?>js/datepicker-fr.js"></script>
         <script src="<?php echo SITE,FOLDER,ASSETS; ?>js/plugins.js"></script>
         <script src="<?php echo SITE,FOLDER,ASSETS; ?>js/app.js"></script>
         <script src="<?php echo SITE,FOLDER,ASSETS; ?>js/pages/formsValidation.js"></script>
@@ -394,30 +395,6 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
         <script>$(function(){ FormsGeneral.init(); });</script>
         <script>$(function(){ TablesGeneral.init(); });</script>
         <script>$(function(){ FormsValidation.init(); });</script>
-    <script>
-        jQuery(function($){
-            $.datepicker.regional['fr'] = {
-                closeText: 'Fermer',
-                prevText: '&#x3c;Préc',
-                nextText: 'Suiv&#x3e;',
-                currentText: 'Courant',
-                monthNames: ['Janvier','Février','Mars','Avril','Mai','Juin',
-                    'Juillet','Août','Septembre','Octobre','Novembre','Décembre'],
-                monthNamesShort: ['Jan','Fév','Mar','Avr','Mai','Jun',
-                    'Jul','Aoû','Sep','Oct','Nov','Déc'],
-                dayNames: ['Dimanche','Lundi','Mardi','Mercredi','Jeudi','Vendredi','Samedi'],
-                dayNamesShort: ['Dim','Lun','Mar','Mer','Jeu','Ven','Sam'],
-                dayNamesMin: ['Di','Lu','Ma','Me','Je','Ve','Sa'],
-                weekHeader: 'Sm',
-                //dateFormat: 'dd/mm/yy',
-                dateFormat: 'dd/mm/yy',
-                firstDay: 1,
-                isRTL: false,
-                showMonthAfterYear: false,
-                yearSuffix: ''};
-            $.datepicker.setDefaults($.datepicker.regional['fr']);
-            $(".input-datepickers").datepicker($.datepicker.regional[ "fr" ]);
-        });
-    </script>
+
     </body>
 </html>
