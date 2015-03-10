@@ -97,8 +97,8 @@ var App = function() {
         // Initialize Datepicker
         $('.input-datepicker, .input-daterange').datepicker({weekStart: 1});
         $('.input-datepicker-close').datepicker({weekStart: 1}).on('changeDate', function(e){ $(this).datepicker('hide'); });
-        $.datepicker.setDefaults( $.datepicker.regional[ "fr" ] );
-        $( '.input-datepicker, .input-daterange' ).datepicker( $.datepicker.regional[ "fr" ] );
+        $.datepicker.setDefaults( $.datepicker[ "fr" ] );
+        $( '.input-datepicker, .input-daterange' ).datepicker( $.datepicker[ "fr" ] );
 
         // Initialize Timepicker
         $('.input-timepicker').timepicker({minuteStep: 1,showSeconds: true,showMeridian: true});
