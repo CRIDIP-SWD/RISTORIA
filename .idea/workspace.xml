@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4f6963d-fbd3-4b2a-8030-9176e598d08d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/datepicker-fr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/app.js" afterPath="$PROJECT_DIR$/assets/js/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/commande/view.php" afterPath="$PROJECT_DIR$/module/commande/view.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="RISTORIA.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -65,18 +62,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="datepicker-fr.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assets/js/datepicker-fr.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.0181488" vertical-offset="0" max-vertical-offset="663">
-              <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="commande.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/inc/control/commande.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -99,16 +84,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="view.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="view.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/module/commande/view.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.5" vertical-offset="6390" max-vertical-offset="6919">
-              <caret line="395" column="64" selection-start-line="395" selection-start-column="64" selection-end-line="395" selection-end-column="64" />
+            <state vertical-scroll-proportion="0.734375" vertical-offset="6730" max-vertical-offset="7276">
+              <caret line="418" column="22" selection-start-line="418" selection-start-column="22" selection-end-line="418" selection-end-column="22" />
               <folding>
-                <marker date="1425980440488" expanded="true" signature="113:294" placeholder="SELECT * FRO..commande..." />
-                <marker date="1425980440488" expanded="true" signature="14911:15211" placeholder="SELECT * FRO..article_commande..." />
-                <marker date="1425980440488" expanded="true" signature="21185:21247" placeholder="SELECT * FRO..article..." />
-                <marker date="1425980440488" expanded="true" signature="21185:21264" placeholder="SELECT * FRO..article..." />
+                <marker date="1425980782439" expanded="true" signature="113:294" placeholder="SELECT * FRO..commande..." />
+                <marker date="1425980782439" expanded="true" signature="14911:15211" placeholder="SELECT * FRO..article_commande..." />
+                <marker date="1425980782439" expanded="true" signature="21186:21248" placeholder="SELECT * FRO..article..." />
+                <marker date="1425980782439" expanded="true" signature="21186:21265" placeholder="SELECT * FRO..article..." />
               </folding>
             </state>
           </provider>
@@ -474,10 +459,10 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="4945" max-vertical-offset="6851">
           <caret line="310" column="168" selection-start-line="310" selection-start-column="168" selection-end-line="310" selection-end-column="168" />
           <folding>
-            <marker date="1425980440488" expanded="true" signature="113:294" placeholder="SELECT * FRO..commande..." />
-            <marker date="1425980440488" expanded="true" signature="14911:15211" placeholder="SELECT * FRO..article_commande..." />
-            <marker date="1425980440488" expanded="true" signature="21185:21247" placeholder="SELECT * FRO..article..." />
-            <marker date="1425980440488" expanded="true" signature="21185:21264" placeholder="SELECT * FRO..article..." />
+            <marker date="1425980782439" expanded="true" signature="113:294" placeholder="SELECT * FRO..commande..." />
+            <marker date="1425980782439" expanded="true" signature="14911:15211" placeholder="SELECT * FRO..article_commande..." />
+            <marker date="1425980782439" expanded="true" signature="21186:21248" placeholder="SELECT * FRO..article..." />
+            <marker date="1425980782439" expanded="true" signature="21186:21265" placeholder="SELECT * FRO..article..." />
           </folding>
         </state>
       </provider>
@@ -537,10 +522,10 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="4945" max-vertical-offset="6851">
           <caret line="310" column="168" selection-start-line="310" selection-start-column="168" selection-end-line="310" selection-end-column="168" />
           <folding>
-            <marker date="1425980440488" expanded="true" signature="113:294" placeholder="SELECT * FRO..commande..." />
-            <marker date="1425980440488" expanded="true" signature="14911:15211" placeholder="SELECT * FRO..article_commande..." />
-            <marker date="1425980440488" expanded="true" signature="21185:21247" placeholder="SELECT * FRO..article..." />
-            <marker date="1425980440488" expanded="true" signature="21185:21264" placeholder="SELECT * FRO..article..." />
+            <marker date="1425980782439" expanded="true" signature="113:294" placeholder="SELECT * FRO..commande..." />
+            <marker date="1425980782439" expanded="true" signature="14911:15211" placeholder="SELECT * FRO..article_commande..." />
+            <marker date="1425980782439" expanded="true" signature="21186:21248" placeholder="SELECT * FRO..article..." />
+            <marker date="1425980782439" expanded="true" signature="21186:21265" placeholder="SELECT * FRO..article..." />
           </folding>
         </state>
       </provider>
@@ -600,10 +585,10 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="4945" max-vertical-offset="6851">
           <caret line="310" column="168" selection-start-line="310" selection-start-column="168" selection-end-line="310" selection-end-column="168" />
           <folding>
-            <marker date="1425980440488" expanded="true" signature="113:294" placeholder="SELECT * FRO..commande..." />
-            <marker date="1425980440488" expanded="true" signature="14911:15211" placeholder="SELECT * FRO..article_commande..." />
-            <marker date="1425980440488" expanded="true" signature="21185:21247" placeholder="SELECT * FRO..article..." />
-            <marker date="1425980440488" expanded="true" signature="21185:21264" placeholder="SELECT * FRO..article..." />
+            <marker date="1425980782439" expanded="true" signature="113:294" placeholder="SELECT * FRO..commande..." />
+            <marker date="1425980782439" expanded="true" signature="14911:15211" placeholder="SELECT * FRO..article_commande..." />
+            <marker date="1425980782439" expanded="true" signature="21186:21248" placeholder="SELECT * FRO..article..." />
+            <marker date="1425980782439" expanded="true" signature="21186:21265" placeholder="SELECT * FRO..article..." />
           </folding>
         </state>
       </provider>
@@ -655,10 +640,10 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="4945" max-vertical-offset="6851">
           <caret line="310" column="168" selection-start-line="310" selection-start-column="168" selection-end-line="310" selection-end-column="168" />
           <folding>
-            <marker date="1425980440488" expanded="true" signature="113:294" placeholder="SELECT * FRO..commande..." />
-            <marker date="1425980440488" expanded="true" signature="14911:15211" placeholder="SELECT * FRO..article_commande..." />
-            <marker date="1425980440488" expanded="true" signature="21185:21247" placeholder="SELECT * FRO..article..." />
-            <marker date="1425980440488" expanded="true" signature="21185:21264" placeholder="SELECT * FRO..article..." />
+            <marker date="1425980782439" expanded="true" signature="113:294" placeholder="SELECT * FRO..commande..." />
+            <marker date="1425980782439" expanded="true" signature="14911:15211" placeholder="SELECT * FRO..article_commande..." />
+            <marker date="1425980782439" expanded="true" signature="21186:21248" placeholder="SELECT * FRO..article..." />
+            <marker date="1425980782439" expanded="true" signature="21186:21265" placeholder="SELECT * FRO..article..." />
           </folding>
         </state>
       </provider>
@@ -851,6 +836,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/datepicker-fr.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.0181488" vertical-offset="0" max-vertical-offset="663">
+          <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.586207" vertical-offset="1463" max-vertical-offset="11271">
@@ -863,23 +858,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/module/commande/view.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.5" vertical-offset="6390" max-vertical-offset="6919">
-          <caret line="395" column="64" selection-start-line="395" selection-start-column="64" selection-end-line="395" selection-end-column="64" />
+        <state vertical-scroll-proportion="0.734375" vertical-offset="6730" max-vertical-offset="7276">
+          <caret line="418" column="22" selection-start-line="418" selection-start-column="22" selection-end-line="418" selection-end-column="22" />
           <folding>
-            <marker date="1425980440488" expanded="true" signature="113:294" placeholder="SELECT * FRO..commande..." />
-            <marker date="1425980440488" expanded="true" signature="14911:15211" placeholder="SELECT * FRO..article_commande..." />
-            <marker date="1425980440488" expanded="true" signature="21185:21247" placeholder="SELECT * FRO..article..." />
-            <marker date="1425980440488" expanded="true" signature="21185:21264" placeholder="SELECT * FRO..article..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/datepicker-fr.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0181488" vertical-offset="0" max-vertical-offset="663">
-          <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <marker date="1425980782439" expanded="true" signature="113:294" placeholder="SELECT * FRO..commande..." />
+            <marker date="1425980782439" expanded="true" signature="14911:15211" placeholder="SELECT * FRO..article_commande..." />
+            <marker date="1425980782439" expanded="true" signature="21186:21248" placeholder="SELECT * FRO..article..." />
+            <marker date="1425980782439" expanded="true" signature="21186:21265" placeholder="SELECT * FRO..article..." />
           </folding>
         </state>
       </provider>
