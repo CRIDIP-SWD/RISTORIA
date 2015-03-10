@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4f6963d-fbd3-4b2a-8030-9176e598d08d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/jquery.ui.datepicker-fr.js" />
-      <change type="DELETED" beforePath="C:\Users\Maxime\Documents\GitHub\RISTORIA\assets\js\datepicker-fr.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Maxime\Documents\GitHub\RISTORIA\assets\js\jquery.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/RISTORIA.iml" afterPath="$PROJECT_DIR$/.idea/RISTORIA.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/app.js" afterPath="$PROJECT_DIR$/assets/js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/commande/view.php" afterPath="$PROJECT_DIR$/module/commande/view.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="RISTORIA.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -79,28 +72,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="view.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="view.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/module/commande/view.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.192307" vertical-offset="6356" max-vertical-offset="6987">
-              <caret line="391" column="95" selection-start-line="391" selection-start-column="95" selection-end-line="391" selection-end-column="95" />
+            <state vertical-scroll-proportion="-0.8261719" vertical-offset="5693" max-vertical-offset="6987">
+              <caret line="310" column="140" selection-start-line="310" selection-start-column="140" selection-end-line="310" selection-end-column="140" />
               <folding>
                 <element signature="n#style#0;n#table#0;n#div#0;n#div#0;n#div#7;n#div#0;n#div#1;n#div#1;n#body#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#td#1;n#tr#1;n#table#0;n#div#0;n#div#0;n#div#7;n#div#0;n#div#1;n#div#1;n#body#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#select#0;n#div#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#div#1;n#body#0;n#!!top" expanded="true" />
-                <marker date="1425983447798" expanded="true" signature="113:294" placeholder="SELECT * FRO..commande..." />
-                <marker date="1425983447798" expanded="true" signature="14911:15211" placeholder="SELECT * FRO..article_commande..." />
-                <marker date="1425983447798" expanded="true" signature="21185:21247" placeholder="SELECT * FRO..article..." />
-                <marker date="1425983447798" expanded="true" signature="21185:21264" placeholder="SELECT * FRO..article..." />
+                <marker date="1425983569999" expanded="true" signature="113:294" placeholder="SELECT * FRO..commande..." />
+                <marker date="1425983569999" expanded="true" signature="14911:15211" placeholder="SELECT * FRO..article_commande..." />
+                <marker date="1425983569999" expanded="true" signature="21188:21250" placeholder="SELECT * FRO..article..." />
+                <marker date="1425983569999" expanded="true" signature="21188:21267" placeholder="SELECT * FRO..article..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jquery.ui.datepicker-fr.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="jquery.ui.datepicker-fr.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/js/jquery.ui.datepicker-fr.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.92558986" vertical-offset="0" max-vertical-offset="663">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
               <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -452,10 +445,10 @@
             <element signature="n#style#0;n#table#0;n#div#0;n#div#0;n#div#7;n#div#0;n#div#1;n#div#1;n#body#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#td#1;n#tr#1;n#table#0;n#div#0;n#div#0;n#div#7;n#div#0;n#div#1;n#div#1;n#body#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#select#0;n#div#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#div#1;n#body#0;n#!!top" expanded="true" />
-            <marker date="1425983447798" expanded="true" signature="113:294" placeholder="SELECT * FRO..commande..." />
-            <marker date="1425983447798" expanded="true" signature="14911:15211" placeholder="SELECT * FRO..article_commande..." />
-            <marker date="1425983447798" expanded="true" signature="21185:21247" placeholder="SELECT * FRO..article..." />
-            <marker date="1425983447798" expanded="true" signature="21185:21264" placeholder="SELECT * FRO..article..." />
+            <marker date="1425983569999" expanded="true" signature="113:294" placeholder="SELECT * FRO..commande..." />
+            <marker date="1425983569999" expanded="true" signature="14911:15211" placeholder="SELECT * FRO..article_commande..." />
+            <marker date="1425983569999" expanded="true" signature="21188:21250" placeholder="SELECT * FRO..article..." />
+            <marker date="1425983569999" expanded="true" signature="21188:21267" placeholder="SELECT * FRO..article..." />
           </folding>
         </state>
       </provider>
@@ -518,10 +511,10 @@
             <element signature="n#style#0;n#table#0;n#div#0;n#div#0;n#div#7;n#div#0;n#div#1;n#div#1;n#body#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#td#1;n#tr#1;n#table#0;n#div#0;n#div#0;n#div#7;n#div#0;n#div#1;n#div#1;n#body#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#select#0;n#div#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#div#1;n#body#0;n#!!top" expanded="true" />
-            <marker date="1425983447798" expanded="true" signature="113:294" placeholder="SELECT * FRO..commande..." />
-            <marker date="1425983447798" expanded="true" signature="14911:15211" placeholder="SELECT * FRO..article_commande..." />
-            <marker date="1425983447798" expanded="true" signature="21185:21247" placeholder="SELECT * FRO..article..." />
-            <marker date="1425983447798" expanded="true" signature="21185:21264" placeholder="SELECT * FRO..article..." />
+            <marker date="1425983569999" expanded="true" signature="113:294" placeholder="SELECT * FRO..commande..." />
+            <marker date="1425983569999" expanded="true" signature="14911:15211" placeholder="SELECT * FRO..article_commande..." />
+            <marker date="1425983569999" expanded="true" signature="21188:21250" placeholder="SELECT * FRO..article..." />
+            <marker date="1425983569999" expanded="true" signature="21188:21267" placeholder="SELECT * FRO..article..." />
           </folding>
         </state>
       </provider>
@@ -584,10 +577,10 @@
             <element signature="n#style#0;n#table#0;n#div#0;n#div#0;n#div#7;n#div#0;n#div#1;n#div#1;n#body#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#td#1;n#tr#1;n#table#0;n#div#0;n#div#0;n#div#7;n#div#0;n#div#1;n#div#1;n#body#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#select#0;n#div#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#div#1;n#body#0;n#!!top" expanded="true" />
-            <marker date="1425983447798" expanded="true" signature="113:294" placeholder="SELECT * FRO..commande..." />
-            <marker date="1425983447798" expanded="true" signature="14911:15211" placeholder="SELECT * FRO..article_commande..." />
-            <marker date="1425983447798" expanded="true" signature="21185:21247" placeholder="SELECT * FRO..article..." />
-            <marker date="1425983447798" expanded="true" signature="21185:21264" placeholder="SELECT * FRO..article..." />
+            <marker date="1425983569999" expanded="true" signature="113:294" placeholder="SELECT * FRO..commande..." />
+            <marker date="1425983569999" expanded="true" signature="14911:15211" placeholder="SELECT * FRO..article_commande..." />
+            <marker date="1425983569999" expanded="true" signature="21188:21250" placeholder="SELECT * FRO..article..." />
+            <marker date="1425983569999" expanded="true" signature="21188:21267" placeholder="SELECT * FRO..article..." />
           </folding>
         </state>
       </provider>
@@ -642,10 +635,10 @@
             <element signature="n#style#0;n#table#0;n#div#0;n#div#0;n#div#7;n#div#0;n#div#1;n#div#1;n#body#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#td#1;n#tr#1;n#table#0;n#div#0;n#div#0;n#div#7;n#div#0;n#div#1;n#div#1;n#body#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#select#0;n#div#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#div#1;n#body#0;n#!!top" expanded="true" />
-            <marker date="1425983447798" expanded="true" signature="113:294" placeholder="SELECT * FRO..commande..." />
-            <marker date="1425983447798" expanded="true" signature="14911:15211" placeholder="SELECT * FRO..article_commande..." />
-            <marker date="1425983447798" expanded="true" signature="21185:21247" placeholder="SELECT * FRO..article..." />
-            <marker date="1425983447798" expanded="true" signature="21185:21264" placeholder="SELECT * FRO..article..." />
+            <marker date="1425983569999" expanded="true" signature="113:294" placeholder="SELECT * FRO..commande..." />
+            <marker date="1425983569999" expanded="true" signature="14911:15211" placeholder="SELECT * FRO..article_commande..." />
+            <marker date="1425983569999" expanded="true" signature="21188:21250" placeholder="SELECT * FRO..article..." />
+            <marker date="1425983569999" expanded="true" signature="21188:21267" placeholder="SELECT * FRO..article..." />
           </folding>
         </state>
       </provider>
@@ -848,28 +841,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module/commande/view.php">
+    <entry file="file://$PROJECT_DIR$/assets/js/jquery.ui.datepicker-fr.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.192307" vertical-offset="6356" max-vertical-offset="6987">
-          <caret line="391" column="95" selection-start-line="391" selection-start-column="95" selection-end-line="391" selection-end-column="95" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
+          <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
           <folding>
-            <element signature="n#style#0;n#table#0;n#div#0;n#div#0;n#div#7;n#div#0;n#div#1;n#div#1;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#1;n#tr#1;n#table#0;n#div#0;n#div#0;n#div#7;n#div#0;n#div#1;n#div#1;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#select#0;n#div#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#div#1;n#body#0;n#!!top" expanded="true" />
-            <marker date="1425983447798" expanded="true" signature="113:294" placeholder="SELECT * FRO..commande..." />
-            <marker date="1425983447798" expanded="true" signature="14911:15211" placeholder="SELECT * FRO..article_commande..." />
-            <marker date="1425983447798" expanded="true" signature="21185:21247" placeholder="SELECT * FRO..article..." />
-            <marker date="1425983447798" expanded="true" signature="21185:21264" placeholder="SELECT * FRO..article..." />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/jquery.ui.datepicker-fr.js">
+    <entry file="file://$PROJECT_DIR$/module/commande/view.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.92558986" vertical-offset="0" max-vertical-offset="663">
-          <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+        <state vertical-scroll-proportion="-0.8261719" vertical-offset="5693" max-vertical-offset="6987">
+          <caret line="310" column="140" selection-start-line="310" selection-start-column="140" selection-end-line="310" selection-end-column="140" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#div#0;n#div#0;n#div#7;n#div#0;n#div#1;n#div#1;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#1;n#tr#1;n#table#0;n#div#0;n#div#0;n#div#7;n#div#0;n#div#1;n#div#1;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#select#0;n#div#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#div#1;n#body#0;n#!!top" expanded="true" />
+            <marker date="1425983569999" expanded="true" signature="113:294" placeholder="SELECT * FRO..commande..." />
+            <marker date="1425983569999" expanded="true" signature="14911:15211" placeholder="SELECT * FRO..article_commande..." />
+            <marker date="1425983569999" expanded="true" signature="21188:21250" placeholder="SELECT * FRO..article..." />
+            <marker date="1425983569999" expanded="true" signature="21188:21267" placeholder="SELECT * FRO..article..." />
           </folding>
         </state>
       </provider>

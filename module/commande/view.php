@@ -308,7 +308,7 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
                                    <div class="form-group">
                                        <label class="col-md-4 control-label" for="masked_date2">Date de la commande</label>
                                        <div class="col-md-6">
-                                           <input type="text" id="masked_date2" name="date_commande" class="form-control input-datepicker" data-date-format="dd-mm-yyyy" placeholder="jj-mm-aaaa">
+                                           <input type="text" id="masked_date2" name="date_commande" class="form-control input-datepicker-fr" data-date-format="dd-mm-yyyy" placeholder="jj-mm-aaaa">
                                        </div>
                                    </div>
 
@@ -398,7 +398,7 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
         <script>$(function(){ FormsValidation.init(); });</script>
         <script type="text/javascript">
             $(document).ready(function(){
-                $( ".input-datepicker" ).datepicker();
+                $( ".input-datepicker-fr" ).datepicker();
             });
         </script>
 
