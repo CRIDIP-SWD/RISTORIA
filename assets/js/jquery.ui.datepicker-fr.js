@@ -1,27 +1,25 @@
 /* French initialisation for the jQuery UI date picker plugin. */
 /* Written by Keith Wood (kbwood{at}iinet.com.au),
- StÃ©phane Nahmani (sholby@sholby.net),
- StÃ©phane Raimbault <stephane.raimbault@gmail.com> */
+ Stéphane Nahmani (sholby@sholby.net),
+ Stéphane Raimbault <stephane.raimbault@gmail.com> */
 (function( factory ) {
     if ( typeof define === "function" && define.amd ) {
-
-        // AMD. Register as an anonymous module.
-        define([ "vendor/jquery-1.11.1.min.js" ], factory );
+// AMD. Register as an anonymous module.
+        define([ "../datepicker" ], factory );
     } else {
-
-        // Browser globals
+// Browser globals
         factory( jQuery.datepicker );
     }
 }(function( datepicker ) {
-    datepicker['fr'] = {
+    datepicker.regional['fr'] = {
         closeText: 'Fermer',
-        prevText: 'PrÃ©cÃ©dent',
+        prevText: 'Précédent',
         nextText: 'Suivant',
         currentText: 'Aujourd\'hui',
-        monthNames: ['janvier', 'fÃ©vrier', 'mars', 'avril', 'mai', 'juin',
-            'juillet', 'aoÃ»t', 'septembre', 'octobre', 'novembre', 'dÃ©cembre'],
-        monthNamesShort: ['janv.', 'fÃ©vr.', 'mars', 'avril', 'mai', 'juin',
-            'juil.', 'aoÃ»t', 'sept.', 'oct.', 'nov.', 'dÃ©c.'],
+        monthNames: ['janvier', 'février', 'mars', 'avril', 'mai', 'juin',
+            'juillet', 'août', 'septembre', 'octobre', 'novembre', 'décembre'],
+        monthNamesShort: ['janv.', 'févr.', 'mars', 'avr.', 'mai', 'juin',
+            'juil.', 'août', 'sept.', 'oct.', 'nov.', 'déc.'],
         dayNames: ['dimanche', 'lundi', 'mardi', 'mercredi', 'jeudi', 'vendredi', 'samedi'],
         dayNamesShort: ['dim.', 'lun.', 'mar.', 'mer.', 'jeu.', 'ven.', 'sam.'],
         dayNamesMin: ['D','L','M','M','J','V','S'],
@@ -31,8 +29,6 @@
         isRTL: false,
         showMonthAfterYear: false,
         yearSuffix: ''};
-    datepicker.setDefaults(datepicker['fr']);
-
-    return datepicker['fr'];
-
+    datepicker.setDefaults(datepicker.regional['fr']);
+    return datepicker.regional['fr'];
 }));

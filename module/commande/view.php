@@ -382,19 +382,25 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
 
         <!-- Include Jquery library from Google's CDN but if something goes wrong get Jquery from local file (Remove 'http:' if you have SSL) -->
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
         <script>!window.jQuery && document.write(decodeURI('%3Cscript src="js/vendor/jquery-1.11.1.min.js"%3E%3C/script%3E'));</script>
 
         <!-- Bootstrap.js, Jquery plugins and Custom JS code -->
         <script src="<?php echo SITE,FOLDER,ASSETS; ?>js/vendor/bootstrap.min.js"></script>
-        <script src="<?php echo SITE,FOLDER,ASSETS; ?>js/datepicker-fr.js"></script>
         <script src="<?php echo SITE,FOLDER,ASSETS; ?>js/plugins.js"></script>
         <script src="<?php echo SITE,FOLDER,ASSETS; ?>js/app.js"></script>
+        <script type="text/javascript" src="<?php echo SITE,FOLDER,ASSETS; ?>js/jquery.ui.datepicker-fr.js"></script>
         <script src="<?php echo SITE,FOLDER,ASSETS; ?>js/pages/formsValidation.js"></script>
         <script src="<?php echo SITE,FOLDER,ASSETS; ?>js/pages/tablesGeneral.js"></script>
         <script src="<?php echo SITE,FOLDER,ASSETS; ?>js/pages/formsGeneral.js"></script>
         <script>$(function(){ FormsGeneral.init(); });</script>
         <script>$(function(){ TablesGeneral.init(); });</script>
         <script>$(function(){ FormsValidation.init(); });</script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $( ".input-datepicker" ).datepicker();
+            });
+        </script>
 
     </body>
 </html>
