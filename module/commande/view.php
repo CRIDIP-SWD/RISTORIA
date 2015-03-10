@@ -391,8 +391,12 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
         <script src="<?php echo SITE,FOLDER,ASSETS; ?>js/pages/formsValidation.js"></script>
         <script src="<?php echo SITE,FOLDER,ASSETS; ?>js/pages/tablesGeneral.js"></script>
         <script src="<?php echo SITE,FOLDER,ASSETS; ?>js/pages/formsGeneral.js"></script>
+        <script src="<?php echo SITE,FOLDER,ASSETS; ?>js/datepicker-fr.js"></script>
         <script>$(function(){ FormsGeneral.init(); });</script>
         <script>$(function(){ TablesGeneral.init(); });</script>
         <script>$(function(){ FormsValidation.init(); });</script>
+    <script>
+        $.datepicker.setDefaults( $.datepicker.regional[ "fr" ] );
+    </script>
     </body>
 </html>
