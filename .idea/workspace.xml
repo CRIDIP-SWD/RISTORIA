@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4f6963d-fbd3-4b2a-8030-9176e598d08d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/app.js" afterPath="$PROJECT_DIR$/assets/js/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/datepicker-fr.js" afterPath="$PROJECT_DIR$/assets/js/datepicker-fr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/commande/view.php" afterPath="$PROJECT_DIR$/module/commande/view.php" />
     </list>
     <ignored path="RISTORIA.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -52,10 +50,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.46561885" vertical-offset="1463" max-vertical-offset="11288">
+            <state vertical-scroll-proportion="-8.172414" vertical-offset="1463" max-vertical-offset="11288">
               <caret line="100" column="95" selection-start-line="100" selection-start-column="95" selection-end-line="100" selection-end-column="95" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -104,11 +102,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="datepicker-fr.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="datepicker-fr.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/js/datepicker-fr.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
-              <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+            <state vertical-scroll-proportion="0.33938295" vertical-offset="0" max-vertical-offset="748">
+              <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -143,9 +141,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/assets/js/jquery.js" />
-        <option value="$PROJECT_DIR$/assets/js/datepicker-fr.js" />
         <option value="$PROJECT_DIR$/module/commande/view.php" />
         <option value="$PROJECT_DIR$/assets/js/app.js" />
+        <option value="$PROJECT_DIR$/assets/js/datepicker-fr.js" />
       </list>
     </option>
   </component>
@@ -272,6 +270,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RISTORIA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RISTORIA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -854,16 +874,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/datepicker-fr.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
-          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/module/commande/view.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.538462" vertical-offset="6356" max-vertical-offset="6885">
@@ -882,8 +892,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46561885" vertical-offset="1463" max-vertical-offset="11288">
+        <state vertical-scroll-proportion="-8.172414" vertical-offset="1463" max-vertical-offset="11288">
           <caret line="100" column="95" selection-start-line="100" selection-start-column="95" selection-end-line="100" selection-end-column="95" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/datepicker-fr.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33938295" vertical-offset="0" max-vertical-offset="748">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
