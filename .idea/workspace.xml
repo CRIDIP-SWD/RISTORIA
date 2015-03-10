@@ -93,8 +93,8 @@
       <file leaf-file-name="jquery.ui.datepicker-fr.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/js/jquery.ui.datepicker-fr.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.27767694" vertical-offset="0" max-vertical-offset="663">
-              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+            <state vertical-scroll-proportion="0.7713249" vertical-offset="0" max-vertical-offset="551">
+              <caret line="25" column="3" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -859,8 +859,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/jquery.ui.datepicker-fr.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27767694" vertical-offset="0" max-vertical-offset="663">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.7713249" vertical-offset="0" max-vertical-offset="551">
+          <caret line="25" column="3" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
