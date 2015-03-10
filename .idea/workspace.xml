@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4f6963d-fbd3-4b2a-8030-9176e598d08d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/commande/view.php" afterPath="$PROJECT_DIR$/module/commande/view.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/jquery.ui.datepicker-fr.js" afterPath="$PROJECT_DIR$/assets/js/jquery.ui.datepicker-fr.js" />
     </list>
     <ignored path="RISTORIA.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -72,10 +72,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="view.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="view.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/module/commande/view.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.8261719" vertical-offset="5693" max-vertical-offset="6987">
+            <state vertical-scroll-proportion="16.26923" vertical-offset="5693" max-vertical-offset="6987">
               <caret line="310" column="140" selection-start-line="310" selection-start-column="140" selection-end-line="310" selection-end-column="140" />
               <folding>
                 <element signature="n#style#0;n#table#0;n#div#0;n#div#0;n#div#7;n#div#0;n#div#1;n#div#1;n#body#0;n#!!top" expanded="true" />
@@ -90,11 +90,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jquery.ui.datepicker-fr.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="jquery.ui.datepicker-fr.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/js/jquery.ui.datepicker-fr.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
-              <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+            <state vertical-scroll-proportion="0.27767694" vertical-offset="0" max-vertical-offset="663">
+              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -131,8 +131,8 @@
         <option value="$PROJECT_DIR$/assets/js/jquery.js" />
         <option value="$PROJECT_DIR$/assets/js/datepicker-fr.js" />
         <option value="$PROJECT_DIR$/assets/js/app.js" />
-        <option value="$PROJECT_DIR$/assets/js/jquery.ui.datepicker-fr.js" />
         <option value="$PROJECT_DIR$/module/commande/view.php" />
+        <option value="$PROJECT_DIR$/assets/js/jquery.ui.datepicker-fr.js" />
       </list>
     </option>
   </component>
@@ -841,19 +841,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/jquery.ui.datepicker-fr.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
-          <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/module/commande/view.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.8261719" vertical-offset="5693" max-vertical-offset="6987">
+        <state vertical-scroll-proportion="16.26923" vertical-offset="5693" max-vertical-offset="6987">
           <caret line="310" column="140" selection-start-line="310" selection-start-column="140" selection-end-line="310" selection-end-column="140" />
           <folding>
             <element signature="n#style#0;n#table#0;n#div#0;n#div#0;n#div#7;n#div#0;n#div#1;n#div#1;n#body#0;n#!!top" expanded="true" />
@@ -863,6 +853,16 @@
             <marker date="1425983569999" expanded="true" signature="14911:15211" placeholder="SELECT * FRO..article_commande..." />
             <marker date="1425983569999" expanded="true" signature="21188:21250" placeholder="SELECT * FRO..article..." />
             <marker date="1425983569999" expanded="true" signature="21188:21267" placeholder="SELECT * FRO..article..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/jquery.ui.datepicker-fr.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27767694" vertical-offset="0" max-vertical-offset="663">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
