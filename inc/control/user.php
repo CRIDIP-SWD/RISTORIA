@@ -1,6 +1,5 @@
 <?php
 include('../db.conf.php');
-BaseConnect();
 ?>
 <?php 
 //Ajout Utilisateur par l'administration

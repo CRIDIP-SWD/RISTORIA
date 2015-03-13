@@ -1,6 +1,5 @@
 							<?php
 							include('../db.conf.php');
-							BaseConnect();
 
 							date_default_timezone_set("UTC");
                             $date = date('d/m/y');

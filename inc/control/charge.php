@@ -24,21 +24,4 @@ $etat_programme = $donnee_setting['etat_programme'];
 $serial = $donnee_setting['serial'];
 $date_fin_serial = $donnee_setting['date_fin_serial'];
 
-//Verification License
-mysql_connect("vps116895.ovh.net:3306", "remote-user", "1992maxime")or die(mysql_error());
-mysql_select_db("keymanager");
-$sql_key_risto = mysql_query("SELECT * FROM key_ristogest WHERE serial = '$serial'")or die(mysql_error());
-$donnee_key_risto = mysql_fetch_array($sql_key_risto);
-$key_acces = $donnee_key_risto['serial'];
-mysql_connect(HOST,USER,PASS)or die(mysql_error());
-mysql_select_db(BASE);
-
-if($key_acces != $serial){
-	header("Location: error-serial.php");
-}
-
-//Verification Programme
-if($etat_programme == 0){
-	header("Location: systeme_inacessible.php");
-}
 ?>

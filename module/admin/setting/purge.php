@@ -128,7 +128,7 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
                             <h4>
                                 <i class="fa fa-check-circle"></i> Succès
                             </h4> 
-                            La purge à bien été effectuer.
+                            La purge à bien été effectuée.
                         </div>
                     <?php } ?>
                     <?php

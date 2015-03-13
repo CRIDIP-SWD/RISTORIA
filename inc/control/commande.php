@@ -1,6 +1,5 @@
 <?php
 include ('../db.conf.php');
-BaseConnect();
 ?>
 <?php
 //Création de la commande

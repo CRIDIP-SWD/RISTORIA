@@ -1,7 +1,6 @@
 <?php
 session_start();
 include ('db.conf.php');
-BaseConnect();
 include ('config.php');
 include ('control/meteo-api.php');
 if (!isset($_SESSION['login'])) {

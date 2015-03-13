@@ -1,7 +1,6 @@
     <?php
     session_start();
     include ('inc/db.conf.php');
-    BaseConnect();
     $iduser = $_GET['iduser'];
     mysql_query("UPDATE utilisateur SET connect = '0' WHERE iduser = '$iduser'")or die(mysql_error());
     session_unset();

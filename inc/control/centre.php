@@ -1,6 +1,5 @@
 <?php 
 include('../db.conf.php');
-BaseConnect();
 ?>
 <?php
 if(isset($_POST['modif-centre-valid']) && $_POST['modif-centre-valid'] == 'Valider')
