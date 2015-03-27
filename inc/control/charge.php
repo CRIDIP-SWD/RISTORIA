@@ -3,9 +3,6 @@
 $sql_menu = mysql_query("SELECT * FROM menu")or die(mysql_error());
 $donnee_menu = mysql_fetch_array($sql_menu);
 
-if($donnee_menu['semaine'] < $semaine){
-    mysql_query("UPDATE `menu` SET `etat_menu`='1'")or die(mysql_error());
-}
 ?>
 <?php
 
