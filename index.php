@@ -120,7 +120,7 @@
                                         <div class="col-sm-3 hidden-xs">
                                             <h2 class="animation-hatch">
                                                 <strong><?php echo $xml->current_condition->temp_C; ?>&deg; C</strong><br>
-                                                <small><i class="fa fa-map-marker"></i> LES SABLES D'OLONNE</small>
+                                                <small><i class="fa fa-map-marker"></i> St Lambert La Potherie</small>
                                             </h2>
                                         </div>
                                     </div>
