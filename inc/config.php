@@ -3,8 +3,8 @@
 	$title = 'RESTOGEST';
 	$logiciel = 'RESTOGEST';
 	$description = '';
-	define('SITE', 'http://vps221243.ovh.net/');
-	define('FOLDER', 'ristoria/');
+	define('SITE', 'http://slts.restogest.com/');
+	define('FOLDER', '');
 	define('ASSETS', 'assets/');
 	$theme = 'fire';
 
