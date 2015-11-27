@@ -3,7 +3,7 @@
 
 //Minimum request
 //Can be city,state,country, zip/postal code, IP address, longtitude/latitude. If long/lat are 2 elements, they will be assembled. IP address is one element.
-$loc_array= Array("46.50,-1.7833");		//data validated in foreach. 
+$loc_array= Array("47.49,-0.68");		//data validated in foreach.
 $api_key="b04cc5e17440c7232f5e70cdf0e55";		//should be embedded in your code, so no data validation necessary, otherwise if(strlen($api_key)!=24)
 $num_of_days=2;					//data validated in sprintf
 
