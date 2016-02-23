@@ -3,7 +3,7 @@
 	$title = 'RESTOGEST';
 	$logiciel = 'RESTOGEST';
 	$description = '';
-	define('SITE', 'http://slts.restogest.com/');
+	define('SITE', 'http://test.restogest.com/');
 	define('FOLDER', '');
 	define('ASSETS', 'assets/');
 	$theme = 'fire';
