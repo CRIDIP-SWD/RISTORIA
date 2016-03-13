@@ -9,7 +9,7 @@ if (isset($_POST['add-menu-control']) && $_POST['add-menu-control'] == 'Valider'
     $date_menu = strtotime($_POST['date_menu']);
     $semaine = date("W", $date_menu);
 
-    $sql_add_menu = mysql_query("INSERT INTO `menu`(`idmenu`, `semaine`, `date_menu`,,`etat_menu`) VALUES (NULL,'$semaine', '$date_menu','0')")or die(mysql_error());
+    $sql_add_menu = mysql_query("INSERT INTO `menu`(`idmenu`, `semaine`, `date_menu`,`etat_menu`) VALUES (NULL,'$semaine', '$date_menu','0')")or die(mysql_error());
 
     if($sql_add_menu == TRUE)
     {
