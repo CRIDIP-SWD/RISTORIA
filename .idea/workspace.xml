@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4f6963d-fbd3-4b2a-8030-9176e598d08d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/control/commande.php" afterPath="$PROJECT_DIR$/inc/control/commande.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/commande/view.php" afterPath="$PROJECT_DIR$/module/commande/view.php" />
     </list>
     <ignored path="RISTORIA.iws" />
@@ -73,13 +71,12 @@
       <file leaf-file-name="view.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/module/commande/view.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.44">
-              <caret line="182" column="78" selection-start-line="182" selection-start-column="78" selection-end-line="182" selection-end-column="78" />
-              <caret line="191" column="78" selection-start-line="191" selection-start-column="78" selection-end-line="191" selection-end-column="78" />
+            <state vertical-scroll-proportion="0.52">
+              <caret line="249" column="156" selection-start-line="249" selection-start-column="156" selection-end-line="249" selection-end-column="156" />
               <folding>
-                <marker date="1457912279177" expanded="true" signature="113:294" placeholder="SELECT * FRO... commande" />
-                <marker date="1457912279177" expanded="true" signature="16438:16738" placeholder="SELECT * FRO... article_commande" />
-                <marker date="1457912279177" expanded="true" signature="22715:22827" placeholder="SELECT * FRO... article" />
+                <marker date="1457912356867" expanded="true" signature="113:294" placeholder="SELECT * FRO... commande" />
+                <marker date="1457912356867" expanded="true" signature="16575:16875" placeholder="SELECT * FRO... article_commande" />
+                <marker date="1457912356867" expanded="true" signature="23013:23125" placeholder="SELECT * FRO... article" />
               </folding>
             </state>
           </provider>
@@ -845,13 +842,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/module/commande/view.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44">
-          <caret line="182" column="78" selection-start-line="182" selection-start-column="78" selection-end-line="182" selection-end-column="78" />
-          <caret line="191" column="78" selection-start-line="191" selection-start-column="78" selection-end-line="191" selection-end-column="78" />
+        <state vertical-scroll-proportion="0.52">
+          <caret line="249" column="156" selection-start-line="249" selection-start-column="156" selection-end-line="249" selection-end-column="156" />
           <folding>
-            <marker date="1457912279177" expanded="true" signature="113:294" placeholder="SELECT * FRO... commande" />
-            <marker date="1457912279177" expanded="true" signature="16438:16738" placeholder="SELECT * FRO... article_commande" />
-            <marker date="1457912279177" expanded="true" signature="22715:22827" placeholder="SELECT * FRO... article" />
+            <marker date="1457912356867" expanded="true" signature="113:294" placeholder="SELECT * FRO... commande" />
+            <marker date="1457912356867" expanded="true" signature="16575:16875" placeholder="SELECT * FRO... article_commande" />
+            <marker date="1457912356867" expanded="true" signature="23013:23125" placeholder="SELECT * FRO... article" />
           </folding>
         </state>
       </provider>

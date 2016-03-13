@@ -246,7 +246,9 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
                         <div class="block-title">
                             <h2>Votre commande</h2>
                             <div class="pull-right">
-                                <a href="#add-article" data-toggle="modal" class="btn btn-info"><i class="fa fa-plus-circle"></i> Ajouter un produit</a>
+                                <?php if($donnee_commande['etat_commande'] == 0): ?>
+                                    <a href="#add-article" data-toggle="modal" class="btn btn-info"><i class="fa fa-plus-circle"></i> Ajouter un produit</a>
+                                <?php endif; ?>
                                 <a class="btn btn-default" href="print.php?idcommande=<?php echo $idcommande; ?>"><i class="fa fa-print"></i> Imprimer la commande</a>
                             </div>
                         </div>
@@ -290,7 +292,9 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
                                         <td><?php echo $donnee_article['qte']; ?></td>
                                         <td><?php echo number_format($donnee_article['total_ligne'], 2, ',', ' ')." €"; ?></td>
                                         <td>
-                                            <a class="btn btn-danger btn-xs" href="<?php echo SITE,FOLDER; ?>inc/control/commande.php?idarticlecommande=<?php echo $donnee_article['idarticlecommande']; ?>&idcommande=<?php echo $idcommande; ?>&montant_total=<?php echo $donnee_commande['montant_total']; ?>&prix_unitaire=<?php echo $donnee_article['prix_unitaire']; ?>&supp-article-control=Valider"><i class="fa fa-times-circle-o"></i></a>
+                                            <?php if($donnee_commande['etat_commande'] == 0): ?>
+                                                <a class="btn btn-danger btn-xs" href="<?php echo SITE,FOLDER; ?>inc/control/commande.php?idarticlecommande=<?php echo $donnee_article['idarticlecommande']; ?>&idcommande=<?php echo $idcommande; ?>&montant_total=<?php echo $donnee_commande['montant_total']; ?>&prix_unitaire=<?php echo $donnee_article['prix_unitaire']; ?>&supp-article-control=Valider"><i class="fa fa-times-circle-o"></i></a>
+                                            <?php endif; ?>
                                         </td>
                                     </tr>
                                 <?php
