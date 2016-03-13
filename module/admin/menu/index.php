@@ -215,6 +215,7 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
                                 ?>
                                     <tr>
                                         <td>SEMAINE <?php echo $donnee_menu['semaine']; ?></td>
+                                        <td><?= date("d/m/Y", $donnee_menu['date_menu']); ?></td>
                                         <td class="pull-right">
                                             <a class="btn btn-default btn-xs" href="view.php?idmenu=<?php echo $donnee_menu['idmenu']; ?>"><i class="fa fa-eye"></i></a>
                                             <a class="btn btn-info btn-xs" href="#modif-menu" data-toggle="modal"><i class="fa fa-edit"></i></a>
