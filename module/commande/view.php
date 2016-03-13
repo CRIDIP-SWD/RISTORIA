@@ -179,6 +179,25 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
                             Veuillez contacter le service technique. <strong>Erreur EX8883</strong>
                         </div>
                     <?php } ?>
+                    <?php
+                    if(isset($_GET['supp-article']) && $_GET['valider_commande'] == 'true')
+                    {
+                        ?>
+                        <div class="alert alert-success alert-dismissable">
+                            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                            <h4><i class="fa fa-check-circle"></i> Succès !</h4> Votre commande à été valider, aucune modification ne peut être transmise.<br><i>Pour toutes modifications de votre commande, veuillez contacter le comité d'entreprise.</i>
+                        </div>
+                    <?php } ?>
+                    <?php
+                    if(isset($_GET['supp-article']) && $_GET['valider_commande'] == 'false')
+                    {
+                        ?>
+                        <div class="alert alert-danger alert-dismissable">
+                            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                            <h4><i class="fa fa-times-circle"></i> Erreur !</h4> Une erreur à eu lieu lors de la Validation de votre commande<br>
+                            Veuillez contacter le service technique. <strong>Erreur EX8884</strong>
+                        </div>
+                    <?php } ?>
                     <!-- Example Block -->
                     <div class="row">
                         <div class="col-md-12">
@@ -205,6 +224,17 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
                                         <td>Montant de la Commande:</td>
                                         <td>
                                             <strong><?php echo number_format($donnee_commande['montant_total'], 2, ',', ' ')." €"; ?></strong>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Etat de la commande:</td>
+                                        <td>
+                                            <?php if($donnee_commande['etat_commande'] == 0): ?>
+                                            <span class="label label-danger">Non Valider</span>
+                                            <a class="btn btn-sm btn-success" href="<?php echo SITE,FOLDER; ?>inc/control/commande.php?action=valider_commande&idcommande=<?= $donnee_commande['idcommande']; ?>">Valider la commande</a>
+                                            <?php else: ?>
+                                            <span class="label label-success">Commande Valider</span>
+                                            <?php endif; ?>
                                         </td>
                                     </tr>
                                 </table>

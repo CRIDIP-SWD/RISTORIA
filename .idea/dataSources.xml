@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="3309431804">
+  <component name="DataSourceManagerImpl" format="xml" hash="4185061737">
     <data-source source="LOCAL" name="MySQL - test@cridip.com" uuid="28da5db8-2cda-4410-9568-348b51138ecb">
       <driver-ref>mysql</driver-ref>
       <synchronize>true</synchronize>

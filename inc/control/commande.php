@@ -111,3 +111,17 @@ if(isset($_GET['supp-article-control']) && $_GET['supp-article-control'] == 'Val
     }
 }
 ?>
+<?php
+if(isset($_GET['action']) && $_GET['action'] == 'valider_commande')
+{
+    $idcommande = $_GET['idcommande'];
+
+    $sql_up = mysql_query("UPDATE commande SET etat_commande = 1 WHERE idcommande = '$idcommande'")or die(mysql_error());
+
+    if($sql_up == TRUE){
+        header("Location: ../../module/commande/view.php?idcommande=$idcommande&valider_commande=true");
+    }else{
+        header("Location: ../../module/commande/view.php?idcommande=$idcommande&valider_commande=false");
+    }
+}
+?>

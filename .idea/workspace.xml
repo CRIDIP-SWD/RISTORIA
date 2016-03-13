@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4f6963d-fbd3-4b2a-8030-9176e598d08d" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/control/commande.php" afterPath="$PROJECT_DIR$/inc/control/commande.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/commande/index.php" afterPath="$PROJECT_DIR$/module/commande/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/commande/view.php" afterPath="$PROJECT_DIR$/module/commande/view.php" />
     </list>
     <ignored path="RISTORIA.iws" />
@@ -31,6 +31,24 @@
         <option name="myItemId" />
         <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
       </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="MySQL - test@cridip.com" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="MySQL - test@cridip.com" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="commande" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
     </PATH>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
@@ -55,12 +73,13 @@
       <file leaf-file-name="view.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/module/commande/view.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.41411763">
-              <caret line="334" column="176" selection-start-line="334" selection-start-column="176" selection-end-line="334" selection-end-column="176" />
+            <state vertical-scroll-proportion="0.44">
+              <caret line="182" column="78" selection-start-line="182" selection-start-column="78" selection-end-line="182" selection-end-column="78" />
+              <caret line="191" column="78" selection-start-line="191" selection-start-column="78" selection-end-line="191" selection-end-column="78" />
               <folding>
-                <marker date="1457911784825" expanded="true" signature="113:294" placeholder="SELECT * FRO... commande" />
-                <marker date="1457911784825" expanded="true" signature="14195:14495" placeholder="SELECT * FRO... article_commande" />
-                <marker date="1457911784825" expanded="true" signature="20472:20584" placeholder="SELECT * FRO... article" />
+                <marker date="1457912279177" expanded="true" signature="113:294" placeholder="SELECT * FRO... commande" />
+                <marker date="1457912279177" expanded="true" signature="16438:16738" placeholder="SELECT * FRO... article_commande" />
+                <marker date="1457912279177" expanded="true" signature="22715:22827" placeholder="SELECT * FRO... article" />
               </folding>
             </state>
           </provider>
@@ -69,20 +88,21 @@
       <file leaf-file-name="commande.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/inc/control/commande.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-20.26923">
-              <caret line="51" column="2" selection-start-line="51" selection-start-column="2" selection-end-line="51" selection-end-column="2" />
+            <state vertical-scroll-proportion="-26.153847">
+              <caret line="123" column="102" selection-start-line="123" selection-start-column="102" selection-end-line="123" selection-end-column="102" />
               <folding>
-                <marker date="1457911769679" expanded="true" signature="310:353" placeholder="SELECT * FRO... menu" />
-                <marker date="1457911769679" expanded="true" signature="516:689" placeholder="INSERT INTO `commande`... " />
-                <marker date="1457911769679" expanded="true" signature="794:853" placeholder="SELECT * FRO... commande" />
-                <marker date="1457911769679" expanded="true" signature="1455:1516" placeholder="DELETE FROM " />
-                <marker date="1457911769679" expanded="true" signature="1581:1634" placeholder="DELETE FROM " />
-                <marker date="1457911769679" expanded="true" signature="2204:2259" placeholder="SELECT * FRO... commande" />
-                <marker date="1457911769679" expanded="true" signature="2444:2496" placeholder="SELECT * FRO... article" />
-                <marker date="1457911769679" expanded="true" signature="2784:2871" placeholder="UPDATE comma... " />
-                <marker date="1457911769679" expanded="true" signature="2959:3145" placeholder="INSERT INTO `article_commande`... " />
-                <marker date="1457911769679" expanded="true" signature="3887:3972" placeholder="UPDATE comma... " />
-                <marker date="1457911769679" expanded="true" signature="4046:4121" placeholder="DELETE FROM " />
+                <marker date="1457912182438" expanded="true" signature="310:353" placeholder="SELECT * FRO... menu" />
+                <marker date="1457912182438" expanded="true" signature="516:689" placeholder="INSERT INTO `commande`... " />
+                <marker date="1457912182438" expanded="true" signature="794:853" placeholder="SELECT * FRO... commande" />
+                <marker date="1457912182438" expanded="true" signature="1455:1516" placeholder="DELETE FROM " />
+                <marker date="1457912182438" expanded="true" signature="1581:1634" placeholder="DELETE FROM " />
+                <marker date="1457912182438" expanded="true" signature="2204:2259" placeholder="SELECT * FRO... commande" />
+                <marker date="1457912182438" expanded="true" signature="2444:2496" placeholder="SELECT * FRO... article" />
+                <marker date="1457912182438" expanded="true" signature="2784:2871" placeholder="UPDATE comma... " />
+                <marker date="1457912182438" expanded="true" signature="2959:3145" placeholder="INSERT INTO `article_commande`... " />
+                <marker date="1457912182438" expanded="true" signature="3887:3972" placeholder="UPDATE comma... " />
+                <marker date="1457912182438" expanded="true" signature="4046:4121" placeholder="DELETE FROM " />
+                <marker date="1457912182438" expanded="true" signature="4566:4636" placeholder="UPDATE comma... " />
               </folding>
             </state>
           </provider>
@@ -414,17 +434,18 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="34" column="38" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
           <folding>
-            <marker date="1457911769679" expanded="true" signature="310:353" placeholder="SELECT * FRO... menu" />
-            <marker date="1457911769679" expanded="true" signature="516:689" placeholder="INSERT INTO `commande`... " />
-            <marker date="1457911769679" expanded="true" signature="794:853" placeholder="SELECT * FRO... commande" />
-            <marker date="1457911769679" expanded="true" signature="1455:1516" placeholder="DELETE FROM " />
-            <marker date="1457911769679" expanded="true" signature="1581:1634" placeholder="DELETE FROM " />
-            <marker date="1457911769679" expanded="true" signature="2204:2259" placeholder="SELECT * FRO... commande" />
-            <marker date="1457911769679" expanded="true" signature="2444:2496" placeholder="SELECT * FRO... article" />
-            <marker date="1457911769679" expanded="true" signature="2784:2871" placeholder="UPDATE comma... " />
-            <marker date="1457911769679" expanded="true" signature="2959:3145" placeholder="INSERT INTO `article_commande`... " />
-            <marker date="1457911769679" expanded="true" signature="3887:3972" placeholder="UPDATE comma... " />
-            <marker date="1457911769679" expanded="true" signature="4046:4121" placeholder="DELETE FROM " />
+            <marker date="1457912182438" expanded="true" signature="310:353" placeholder="SELECT * FRO... menu" />
+            <marker date="1457912182438" expanded="true" signature="516:689" placeholder="INSERT INTO `commande`... " />
+            <marker date="1457912182438" expanded="true" signature="794:853" placeholder="SELECT * FRO... commande" />
+            <marker date="1457912182438" expanded="true" signature="1455:1516" placeholder="DELETE FROM " />
+            <marker date="1457912182438" expanded="true" signature="1581:1634" placeholder="DELETE FROM " />
+            <marker date="1457912182438" expanded="true" signature="2204:2259" placeholder="SELECT * FRO... commande" />
+            <marker date="1457912182438" expanded="true" signature="2444:2496" placeholder="SELECT * FRO... article" />
+            <marker date="1457912182438" expanded="true" signature="2784:2871" placeholder="UPDATE comma... " />
+            <marker date="1457912182438" expanded="true" signature="2959:3145" placeholder="INSERT INTO `article_commande`... " />
+            <marker date="1457912182438" expanded="true" signature="3887:3972" placeholder="UPDATE comma... " />
+            <marker date="1457912182438" expanded="true" signature="4046:4121" placeholder="DELETE FROM " />
+            <marker date="1457912182438" expanded="true" signature="4566:4636" placeholder="UPDATE comma... " />
           </folding>
         </state>
       </provider>
@@ -462,17 +483,18 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="34" column="38" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
           <folding>
-            <marker date="1457911769679" expanded="true" signature="310:353" placeholder="SELECT * FRO... menu" />
-            <marker date="1457911769679" expanded="true" signature="516:689" placeholder="INSERT INTO `commande`... " />
-            <marker date="1457911769679" expanded="true" signature="794:853" placeholder="SELECT * FRO... commande" />
-            <marker date="1457911769679" expanded="true" signature="1455:1516" placeholder="DELETE FROM " />
-            <marker date="1457911769679" expanded="true" signature="1581:1634" placeholder="DELETE FROM " />
-            <marker date="1457911769679" expanded="true" signature="2204:2259" placeholder="SELECT * FRO... commande" />
-            <marker date="1457911769679" expanded="true" signature="2444:2496" placeholder="SELECT * FRO... article" />
-            <marker date="1457911769679" expanded="true" signature="2784:2871" placeholder="UPDATE comma... " />
-            <marker date="1457911769679" expanded="true" signature="2959:3145" placeholder="INSERT INTO `article_commande`... " />
-            <marker date="1457911769679" expanded="true" signature="3887:3972" placeholder="UPDATE comma... " />
-            <marker date="1457911769679" expanded="true" signature="4046:4121" placeholder="DELETE FROM " />
+            <marker date="1457912182438" expanded="true" signature="310:353" placeholder="SELECT * FRO... menu" />
+            <marker date="1457912182438" expanded="true" signature="516:689" placeholder="INSERT INTO `commande`... " />
+            <marker date="1457912182438" expanded="true" signature="794:853" placeholder="SELECT * FRO... commande" />
+            <marker date="1457912182438" expanded="true" signature="1455:1516" placeholder="DELETE FROM " />
+            <marker date="1457912182438" expanded="true" signature="1581:1634" placeholder="DELETE FROM " />
+            <marker date="1457912182438" expanded="true" signature="2204:2259" placeholder="SELECT * FRO... commande" />
+            <marker date="1457912182438" expanded="true" signature="2444:2496" placeholder="SELECT * FRO... article" />
+            <marker date="1457912182438" expanded="true" signature="2784:2871" placeholder="UPDATE comma... " />
+            <marker date="1457912182438" expanded="true" signature="2959:3145" placeholder="INSERT INTO `article_commande`... " />
+            <marker date="1457912182438" expanded="true" signature="3887:3972" placeholder="UPDATE comma... " />
+            <marker date="1457912182438" expanded="true" signature="4046:4121" placeholder="DELETE FROM " />
+            <marker date="1457912182438" expanded="true" signature="4566:4636" placeholder="UPDATE comma... " />
           </folding>
         </state>
       </provider>
@@ -510,17 +532,18 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="34" column="38" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
           <folding>
-            <marker date="1457911769679" expanded="true" signature="310:353" placeholder="SELECT * FRO... menu" />
-            <marker date="1457911769679" expanded="true" signature="516:689" placeholder="INSERT INTO `commande`... " />
-            <marker date="1457911769679" expanded="true" signature="794:853" placeholder="SELECT * FRO... commande" />
-            <marker date="1457911769679" expanded="true" signature="1455:1516" placeholder="DELETE FROM " />
-            <marker date="1457911769679" expanded="true" signature="1581:1634" placeholder="DELETE FROM " />
-            <marker date="1457911769679" expanded="true" signature="2204:2259" placeholder="SELECT * FRO... commande" />
-            <marker date="1457911769679" expanded="true" signature="2444:2496" placeholder="SELECT * FRO... article" />
-            <marker date="1457911769679" expanded="true" signature="2784:2871" placeholder="UPDATE comma... " />
-            <marker date="1457911769679" expanded="true" signature="2959:3145" placeholder="INSERT INTO `article_commande`... " />
-            <marker date="1457911769679" expanded="true" signature="3887:3972" placeholder="UPDATE comma... " />
-            <marker date="1457911769679" expanded="true" signature="4046:4121" placeholder="DELETE FROM " />
+            <marker date="1457912182438" expanded="true" signature="310:353" placeholder="SELECT * FRO... menu" />
+            <marker date="1457912182438" expanded="true" signature="516:689" placeholder="INSERT INTO `commande`... " />
+            <marker date="1457912182438" expanded="true" signature="794:853" placeholder="SELECT * FRO... commande" />
+            <marker date="1457912182438" expanded="true" signature="1455:1516" placeholder="DELETE FROM " />
+            <marker date="1457912182438" expanded="true" signature="1581:1634" placeholder="DELETE FROM " />
+            <marker date="1457912182438" expanded="true" signature="2204:2259" placeholder="SELECT * FRO... commande" />
+            <marker date="1457912182438" expanded="true" signature="2444:2496" placeholder="SELECT * FRO... article" />
+            <marker date="1457912182438" expanded="true" signature="2784:2871" placeholder="UPDATE comma... " />
+            <marker date="1457912182438" expanded="true" signature="2959:3145" placeholder="INSERT INTO `article_commande`... " />
+            <marker date="1457912182438" expanded="true" signature="3887:3972" placeholder="UPDATE comma... " />
+            <marker date="1457912182438" expanded="true" signature="4046:4121" placeholder="DELETE FROM " />
+            <marker date="1457912182438" expanded="true" signature="4566:4636" placeholder="UPDATE comma... " />
           </folding>
         </state>
       </provider>
@@ -551,17 +574,18 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="34" column="38" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
           <folding>
-            <marker date="1457911769679" expanded="true" signature="310:353" placeholder="SELECT * FRO... menu" />
-            <marker date="1457911769679" expanded="true" signature="516:689" placeholder="INSERT INTO `commande`... " />
-            <marker date="1457911769679" expanded="true" signature="794:853" placeholder="SELECT * FRO... commande" />
-            <marker date="1457911769679" expanded="true" signature="1455:1516" placeholder="DELETE FROM " />
-            <marker date="1457911769679" expanded="true" signature="1581:1634" placeholder="DELETE FROM " />
-            <marker date="1457911769679" expanded="true" signature="2204:2259" placeholder="SELECT * FRO... commande" />
-            <marker date="1457911769679" expanded="true" signature="2444:2496" placeholder="SELECT * FRO... article" />
-            <marker date="1457911769679" expanded="true" signature="2784:2871" placeholder="UPDATE comma... " />
-            <marker date="1457911769679" expanded="true" signature="2959:3145" placeholder="INSERT INTO `article_commande`... " />
-            <marker date="1457911769679" expanded="true" signature="3887:3972" placeholder="UPDATE comma... " />
-            <marker date="1457911769679" expanded="true" signature="4046:4121" placeholder="DELETE FROM " />
+            <marker date="1457912182438" expanded="true" signature="310:353" placeholder="SELECT * FRO... menu" />
+            <marker date="1457912182438" expanded="true" signature="516:689" placeholder="INSERT INTO `commande`... " />
+            <marker date="1457912182438" expanded="true" signature="794:853" placeholder="SELECT * FRO... commande" />
+            <marker date="1457912182438" expanded="true" signature="1455:1516" placeholder="DELETE FROM " />
+            <marker date="1457912182438" expanded="true" signature="1581:1634" placeholder="DELETE FROM " />
+            <marker date="1457912182438" expanded="true" signature="2204:2259" placeholder="SELECT * FRO... commande" />
+            <marker date="1457912182438" expanded="true" signature="2444:2496" placeholder="SELECT * FRO... article" />
+            <marker date="1457912182438" expanded="true" signature="2784:2871" placeholder="UPDATE comma... " />
+            <marker date="1457912182438" expanded="true" signature="2959:3145" placeholder="INSERT INTO `article_commande`... " />
+            <marker date="1457912182438" expanded="true" signature="3887:3972" placeholder="UPDATE comma... " />
+            <marker date="1457912182438" expanded="true" signature="4046:4121" placeholder="DELETE FROM " />
+            <marker date="1457912182438" expanded="true" signature="4566:4636" placeholder="UPDATE comma... " />
           </folding>
         </state>
       </provider>
@@ -800,32 +824,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/inc/control/commande.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.26923">
-          <caret line="51" column="2" selection-start-line="51" selection-start-column="2" selection-end-line="51" selection-end-column="2" />
+        <state vertical-scroll-proportion="-26.153847">
+          <caret line="123" column="102" selection-start-line="123" selection-start-column="102" selection-end-line="123" selection-end-column="102" />
           <folding>
-            <marker date="1457911769679" expanded="true" signature="310:353" placeholder="SELECT * FRO... menu" />
-            <marker date="1457911769679" expanded="true" signature="516:689" placeholder="INSERT INTO `commande`... " />
-            <marker date="1457911769679" expanded="true" signature="794:853" placeholder="SELECT * FRO... commande" />
-            <marker date="1457911769679" expanded="true" signature="1455:1516" placeholder="DELETE FROM " />
-            <marker date="1457911769679" expanded="true" signature="1581:1634" placeholder="DELETE FROM " />
-            <marker date="1457911769679" expanded="true" signature="2204:2259" placeholder="SELECT * FRO... commande" />
-            <marker date="1457911769679" expanded="true" signature="2444:2496" placeholder="SELECT * FRO... article" />
-            <marker date="1457911769679" expanded="true" signature="2784:2871" placeholder="UPDATE comma... " />
-            <marker date="1457911769679" expanded="true" signature="2959:3145" placeholder="INSERT INTO `article_commande`... " />
-            <marker date="1457911769679" expanded="true" signature="3887:3972" placeholder="UPDATE comma... " />
-            <marker date="1457911769679" expanded="true" signature="4046:4121" placeholder="DELETE FROM " />
+            <marker date="1457912182438" expanded="true" signature="310:353" placeholder="SELECT * FRO... menu" />
+            <marker date="1457912182438" expanded="true" signature="516:689" placeholder="INSERT INTO `commande`... " />
+            <marker date="1457912182438" expanded="true" signature="794:853" placeholder="SELECT * FRO... commande" />
+            <marker date="1457912182438" expanded="true" signature="1455:1516" placeholder="DELETE FROM " />
+            <marker date="1457912182438" expanded="true" signature="1581:1634" placeholder="DELETE FROM " />
+            <marker date="1457912182438" expanded="true" signature="2204:2259" placeholder="SELECT * FRO... commande" />
+            <marker date="1457912182438" expanded="true" signature="2444:2496" placeholder="SELECT * FRO... article" />
+            <marker date="1457912182438" expanded="true" signature="2784:2871" placeholder="UPDATE comma... " />
+            <marker date="1457912182438" expanded="true" signature="2959:3145" placeholder="INSERT INTO `article_commande`... " />
+            <marker date="1457912182438" expanded="true" signature="3887:3972" placeholder="UPDATE comma... " />
+            <marker date="1457912182438" expanded="true" signature="4046:4121" placeholder="DELETE FROM " />
+            <marker date="1457912182438" expanded="true" signature="4566:4636" placeholder="UPDATE comma... " />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/module/commande/view.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41411763">
-          <caret line="334" column="176" selection-start-line="334" selection-start-column="176" selection-end-line="334" selection-end-column="176" />
+        <state vertical-scroll-proportion="0.44">
+          <caret line="182" column="78" selection-start-line="182" selection-start-column="78" selection-end-line="182" selection-end-column="78" />
+          <caret line="191" column="78" selection-start-line="191" selection-start-column="78" selection-end-line="191" selection-end-column="78" />
           <folding>
-            <marker date="1457911784825" expanded="true" signature="113:294" placeholder="SELECT * FRO... commande" />
-            <marker date="1457911784825" expanded="true" signature="14195:14495" placeholder="SELECT * FRO... article_commande" />
-            <marker date="1457911784825" expanded="true" signature="20472:20584" placeholder="SELECT * FRO... article" />
+            <marker date="1457912279177" expanded="true" signature="113:294" placeholder="SELECT * FRO... commande" />
+            <marker date="1457912279177" expanded="true" signature="16438:16738" placeholder="SELECT * FRO... article_commande" />
+            <marker date="1457912279177" expanded="true" signature="22715:22827" placeholder="SELECT * FRO... article" />
           </folding>
         </state>
       </provider>
