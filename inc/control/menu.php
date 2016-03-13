@@ -6,9 +6,10 @@ include('../db.conf.php');
 <?php
 //Nouveau Menu
 if (isset($_POST['add-menu-control']) && $_POST['add-menu-control'] == 'Valider') {
-    $semaine = $_POST['semaine'];
+    $date_menu = strtotime($_POST['date_menu']);
+    $semaine = date("W", $date_menu);
 
-    $sql_add_menu = mysql_query("INSERT INTO `menu`(`idmenu`, `semaine`, `etat_menu`) VALUES (NULL,'$semaine','0')")or die(mysql_error());
+    $sql_add_menu = mysql_query("INSERT INTO `menu`(`idmenu`, `semaine`, `date_menu`,,`etat_menu`) VALUES (NULL,'$semaine', '$date_menu','0')")or die(mysql_error());
 
     if($sql_add_menu == TRUE)
     {
@@ -25,9 +26,10 @@ if (isset($_POST['add-menu-control']) && $_POST['add-menu-control'] == 'Valider'
 if (isset($_POST['modif-menu-control']) && $_POST['modif-menu-control'] == 'Valider') {
 
     $idmenu = $_POST['idmenu'];
-    $semaine = $_POST['semaine'];
+    $date_menu = strtotime($_POST['date_menu']);
+    $semaine = date("W", $date_menu);
 
-    $sql_modif_menu = mysql_query("UPDATE `menu` SET `semaine`='$semaine' WHERE idmenu='$idmenu'")or die(mysql_error());
+    $sql_modif_menu = mysql_query("UPDATE `menu` SET `semaine`='$semaine' AND menu.date_menu = '$date_menu' WHERE idmenu='$idmenu'")or die(mysql_error());
 
     if($sql_modif_menu == TRUE)
     {
