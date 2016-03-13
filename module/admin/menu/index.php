@@ -265,9 +265,9 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
                                     <form class="form-bordered form-horizontal" action="<?php echo SITE, FOLDER; ?>inc/control/menu.php" method="POST">
 
                                         <div class="form-group">
-                                            <label class="col-md-3 control-label" for="example-text-input">N° de la semaine</label>
+                                            <label class="col-md-3 control-label" for="example-text-input">Date du Menu</label>
                                             <div class="col-md-9">
-                                                <input type="text" id="example-text-input" name="semaine" class="form-control" placeholder="N° de la semaine uniquement">
+                                                <input type="text" id="example-text-input" name="date_menu" class="form-control" placeholder="N° de la semaine uniquement" required>
                                             </div>
                                         </div>
 
