@@ -5,6 +5,7 @@ $sql_commande = mysql_query("SELECT * FROM commande, menu, utilisateur WHERE com
                 AND commande.iduser = utilisateur.iduser
                 AND idcommande = '$idcommande'")or die(mysql_error());
 $donnee_commande = mysql_fetch_array($sql_commande);
+$date_commande = $donnee_commande['date_commande'];
 ?>
 <?php
 define("TITLE_PAGE", "COMMANDE");
@@ -196,22 +197,9 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
                                     </tr>
                                     <tr>
                                         <td>Date de la commande:</td>
-                                        <?php
-                                        if(empty($donnee_commande['date_commande']))
-                                        {
-                                        ?>
-                                        <td style="color: #ff0000;">
-                                            Inconnu
-                                        </td>
-                                        <td>
-                                            <a class="btn btn-danger btn-xs" href="#add-date-commande" data-toggle="modal"><i class="fa fa-edit"></i> Modifier la date de la commande</a>
-                                        </td>
-
-                                        <?php }else{ ?>
                                         <td>
                                             <?php echo date("d-m-Y", $donnee_commande['date_commande']); ?>
                                         </td>
-                                        <?php } ?>
                                     </tr>
                                     <tr>
                                         <td>Montant de la Commande:</td>
@@ -344,7 +332,7 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
                                             <select id="example-select2" name="idarticle" class="select-select2" style="width: 100%;" data-placeholder="Choisissez un article...">
                                                 <option></option><!-- Required for data-placeholder attribute to work with Select2 plugin -->
                                                 <?php
-                                                $sql_choix_article = mysql_query("SELECT * FROM article, menu WHERE article.idmenu = menu.idmenu AND menu.idmenu=".$donnee_commande['idmenu'])or die(mysql_error());
+                                                $sql_choix_article = mysql_query("SELECT * FROM article, menu WHERE article.idmenu = menu.idmenu AND date_menu = '$date_commande' AND menu.idmenu=".$donnee_commande['idmenu'])or die(mysql_error());
                                                 while($donnee_choix_article = mysql_fetch_array($sql_choix_article))
                                                 {
                                                 ?>

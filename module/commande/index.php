@@ -239,7 +239,7 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
                                                while($donnee_menu = mysql_fetch_array($sql_menu))
                                                {
                                                ?>
-                                               <option value="<?php echo $donnee_menu['idmenu']; ?>">Semaine <?php echo $donnee_menu['semaine']; ?></option>
+                                               <option value="<?php echo $donnee_menu['idmenu']; ?>">Semaine <?php echo $donnee_menu['semaine']; ?> | Date: <?= date("d/m/Y", $donnee_menu['date_menu']); ?></option>
                                                <?php } ?>
                                            </select>
                                        </div>
