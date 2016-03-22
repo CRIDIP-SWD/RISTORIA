@@ -334,6 +334,7 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
         <script src="<?php echo SITE,FOLDER,ASSETS; ?>js/vendor/bootstrap.min.js"></script>
         <script src="<?php echo SITE,FOLDER,ASSETS; ?>js/plugins.js"></script>
         <script src="<?php echo SITE,FOLDER,ASSETS; ?>js/app.js"></script>
+        <script src="<?php echo SITE,FOLDER,ASSETS; ?>js/jquery.ui.datepicker-fr.js"></script>
         <script src="<?php echo SITE,FOLDER,ASSETS; ?>js/pages/tablesGeneral.js"></script>
         <script>$(function(){ TablesGeneral.init(); });</script>
     </body>
