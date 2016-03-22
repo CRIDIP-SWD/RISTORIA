@@ -219,6 +219,7 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
                                         </td>
                                         <td class="pull-right">
                                             <a class="btn btn-danger btn-xs" href="<?php echo SITE,FOLDER; ?>inc/control/menu.php?idarticle=<?php echo $donnee_article['idarticle']; ?>&idmenu=<?php echo $idmenu; ?>&supp-article-control=Valider"><i class="fa fa-times-circle-o"></i></a>
+                                            <a class="btn btn-primary btn-xs" href="ajax/edit_article.php?idarticle=<?= $donnee_article['idarticle']; ?>" data-toggle="modal" data-target="#edit-article"><i class="fa fa-edit"></i></a>
                                         </td>
                                     </tr>
 
@@ -275,6 +276,16 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
 
 
                                     </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="edit-article" role="basic" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <i class="fa fa-spinner fa-3x fa-spin loading"></i>
+                                    <span> &nbsp;&nbsp;Loading... </span>
                                 </div>
                             </div>
                         </div>
