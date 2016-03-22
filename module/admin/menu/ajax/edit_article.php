@@ -1,4 +1,6 @@
 <?php
+require "../../../../inc/config.php";
+require "../../../../inc/db.conf.php";
 $idarticle = $_GET['idarticle'];
 $sql_article = mysql_query("SELECT * FROM article WHERE idarticle = '$idarticle'")or die(mysql_error());
 $article = mysql_fetch_array($sql_article);
