@@ -193,7 +193,6 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
                             <div class="pull-right">
                                 <a href="#add-menu" data-toggle="modal" class="btn btn-success"><i class="fa fa-plus-circle"></i> Nouveau Menu</a>
                                 <a href="#print_semaine" data-toggle="modal" class="btn btn-primary"><i class="fa fa-print"></i> Imprimer les menus</a>
-                                <a href="ajax/test.html" data-toggle="modal" data-target="#edit"><i class="fa fa-edit"></i> Test</a>
                             </div>
                         </div>
 
@@ -310,16 +309,6 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
                                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times-circle-o"></i> Fermer la boite de dialogue </button>
                                         </div>
                                     </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="modal fade" id="edit" role="basic" aria-hidden="true">
-                        <div class="modal-dialog">
-                            <div class="modal-content">
-                                <div class="modal-body">
-                                    <i class="fa fa-spinner fa-3x fa-spin loading"></i>
-                                    <span> &nbsp;&nbsp;Loading... </span>
                                 </div>
                             </div>
                         </div>
