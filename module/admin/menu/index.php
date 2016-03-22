@@ -192,6 +192,7 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
                             <h2>Listing des menus</h2>
                             <div class="pull-right">
                                 <a href="#add-menu" data-toggle="modal" class="btn btn-success"><i class="fa fa-plus-circle"></i> Nouveau Menu</a>
+                                <a href="#print_semaine" data-toggle="modal" class="btn btn-primary"><i class="fa fa-print"></i> Imprimer les menus</a>
                             </div>
                         </div>
 
@@ -265,6 +266,32 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
                                 </div>
                                 <div class="modal-body">
                                     <form class="form-bordered form-horizontal" action="<?php echo SITE, FOLDER; ?>inc/control/menu.php" method="POST">
+
+                                        <div class="form-group">
+                                            <label class="col-md-3 control-label" for="example-text-input">Date du Menu</label>
+                                            <div class="col-md-9">
+                                                <input type="text" id="example-text-input" name="date_menu" class="form-control" placeholder="dd-mm-yyyy" required>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group form-actions text-center">
+                                            <button type="submit" class="btn btn-success" name="add-menu-control" value="Valider"><i class="fa fa-check-circle-o"></i> Valider </button>
+                                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times-circle-o"></i> Fermer la boite de dialogue </button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="add-menu" class="modal" tabindex="-1" role="dialog" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                    <h3 class="modal-title">Nouveau Menu</h3>
+                                </div>
+                                <div class="modal-body">
+                                    <form class="form-bordered form-horizontal" action="<?php echo SITE, FOLDER; ?>module/admin/menu/print_semaine.php" method="POST">
 
                                         <div class="form-group">
                                             <label class="col-md-3 control-label" for="example-text-input">Date du Menu</label>
