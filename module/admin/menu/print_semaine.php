@@ -5,9 +5,6 @@ $date_debut = strtotime($_POST['date_debut']);
 $date_fin = strtotime($_POST['date_fin']);
 $sql_import_centre = mysql_query("SELECT * FROM setting WHERE idsetting = 1")or die(mysql_error());
 $import_centre = mysql_fetch_array($sql_import_centre);
-$sql_menu = mysql_query("SELECT * FROM menu WHERE date_menu >= '$date_debut' AND date_menu <= '$date_fin'")or die(mysql_error());
-$donnee_menu = mysql_fetch_array($sql_menu);
-
 
 ob_start();
 ?>
@@ -35,11 +32,17 @@ ob_start();
     </table>
 
     <div style="padding-top: 15px; padding-bottom: 15px;"></div>
-
+    <?php
+    $sql_menu = mysql_query("SELECT * FROM menu WHERE date_menu >= '$date_debut' AND date_menu <= '$date_fin'")or die(mysql_error());
+    while($donnee_menu = mysql_fetch_array($sql_menu)):
+        $idmenu = $donnee_menu['idmenu'];
+    ?>
+        <h2>MENU DU <?= date("d-m-Y", $donnee_menu['date_menu']); ?></h2>
     <table cellspacing="0" style="width: 100%; border: solid 2px; border-radius: 10px 10px 10px 10px;">
         <tr>
             <th style="width: 50%; text-align: center; height: 20px;">Désignation</th>
-            <th style="width: 50%; text-align: center; height: 20px;">Quantité Commander</th>
+            <th style="width: 10%; text-align: center; height: 20px;">Désignation</th>
+            <th style="width: 40%; text-align: center; height: 20px;">Quantité Commander</th>
         </tr>
         <?php
         $sql_article = mysql_query("SELECT * FROM article WHERE idmenu = '$idmenu'")or die(mysql_error());
@@ -50,7 +53,10 @@ ob_start();
                 <td style="padding-left: 5px; padding-bottom: 5px; padding-top: 5px; border: solid 1px; width: 50%;">
                     <?php echo $donnee_article['designation']; ?>
                 </td>
-                <td style="padding-left: 5px; padding-bottom: 5px; padding-top: 5px; border: solid 1px; width: 50%; text-align: center;">
+                <td style="padding-left: 5px; padding-bottom: 5px; padding-top: 5px; border: solid 1px; width: 10%; text-align: center;">
+                    <?php echo $donnee_article['designation']; ?>
+                </td>
+                <td style="padding-left: 5px; padding-bottom: 5px; padding-top: 5px; border: solid 1px; width: 40%; text-align: center;">
                     <?php
                     $sql_sum_qte_article = mysql_query("SELECT SUM(qte) FROM article_commande WHERE idarticle = ".$donnee_article['idarticle'])or die(mysql_error());
                     echo mysql_result($sql_sum_qte_article, 0);
@@ -59,6 +65,7 @@ ob_start();
             </tr>
         <?php } ?>
     </table>
+    <?php endwhile; ?>
     <page_footer>
         <div style="text-align: right; font-weight: bold;">
             page [[page_cu]]/[[page_nb]]
