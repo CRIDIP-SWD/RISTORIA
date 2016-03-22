@@ -318,7 +318,7 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
                         <div class="modal-dialog">
                             <div class="modal-content">
                                 <div class="modal-body">
-                                    <img src="../assets/global/img/loading-spinner-grey.gif" alt="" class="loading">
+                                    <i class="fa fa-spinner fa-3x fa-spin loading"></i>
                                     <span> &nbsp;&nbsp;Loading... </span>
                                 </div>
                             </div>
