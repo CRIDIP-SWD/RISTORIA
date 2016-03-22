@@ -54,7 +54,7 @@ ob_start();
                     <?php echo $donnee_article['designation']; ?>
                 </td>
                 <td style="padding-left: 5px; padding-bottom: 5px; padding-top: 5px; border: solid 1px; width: 10%; text-align: center;">
-                    <?php echo $donnee_article['designation']; ?>
+                    <?= number_format($donnee_article['prix_unitaire'], 2, ',', ' ')." €"; ?>
                 </td>
                 <td style="padding-left: 5px; padding-bottom: 5px; padding-top: 5px; border: solid 1px; width: 40%; text-align: center;">
                     <?php
