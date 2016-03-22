@@ -3,6 +3,7 @@
 $idarticle = $_GET['idarticle'];
 $sql_article = mysql_query("SELECT * FROM article WHERE idarticle = '$idarticle'")or die(mysql_error());
 $article = mysql_fetch_array($sql_article);
+$idmenu = $article['idmenu']
 ?>
 <?php
 define("TITLE_PAGE", "MENU");
@@ -132,6 +133,7 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
                 <!-- Example Content -->
                 <form class="form-horizontal form-bordered" action="<?php echo SITE,FOLDER; ?>inc/control/menu.php" method="post">
                     <input type="hidden" name="idarticle" value="<?= $idarticle; ?>" />
+                    <input type="hidden" name="idmenu" value="<?= $idmenu; ?>" />
 
                     <div class="form-group">
                         <label class="col-md-3 control-label" for="example-text-input">Designation de l'article</label>

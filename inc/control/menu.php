@@ -83,7 +83,20 @@ if (isset($_POST['add-article-control']) && $_POST['add-article-control'] == 'Va
 <?php
 if(isset($_POST['action']) && $_POST['action'] == 'edit-article')
 {
+    $idarticle = $_POST['idarticle'];
+    $idmenu = $_POST['idmenu'];
+    $designation = htmlentities(addslashes($_POST['designation']));
+    $description = htmlentities(addslashes($_POST['description']));
+    $prix_unitaire = $_POST['prix_unitaire'];
+
+    $sql_edit = mysql_query("UPDATE article SET designation = '$designation', description = '$description', prix_unitaire = '$prix_unitaire' WHERE idarticle = '$idarticle'")or die(mysql_error());
     
+    if($sql_edit == TRUE){
+        header("Location: ../../module/admin/menu/view.php?idmenu=$idmenu");
+    }else{
+        var_dump($sql_edit);
+        die("ERREUR: Contactez l'administrateur en lui envoyant l'inscription ci-dessus !");
+    }
 }
 ?>
 <?php
