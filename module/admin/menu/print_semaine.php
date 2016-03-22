@@ -41,7 +41,7 @@ ob_start();
     <table cellspacing="0" style="width: 100%; border: solid 2px; border-radius: 10px 10px 10px 10px;">
         <tr>
             <th style="width: 50%; text-align: center; height: 20px;">Désignation</th>
-            <th style="width: 10%; text-align: center; height: 20px;">Désignation</th>
+            <th style="width: 10%; text-align: center; height: 20px;">Tarif Unitaire</th>
             <th style="width: 40%; text-align: center; height: 20px;">Quantité Commander</th>
         </tr>
         <?php
