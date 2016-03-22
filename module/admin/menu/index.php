@@ -294,15 +294,13 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
                                     <form class="form-bordered form-horizontal" action="<?php echo SITE, FOLDER; ?>module/admin/menu/print_semaine.php" method="POST">
 
                                         <div class="form-group">
-                                            <label class="col-md-3 control-label" for="example-text-input">Date de Début</label>
+                                            <label class="col-md-3 control-label" for="example-text-input">Période:</label>
                                             <div class="col-md-9">
-                                                <input type="text" id="example-text-input" name="date_debut" class="form-control" placeholder="dd-mm-yyyy" required>
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <label class="col-md-3 control-label" for="example-text-input">Date de Début</label>
-                                            <div class="col-md-9">
-                                                <input type="text" id="example-text-input" name="date_debut" class="form-control" placeholder="dd-mm-yyyy" required>
+                                                <div class="input-group input-daterange" data-date-format="dd-mm-yyyy">
+                                                    <input type="text" id="example-daterange1" name="date_debut" class="form-control text-center" placeholder="De">
+                                                    <span class="input-group-addon"><i class="fa fa-angle-right"></i></span>
+                                                    <input type="text" id="example-daterange2" name="date_fin" class="form-control text-center" placeholder="Au">
+                                                </div>
                                             </div>
                                         </div>
 
