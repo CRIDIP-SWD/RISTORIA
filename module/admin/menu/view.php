@@ -219,7 +219,7 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
                                         </td>
                                         <td class="pull-right">
                                             <a class="btn btn-danger btn-xs" href="<?php echo SITE,FOLDER; ?>inc/control/menu.php?idarticle=<?php echo $donnee_article['idarticle']; ?>&idmenu=<?php echo $idmenu; ?>&supp-article-control=Valider"><i class="fa fa-times-circle-o"></i></a>
-                                            <a class="btn btn-info btn-xs" href="ajax/edit_article.php?idarticle=<?= $donnee_article['idarticle']; ?>" data-toggle="modal" data-target="#edit-article"><i class="fa fa-edit"></i></a>
+                                            <a class="btn btn-info btn-xs" href="edit.php?idarticle=<?= $donnee_article['idarticle']; ?>"><i class="fa fa-edit"></i></a>
                                         </td>
                                     </tr>
 
