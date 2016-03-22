@@ -146,6 +146,10 @@ body {
     border-top: 1px solid #dbe1e8;
 }
 
+#page-content{
+    background: url('../img/placeholders/photos/nourriture.jpg') no-repeat;
+}
+
 /* Fixed Header */
 #page-container.header-fixed-top {
     padding: 50px 0 0;
