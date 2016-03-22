@@ -81,22 +81,22 @@ var FormsValidation = function() {
                         required: 'Please enter a username',
                         minlength: 'Your username must consist of at least 3 characters'
                     },
-                    val_email: 'Entrez une adresse mail valide',
+                    val_email: 'Please enter a valid email address',
                     val_password: {
-                        required: 'Mot de passe requis',
-                        minlength: 'Le mot de pass doit faire au minimum 5 caractères.'
+                        required: 'Please provide a password',
+                        minlength: 'Your password must be at least 5 characters long'
                     },
                     val_confirm_password: {
-                        required: 'Mot de passe Requis',
-                        minlength: 'Le mot de pass doit faire au minimum 5 caractères.',
-                        equalTo: 'Mot de passe ne correspond pas au mot de passe entrer précédement'
+                        required: 'Please provide a password',
+                        minlength: 'Your password must be at least 5 characters long',
+                        equalTo: 'Please enter the same password as above'
                     },
                     val_bio: 'Don\'t be shy, share something with us :-)',
                     val_skill: 'Please select a skill!',
                     val_website: 'Please enter your website!',
                     val_credit_card: 'Please enter a valid credit card! Try 446-667-651!',
                     val_digits: 'Please enter only digits!',
-                    val_number: 'Format Invalide, ex: 1.30',
+                    val_number: 'Please enter a number!',
                     val_range: 'Please enter a number between 1 and 1000!',
                     val_terms: 'You must agree to the service terms!'
                 }
@@ -108,8 +108,8 @@ var FormsValidation = function() {
             // * - Represents an alphanumeric character (A-Z,a-z,0-9)
             $('#masked_date').mask('99/99/9999');
             $('#masked_date2').mask('99-99-9999');
-            $('#masked_phone').mask('99.99.99.99.99');
-            $('#masked_phone_ext').mask('(+99)9.99.99.99.99');
+            $('#masked_phone').mask('(999) 999-9999');
+            $('#masked_phone_ext').mask('(999) 999-9999? x99999');
             $('#masked_taxid').mask('99-9999999');
             $('#masked_ssn').mask('999-99-9999');
             $('#masked_pkey').mask('a*-999-a999');

@@ -283,20 +283,26 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
                             </div>
                         </div>
                     </div>
-                    <div id="add-menu" class="modal" tabindex="-1" role="dialog" aria-hidden="true">
+                    <div id="print_semaine" class="modal" tabindex="-1" role="dialog" aria-hidden="true">
                         <div class="modal-dialog">
                             <div class="modal-content">
                                 <div class="modal-header">
                                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                                    <h3 class="modal-title">Nouveau Menu</h3>
+                                    <h3 class="modal-title">Impression des menus par semaine</h3>
                                 </div>
                                 <div class="modal-body">
                                     <form class="form-bordered form-horizontal" action="<?php echo SITE, FOLDER; ?>module/admin/menu/print_semaine.php" method="POST">
 
                                         <div class="form-group">
-                                            <label class="col-md-3 control-label" for="example-text-input">Date du Menu</label>
+                                            <label class="col-md-3 control-label" for="example-text-input">Date de Début</label>
                                             <div class="col-md-9">
-                                                <input type="text" id="example-text-input" name="date_menu" class="form-control" placeholder="dd-mm-yyyy" required>
+                                                <input type="text" id="example-text-input" name="date_debut" class="form-control" placeholder="dd-mm-yyyy" required>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="col-md-3 control-label" for="example-text-input">Date de Début</label>
+                                            <div class="col-md-9">
+                                                <input type="text" id="example-text-input" name="date_debut" class="form-control" placeholder="dd-mm-yyyy" required>
                                             </div>
                                         </div>
 

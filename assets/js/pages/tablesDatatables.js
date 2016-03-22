@@ -13,20 +13,13 @@ var TablesDatatables = function() {
 
             /* Initialize Datatables */
             $('#example-datatable').dataTable({
-                "aoColumnDefs": [ { "bSortable": false, "aTargets": [ 1, 2 ] } ],
-                "iDisplayLength": 10,
-                "aLengthMenu": [[10, 20, 30, -1], [10, 20, 30, "All"]]
-            });
-            /* Initialize Datatables */
-            $('#user').dataTable({
-                "aoColumnDefs": [ { "bSortable": false, "aTargets": [ 1, 2 ] } ],
-                "iDisplayLength": 10,
-                "aLengthMenu": [[10, 20, 30, -1], [10, 20, 30, "All"]]
+                columnDefs: [ { orderable: false, targets: [ 1, 5 ] } ],
+                pageLength: 10,
+                lengthMenu: [[10, 20, 30, -1], [10, 20, 30, 'All']]
             });
 
             /* Add placeholder attribute to the search input */
-            $('.dataTables_filter input').attr('placeholder', 'Rechercher');
+            $('.dataTables_filter input').attr('placeholder', 'Search');
         }
-
     };
 }();
