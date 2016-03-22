@@ -80,7 +80,12 @@ if (isset($_POST['add-article-control']) && $_POST['add-article-control'] == 'Va
 }
 
 ?>
-
+<?php
+if(isset($_POST['action']) && $_POST['action'] == 'edit-article')
+{
+    
+}
+?>
 <?php
 //Suppression du Menu
 if (isset($_GET['supp-article-control']) && $_GET['supp-article-control'] == 'Valider') {
