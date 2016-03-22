@@ -193,6 +193,7 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
                             <div class="pull-right">
                                 <a href="#add-menu" data-toggle="modal" class="btn btn-success"><i class="fa fa-plus-circle"></i> Nouveau Menu</a>
                                 <a href="#print_semaine" data-toggle="modal" class="btn btn-primary"><i class="fa fa-print"></i> Imprimer les menus</a>
+                                <a href="ajax/test.html" rel="modal:open" class="btn btn-primary"><i class="fa fa-plus"></i> Test</a>
                             </div>
                         </div>
 
