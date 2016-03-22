@@ -1,10 +1,11 @@
 <?php
 include('../../../inc/config.php');
 include('../../../inc/db.conf.php');
+$date_debut = strtotime($_POST['date_debut']);
+$date_fin = strtotime($_POST['date_fin']);
 $sql_import_centre = mysql_query("SELECT * FROM setting WHERE idsetting = 1")or die(mysql_error());
 $import_centre = mysql_fetch_array($sql_import_centre);
-$idmenu = $_GET['idmenu'];
-$sql_menu = mysql_query("SELECT * FROM menu WHERE idmenu = '$idmenu'")or die(mysql_error());
+$sql_menu = mysql_query("SELECT * FROM menu WHERE date_menu >= '$date_debut' AND date_menu <= '$date_fin'")or die(mysql_error());
 $donnee_menu = mysql_fetch_array($sql_menu);
 
 
@@ -28,7 +29,7 @@ ob_start();
                 </p>
             </td>
             <td style="text-align: right; width: 50%; position: relative; top: -50px; font-size: 35px; font-weight: bolder; color: grey;">
-                RECAPITULATIF DES ARTICLES DE LA SEMAINE <?php echo $donnee_menu['semaine']; ?>
+                RECAPITULATIF DES ARTICLES COMMANDER DU <?= date("d-m-Y", $date_debut); ?> AU <?= date("d-m-Y", $date_fin); ?>
             </td>
         </tr>
     </table>
