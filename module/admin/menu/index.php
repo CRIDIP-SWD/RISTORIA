@@ -296,7 +296,7 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
                                         <div class="form-group">
                                             <label class="col-md-3 control-label" for="example-text-input">Période:</label>
                                             <div class="col-md-9">
-                                                <div class="input-group input-daterange" data-date-format="dd-mm-yyyy">
+                                                <div class="input-group input-daterange" data-date-format="dd-mm-yyyy" data-lang="fr">
                                                     <input type="text" id="example-daterange1" name="date_debut" class="form-control text-center" placeholder="De">
                                                     <span class="input-group-addon"><i class="fa fa-angle-right"></i></span>
                                                     <input type="text" id="example-daterange2" name="date_fin" class="form-control text-center" placeholder="Au">
