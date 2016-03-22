@@ -81,7 +81,7 @@ if (isset($_POST['add-article-control']) && $_POST['add-article-control'] == 'Va
 
 ?>
 <?php
-if(isset($_POST['action']) && $_POST['action'] == 'edit-article')
+if(isset($_POST['action']) && $_POST['action'] == 'edit_article')
 {
     $idarticle = $_POST['idarticle'];
     $idmenu = $_POST['idmenu'];
