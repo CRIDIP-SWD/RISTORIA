@@ -148,8 +148,8 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
                     </div>
 
                     <div class="form-group">
-                        <label class="col-md-4 control-label" for="val_number">Prix Unitaire</label>
-                        <div class="col-md-6">
+                        <label class="col-md-3 control-label" for="val_number">Prix Unitaire</label>
+                        <div class="col-md-3">
                             <div class="input-group">
                                 <input type="text" id="val_number" name="prix_unitaire" class="form-control" value="<?= $article['prix_unitaire']; ?>">
                             </div>
