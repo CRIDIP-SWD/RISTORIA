@@ -6,9 +6,9 @@ $date_fin = strtotime($_POST['date_fin']);
 $sql_import_centre = mysql_query("SELECT * FROM setting WHERE idsetting = 1")or die(mysql_error());
 $import_centre = mysql_fetch_array($sql_import_centre);
 $sql_commande = mysql_query("SELECT * FROM commande, utilisateur WHERE commande.iduser = utilisateur.iduser AND date_commande >= '$date_debut' AND date_commande <= '$date_fin'")or die(mysql_error());
-ob_start();
 while($commande = mysql_fetch_array($sql_commande)):
     $idcommande = $commande['idcommande'];
+ob_start();
 ?>
         <html>
         <head>
@@ -87,9 +87,8 @@ while($commande = mysql_fetch_array($sql_commande)):
         </body>
         </html>
 <?php
-endwhile;
 $content = ob_get_clean();
-
+endwhile;
 // convert in PDF
 require_once('../../inc/control/pdf/html2pdf.class.php');
 try
