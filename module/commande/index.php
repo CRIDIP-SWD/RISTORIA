@@ -154,6 +154,7 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
                             <h2>Liste de vos commandes</h2>
                             <div class="pull-right">
                                 <a href="#add-commande" data-toggle="modal" class="btn btn-info"><i class="fa fa-plus-circle"></i> Nouvelle commande</a>
+                                <a href="#print_semaine" data-toggle="modal" class="btn btn-primary"><i class="fa fa-print"></i> Imprimer les menus</a>
                             </div>
                         </div>
                         <!-- END Example Title -->
@@ -259,7 +260,36 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
                         </div>
                     </div>
                 </div>
+                <div id="print_semaine" class="modal" tabindex="-1" role="dialog" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                <h3 class="modal-title">Impression des Commandes par semaine</h3>
+                            </div>
+                            <div class="modal-body">
+                                <form class="form-bordered form-horizontal" action="<?php echo SITE, FOLDER; ?>module/commande/print_semaine.php" method="POST">
 
+                                    <div class="form-group">
+                                        <label class="col-md-3 control-label" for="example-text-input">Période:</label>
+                                        <div class="col-md-9">
+                                            <div class="input-group input-daterange" data-date-format="dd-mm-yyyy" data-lang="fr">
+                                                <input type="text" id="example-daterange1" name="date_debut" class="form-control text-center" placeholder="De">
+                                                <span class="input-group-addon"><i class="fa fa-angle-right"></i></span>
+                                                <input type="text" id="example-daterange2" name="date_fin" class="form-control text-center" placeholder="Au">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group form-actions text-center">
+                                        <button type="submit" class="btn btn-success"><i class="fa fa-check-circle-o"></i> Valider </button>
+                                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times-circle-o"></i> Fermer la boite de dialogue </button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <!-- END Page Content -->
 
                 <?php include ('../../inc/footer.php'); ?>
