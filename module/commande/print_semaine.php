@@ -1,6 +1,6 @@
 <?php
-include('../../../inc/config.php');
-include('../../../inc/db.conf.php');
+include('../../inc/config.php');
+include('../../inc/db.conf.php');
 $date_debut = strtotime($_POST['date_debut']);
 $date_fin = strtotime($_POST['date_fin']);
 $sql_import_centre = mysql_query("SELECT * FROM setting WHERE idsetting = 1")or die(mysql_error());
