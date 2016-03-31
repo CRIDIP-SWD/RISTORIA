@@ -5,77 +5,91 @@ $date_debut = strtotime($_POST['date_debut']);
 $date_fin = strtotime($_POST['date_fin']);
 $sql_import_centre = mysql_query("SELECT * FROM setting WHERE idsetting = 1")or die(mysql_error());
 $import_centre = mysql_fetch_array($sql_import_centre);
-
+$sql_commande = mysql_query("SELECT * FROM commande, utilisateur WHERE commande.iduser = utilisateur.iduser AND date_commande >= '$date_debut' AND date_commande <= '$date_fin'")or die(mysql_error());
 ob_start();
+while($commande = mysql_fetch_array($sql_commande)):
+    $idcommande = $commande['idcommande'];
 ?>
-    <html>
-    <head>
-        <title></title>
-        <link rel="stylesheet" type="text/css" href="../../../inc/control/pdf/styles/pdf.css">
-    </head>
-    <body>
-    <table style="width: 100%;">
-        <tr>
-            <td style="width: 50%">
-                <div style="font-size: 45px; font-weight: bold;"><?php echo $import_centre['raison_social']; ?></div>
-                <p>
-                    <?php echo $import_centre['adresse']; ?><br>
-                    <?php echo $import_centre['code_postal']; ?> <?php echo $import_centre['ville']; ?><br>
-                    <strong>Téléphone:</strong> <?php echo $import_centre['telephone']; ?><br>
-                    <strong>Adresse Mail:</strong> <?php echo $import_centre['email']; ?>
-                </p>
-            </td>
-            <td style="text-align: right; width: 50%; position: relative; top: -50px; font-size: 35px; font-weight: bolder; color: grey;">
-                RECAPITULATIF DES ARTICLES COMMANDER DU <?= date("d-m-Y", $date_debut); ?> AU <?= date("d-m-Y", $date_fin); ?>
-            </td>
-        </tr>
-    </table>
-
-    <div style="padding-top: 15px; padding-bottom: 15px;"></div>
-    <?php
-    $sql_menu = mysql_query("SELECT * FROM menu WHERE date_menu >= '$date_debut' AND date_menu <= '$date_fin'")or die(mysql_error());
-    while($donnee_menu = mysql_fetch_array($sql_menu)):
-        $idmenu = $donnee_menu['idmenu'];
-    ?>
-        <h2>MENU DU <?= date("d-m-Y", $donnee_menu['date_menu']); ?></h2>
-    <table cellspacing="0" style="width: 100%; border: solid 2px; border-radius: 10px 10px 10px 10px;">
-        <tr>
-            <th style="width: 50%; text-align: center; height: 20px;">Désignation</th>
-            <th style="width: 10%; text-align: center; height: 20px;">Tarif Unitaire</th>
-            <th style="width: 40%; text-align: center; height: 20px;">Quantité Commander</th>
-        </tr>
-        <?php
-        $sql_article = mysql_query("SELECT * FROM article WHERE idmenu = '$idmenu'")or die(mysql_error());
-        while($donnee_article = mysql_fetch_array($sql_article))
-        {
-            ?>
+    <page>
+        <html>
+        <head>
+            <title></title>
+            <link rel="stylesheet" type="text/css" href="../../inc/control/pdf/styles/pdf.css">
+        </head>
+        <body>
+        <table style="width: 100%;">
             <tr>
-                <td style="padding-left: 5px; padding-bottom: 5px; padding-top: 5px; border: solid 1px; width: 50%;">
-                    <?php echo $donnee_article['designation']; ?>
+                <td style="width: 50%">
+                    <div style="font-size: 45px; font-weight: bold;"><?php echo $import_centre['raison_social']; ?></div>
+                    <p>
+                        <?php echo $import_centre['adresse']; ?><br>
+                        <?php echo $import_centre['code_postal']; ?> <?php echo $import_centre['ville']; ?><br>
+                        <strong>Téléphone:</strong> <?php echo $import_centre['telephone']; ?><br>
+                        <strong>Adresse Mail:</strong> <?php echo $import_centre['email']; ?>
+                    </p>
                 </td>
-                <td style="padding-left: 5px; padding-bottom: 5px; padding-top: 5px; border: solid 1px; width: 10%; text-align: center;">
-                    <?= number_format($donnee_article['prix_unitaire'], 2, ',', ' ')." €"; ?>
-                </td>
-                <td style="padding-left: 5px; padding-bottom: 5px; padding-top: 5px; border: solid 1px; width: 40%; text-align: center;">
-                    <?php
-                    $sql_sum_qte_article = mysql_query("SELECT SUM(qte) FROM article_commande WHERE idarticle = ".$donnee_article['idarticle'])or die(mysql_error());
-                    echo mysql_result($sql_sum_qte_article, 0);
-                    ?>
+                <td style="text-align: right; width: 50%; position: relative; top: -50px; font-size: 35px; font-weight: bolder; color: grey;">
+                    COMMANDE
                 </td>
             </tr>
-        <?php } ?>
-    </table>
-    <?php endwhile; ?>
-    <page_footer>
-        <div style="text-align: right; font-weight: bold;">
-            page [[page_cu]]/[[page_nb]]
-        </div>
-    </page_footer>
+        </table>
+
+        <div style="padding-top: 15px; padding-bottom: 15px;"></div>
+        <table style="width:">
+            <tr>
+                <td>
+                    <strong><?php echo $commande['nom_user']; ?> <?php echo $commande['prenom_user']; ?></strong><br>
+                    <strong>Téléphone:</strong> <?php echo $commande['tel_user']; ?><br>
+                    <strong>Email:</strong> <?php echo $commande['login']; ?>
+                </td>
+            </tr>
+
+        </table>
 
 
-    </body>
-    </html>
+        <div style="padding-top: 15px; padding-bottom: 15px;"></div>
+        <div style="font-size: 20px;"><strong>N° de la commande:</strong> <?php echo $commande['num_commande']; ?></div>
+        <div style="font-size: 20px;"><strong>Date de la commande:</strong> <?php echo date("d-m-Y", $commande['date_commande']); ?></div>
+        <div style="padding-top: 15px; padding-bottom: 15px;"></div>
+
+        <table cellspacing="0" style="width: 100%; border: solid 2px; border-radius: 5px 5px 5px 5px;">
+            <tr>
+                <th style="width: 25%; text-align: center; border: solid 1px; height: 25px;">Article</th>
+                <th style="width: 25%; text-align: center; border: solid 1px; height: 25px;">Prix unitaire</th>
+                <th style="width: 25%; text-align: center; border: solid 1px; height: 25px;">Quantité</th>
+                <th style="width: 25%; text-align: center; border: solid 1px; height: 25px;">Prix Total</th>
+            </tr>
+            <?php
+            $sql_article = mysql_query("SELECT * FROM article_commande, article WHERE article_commande.idarticle = article.idarticle AND idcommande = '$idcommande'")or die(mysql_error());
+            while($donnee_article = mysql_fetch_array($sql_article))
+            {
+                ?>
+                <tr>
+                    <td style="width: 25%;padding-left: 5px; border: solid 1px; padding-top: 10px; padding-bottom: 10px;">
+                        <?php echo $donnee_article['designation']; ?>
+                    </td>
+                    <td style="width: 25%;padding-left: 5px; border: solid 1px; padding-top: 10px; padding-bottom: 10px; text-align: right;">
+                        <?php echo number_format($donnee_article['prix_unitaire'], 2, ',', ' ')." €"; ?>
+                    </td>
+                    <td style="width: 25%;text-align: center; border: solid 1px; padding-top: 10px; padding-bottom: 10px; padding-right: 10px;">
+                        <?php echo $donnee_article['qte']; ?>
+                    </td>
+                    <td style="width: 25%;text-align: right; border: solid 1px; padding-top: 10px; padding-bottom: 10px;">
+                        <?php echo number_format($donnee_article['total_ligne'], 2, ',', ' ')." €"; ?>
+                    </td>
+                </tr>
+            <?php } ?>
+            <tr>
+                <td colspan="3" style="text-align: right; font-style: italic; padding-top: 5px; padding-bottom: 5px;">Total à payer</td>
+                <td style="text-align: right; font-weight: bold; font-size: 15px; padding-top: 5px; padding-bottom: 5px;"><?php echo number_format($commande['montant_total'], 2, ',', ' ')." €"; ?></td>
+            </tr>
+        </table>
+
+        </body>
+        </html>
+    </page>
 <?php
+endwhile;
 $content = ob_get_clean();
 
 // convert in PDF

@@ -154,7 +154,7 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
                             <h2>Liste de vos commandes</h2>
                             <div class="pull-right">
                                 <a href="#add-commande" data-toggle="modal" class="btn btn-info"><i class="fa fa-plus-circle"></i> Nouvelle commande</a>
-                                <a href="#print_semaine" data-toggle="modal" class="btn btn-primary"><i class="fa fa-print"></i> Imprimer les menus</a>
+                                <a href="#print_semaine" data-toggle="modal" class="btn btn-primary"><i class="fa fa-print"></i> Imprimer les commandes</a>
                             </div>
                         </div>
                         <!-- END Example Title -->
@@ -309,6 +309,7 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
         <script src="<?php echo SITE,FOLDER,ASSETS; ?>js/vendor/bootstrap.min.js"></script>
         <script src="<?php echo SITE,FOLDER,ASSETS; ?>js/plugins.js"></script>
         <script src="<?php echo SITE,FOLDER,ASSETS; ?>js/app.js"></script>
+        <script src="<?php echo SITE,FOLDER,ASSETS; ?>js/jquery.ui.datepicker-fr.js"></script>
         <script src="<?php echo SITE,FOLDER,ASSETS; ?>js/pages/tablesGeneral.js"></script>
         <script>$(function(){ TablesGeneral.init(); });</script>
     </body>
