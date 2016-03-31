@@ -10,7 +10,6 @@ ob_start();
 while($commande = mysql_fetch_array($sql_commande)):
     $idcommande = $commande['idcommande'];
 ?>
-    <page>
         <html>
         <head>
             <title></title>
@@ -87,7 +86,6 @@ while($commande = mysql_fetch_array($sql_commande)):
 
         </body>
         </html>
-    </page>
 <?php
 endwhile;
 $content = ob_get_clean();
