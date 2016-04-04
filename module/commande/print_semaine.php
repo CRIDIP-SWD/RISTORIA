@@ -8,6 +8,8 @@ $import_centre = mysql_fetch_array($sql_import_centre);
 $sql_commande = mysql_query("SELECT * FROM commande, utilisateur WHERE commande.iduser = utilisateur.iduser AND date_commande >= '$date_debut' AND date_commande <= '$date_fin'")or die(mysql_error());
 while($commande = mysql_fetch_array($sql_commande)):
     $idcommande = $commande['idcommande'];
+    var_dump($commande);
+    die();
 ob_start();
 ?>
         <html>
