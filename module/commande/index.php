@@ -154,7 +154,7 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
                             <h2>Liste de vos commandes</h2>
                             <div class="pull-right">
                                 <a href="#add-commande" data-toggle="modal" class="btn btn-info"><i class="fa fa-plus-circle"></i> Nouvelle commande</a>
-                                <a href="#print_semaine" data-toggle="modal" class="btn btn-primary"><i class="fa fa-print"></i> Imprimer les commandes</a>
+                                <!--<a href="#print_semaine" data-toggle="modal" class="btn btn-primary"><i class="fa fa-print"></i> Imprimer les commandes</a>-->
                             </div>
                         </div>
                         <!-- END Example Title -->
