@@ -376,6 +376,13 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
                                         </div>
                                     </div>
 
+                                    <div class="form-group">
+                                        <label class="col-md-3 control-label">Qte</label>
+                                        <div class="col-md-3">
+                                            <input type="text" class="form-control" name="qte" />
+                                        </div>
+                                    </div>
+
 
                                     <div class="form-group form-actions">
                                         <div class="pull-left">

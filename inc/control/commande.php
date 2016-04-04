@@ -57,6 +57,7 @@ if(isset($_POST['add-article-control']) && $_POST['add-article-control'] == 'Val
 {
     $idcommande = $_POST['idcommande'];
     $idarticle = $_POST['idarticle'];
+    $qte = $_POST['qte'];
 
     //Import base commande & Article
     $sql_import_commande = mysql_query("SELECT * FROM commande WHERE idcommande = '$idcommande'")or die(mysql_error());
@@ -67,8 +68,10 @@ if(isset($_POST['add-article-control']) && $_POST['add-article-control'] == 'Val
     $import_article = mysql_fetch_array($sql_import_article);
     $prix_unitaire = $import_article['prix_unitaire'];
 
+    $calc_ligne = $prix_unitaire*$qte;
+
     //Calcul du nouveau montant
-    $calc_nouv_total = $montant_total+$prix_unitaire;
+    $calc_nouv_total = $montant_total+$calc_ligne;
 
     //Update commande
     $sql_up_commande = mysql_query("UPDATE commande SET montant_total = '$calc_nouv_total' WHERE idcommande = '$idcommande'")or die(mysql_error());
@@ -76,7 +79,7 @@ if(isset($_POST['add-article-control']) && $_POST['add-article-control'] == 'Val
     //Ajout de l'article
 
     $sql_add_article = mysql_query("INSERT INTO `article_commande`(`idarticlecommande`, `idcommande`, `idarticle`, `qte`, `total_ligne`)
-                        VALUES (NULL,'$idcommande','$idarticle','1','$prix_unitaire')")or die(mysql_error());
+                        VALUES (NULL,'$idcommande','$idarticle','$qte','$calc_ligne')")or die(mysql_error());
 
     if($sql_add_article == TRUE)
     {
