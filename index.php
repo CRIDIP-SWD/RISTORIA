@@ -155,7 +155,7 @@
         <!--[if IE 8]><script src="js/helpers/excanvas.min.js"></script><![endif]-->
 
         <!-- Include Jquery library from Google's CDN but if something goes wrong get Jquery from local file (Remove 'http:' if you have SSL) -->
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <script>!window.jQuery && document.write(decodeURI('%3Cscript src="js/vendor/jquery-1.11.1.min.js"%3E%3C/script%3E'));</script>
 
         <!-- Bootstrap.js, Jquery plugins and Custom JS code -->
@@ -164,7 +164,7 @@
         <script src="<?php echo SITE,FOLDER,ASSETS; ?>js/app.js"></script>
 
         <!-- Google Maps API + Gmaps Plugin, must be loaded in the page you would like to use maps (Remove 'http:' if you have SSL) -->
-        <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+        <script src="https://maps.google.com/maps/api/js?sensor=true"></script>
         <script src="<?php echo SITE,FOLDER,ASSETS; ?>js/helpers/gmaps.min.js"></script>
 
         <!-- Load and execute javascript code used only in this page -->
