@@ -220,7 +220,7 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
                                         <td class="pull-right">
                                             <a class="btn btn-default btn-xs" href="view.php?idmenu=<?php echo $donnee_menu['idmenu']; ?>"><i class="fa fa-eye"></i></a>
                                             <a class="btn btn-info btn-xs" href="#modif-menu" data-toggle="modal"><i class="fa fa-edit"></i></a>
-                                            <a class="btn btn-danger btn-xs" href="<?php echo SITE, FOLDER; ?>inc/control/menu.php?idmenu=1&supp-menu-control=Valider"><i class="fa fa-times"></i></a>
+                                            <a class="btn btn-danger btn-xs" href="<?php echo SITE, FOLDER; ?>inc/control/menu.php?idmenu=<?php echo $donnee_menu['idmenu']; ?>&supp-menu-control=Valider"><i class="fa fa-times"></i></a>
                                         </td>
                                     </tr>
                                     <div id="modif-menu" class="modal" tabindex="-1" role="dialog" aria-hidden="true">
