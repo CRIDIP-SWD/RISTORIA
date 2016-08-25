@@ -235,9 +235,9 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
 
                                                         <input type="hidden" name="idmenu" value="<?php echo $donnee_menu['idmenu']; ?>" />
                                                         <div class="form-group">
-                                                            <label class="col-md-3 control-label" for="example-text-input">N° de la semaine</label>
+                                                            <label class="col-md-3 control-label" for="example-text-input">Date du menu</label>
                                                             <div class="col-md-9">
-                                                                <input type="text" id="example-text-input" name="semaine" class="form-control" Value="<?php echo $donnee_menu['semaine']; ?>">
+                                                                <input type="text" id="example-text-input" name="date_menu" class="form-control" placeholder="dd-mm-yyyy" Value="<?php echo $donnee_menu['date_menu']; ?>">
                                                             </div>
                                                         </div>
 
