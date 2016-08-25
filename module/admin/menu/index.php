@@ -237,7 +237,7 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
                                                         <div class="form-group">
                                                             <label class="col-md-3 control-label" for="example-text-input">Date du menu</label>
                                                             <div class="col-md-9">
-                                                                <input type="text" id="example-text-input" name="date_menu" class="form-control" placeholder="dd-mm-yyyy" Value="<?php echo $donnee_menu['date_menu']; ?>">
+                                                                <input type="text" id="example-text-input" name="date_menu" class="form-control" placeholder="dd-mm-yyyy" Value="<?php echo date('d-m-Y',$donnee_menu['date_menu']); ?>">
                                                             </div>
                                                         </div>
 
