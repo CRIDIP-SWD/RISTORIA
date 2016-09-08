@@ -44,6 +44,14 @@
                             <li>
                                 <a href="<?php echo SITE,FOLDER; ?>module/commande/index.php?iduser=<?php echo $iduser; ?>"><i class="gi gi-stopwatch sidebar-nav-icon"></i>Liste des Commandes</a>
                             </li>
+                            <li class="sidebar-header">
+                                <span class="sidebar-header-options clearfix">
+                                </span>
+                                <span class="sidebar-header-title">MON COMPTE</span>
+                            </li>
+                            <li>
+                                <a href="<?php echo SITE,FOLDER; ?>module/commande/mdp.php?iduser=<?php echo $iduser; ?>"><i class="gi gi-keys sidebar-nav-icon"></i>Modifier mon mot de passe</a>
+                            </li>
                         </ul>
                         <?php } ?>
                         <?php

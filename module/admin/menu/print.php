@@ -37,8 +37,9 @@ ob_start();
 
     <table cellspacing="0" style="width: 100%; border: solid 2px; border-radius: 10px 10px 10px 10px;">
         <tr>
-            <th style="width: 50%; text-align: center; height: 20px;">Désignation</th>
-            <th style="width: 50%; text-align: center; height: 20px;">Quantité Commander</th>
+            <th style="width: 33%; text-align: center; height: 20px;">Désignation</th>
+            <th style="width: 33%; text-align: center; height: 20px;">Quantité Commander</th>
+            <th style="width: 33%; text-align: center; height: 20px;">Nom du salarié</th>
         </tr>
         <?php
         $sql_article = mysql_query("SELECT * FROM article WHERE idmenu = '$idmenu'")or die(mysql_error());

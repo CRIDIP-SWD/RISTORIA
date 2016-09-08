@@ -377,9 +377,9 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
                                     </div>
 
                                     <div class="form-group">
-                                        <label class="col-md-3 control-label">Qte</label>
+                                        <label class="col-md-3 control-label">Qte <span class="text-danger">*</span></label>
                                         <div class="col-md-3">
-                                            <input type="text" class="form-control" name="qte" />
+                                            <input type="text" class="form-control" name="qte" required/>
                                         </div>
                                     </div>
 
