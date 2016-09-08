@@ -146,6 +146,8 @@ if(isset($_POST['action']) && $_POST['action'] == 'edit-password'){
         if($sql_update == TRUE){
             header("Location: ../../module/commande/mdp.php?iduser=$iduser&edit-password=true");
         }else{
+            var_dump($sql_update);
+            die();
             header("Location: ../../module/commande/mdp.php?iduser=$iduser&edit-password=false");
         }
     }else{
