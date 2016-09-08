@@ -131,7 +131,7 @@ if(isset($_GET['action']) && $_GET['action'] == 'valider_commande')
 ?>
 
 <?php
-if(isset($_POST['action']) && $_POST['action'] == 'edit-pasword'){
+if(isset($_POST['action']) && $_POST['action'] == 'edit-password'){
     $old_password = $_POST['old_password'];
     $new_password = $_POST['new_password'];
     $iduser = $_POST['iduser'];
