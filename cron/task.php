@@ -13,7 +13,7 @@ $menu = mysql_fetch_array($sql_menu);
 $idmenu = $menu['idmenu'];
 
 $sql_commande = mysql_query("SELECT * FROM commande WHERE idmenu = '$idmenu' AND etat_commande = 0")or die(mysql_error());
-foreach ($sql_commande as $commande){
+while (mysql_fetch_array($sql_commande)){
     $sql_update = mysql_query("UPDATE commande SET etat_commande = 1 WHERE idcommande = ".$commande['idcommande'])or die(mysql_error());
 }
 
