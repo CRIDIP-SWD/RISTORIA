@@ -1,6 +1,6 @@
 <?php
-require_once "../inc/config.php";
-require_once "../inc/db.conf.php";
+require_once dirname(__DIR__)."/inc/config.php";
+require_once dirname(__DIR__)."/inc/db.conf.php";
 
 /**
  * TACHE CRON pour Valider automatique les commandes le vendredi à 00h00
