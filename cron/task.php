@@ -7,5 +7,13 @@ require_once "../inc/db.conf.php";
  */
 
 $semaine = date("W");
-var_dump($semaine);
-die();
+
+$sql_menu = mysql_query("SELECT * FROM menu WHERE semaine = '$semaine'")or die(mysql_error());
+$menu = mysql_fetch_array($sql_menu);
+$idmenu = $menu['idmenu'];
+
+$sql_commande = mysql_query("SELECT * FROM commande WHERE idmenu = '$idmenu' AND etat_commande = 0")or die(mysql_error());
+foreach ($sql_commande as $commande){
+    $sql_update = mysql_query("UPDATE commande SET etat_commande = 1 WHERE idcommande = ".$commande['idcommande']);
+}
+
