@@ -180,7 +180,7 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
                         </div>
                     <?php } ?>
                     <?php
-                    if(isset($_GET['supp-article']) && $_GET['valider_commande'] == 'true')
+                    if(isset($_GET['valider_commande']) && $_GET['valider_commande'] == 'true')
                     {
                         ?>
                         <div class="alert alert-success alert-dismissable">
@@ -189,7 +189,7 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
                         </div>
                     <?php } ?>
                     <?php
-                    if(isset($_GET['supp-article']) && $_GET['valider_commande'] == 'false')
+                    if(isset($_GET['valider_commande']) && $_GET['valider_commande'] == 'false')
                     {
                         ?>
                         <div class="alert alert-danger alert-dismissable">
