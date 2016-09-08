@@ -9,4 +9,3 @@ require_once "../inc/db.conf.php";
 $semaine = date("W");
 var_dump($semaine);
 die();
-$sql_menu = mysql_query("SELECT * FROM menu ")
