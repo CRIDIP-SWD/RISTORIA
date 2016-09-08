@@ -142,7 +142,7 @@ if(isset($_POST['action']) && $_POST['action'] == 'edit-password'){
     $user = mysql_fetch_array($sql_user);
 
     if($user['pass_md5'] == $en_old_password){
-        $sql_update = mysql_query("UPDATE utilisateur SET pass_md5 = $en_new_password, pass_clear = $new_password WHERE iduser = $iduser")or die (mysql_error());
+        $sql_update = mysql_query("UPDATE utilisateur SET pass_md5 = '$en_new_password', pass_clear = '$new_password' WHERE iduser = '$iduser'")or die (mysql_error());
         if($sql_update == TRUE){
             header("Location: ../../module/commande/mdp.php?iduser=$iduser&edit-password=true");
         }else{
