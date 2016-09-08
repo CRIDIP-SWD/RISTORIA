@@ -97,11 +97,16 @@ if(isset($_GET['supp-article-control']) && $_GET['supp-article-control'] == 'Val
 {
     $idarticlecommande = $_GET['idarticlecommande'];
     $idcommande = $_GET['idcommande'];
+    $qte = $_GET['qte'];
     $montant_total = $_GET['montant_total'];
     $prix_unitaire = $_GET['prix_unitaire'];
 
     //Calcul du nouveau total de commande
-    $calc_nouv_total = $montant_total-$prix_unitaire;
+    if(!empty($qte)){
+        $calc_nouv_total = $montant_total-$prix_unitaire;
+    }else{
+        $calc_nouv_total = $montant_total;
+    }
 
     $sql_up_commande = mysql_query("UPDATE commande SET montant_total='$calc_nouv_total' WHERE idcommande = '$idcommande'")or die(mysql_error());
 

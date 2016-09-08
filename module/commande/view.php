@@ -293,7 +293,7 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
                                         <td><?php echo number_format($donnee_article['total_ligne'], 2, ',', ' ')." €"; ?></td>
                                         <td>
                                             <?php if($donnee_commande['etat_commande'] == 0): ?>
-                                                <a class="btn btn-danger btn-xs" href="<?php echo SITE,FOLDER; ?>inc/control/commande.php?idarticlecommande=<?php echo $donnee_article['idarticlecommande']; ?>&idcommande=<?php echo $idcommande; ?>&montant_total=<?php echo $donnee_commande['montant_total']; ?>&prix_unitaire=<?php echo $donnee_article['prix_unitaire']; ?>&supp-article-control=Valider"><i class="fa fa-times-circle-o"></i></a>
+                                                <a class="btn btn-danger btn-xs" href="<?php echo SITE,FOLDER; ?>inc/control/commande.php?idarticlecommande=<?php echo $donnee_article['idarticlecommande']; ?>&idcommande=<?php echo $idcommande; ?>&montant_total=<?php echo $donnee_commande['montant_total']; ?>&prix_unitaire=<?php echo $donnee_article['prix_unitaire']; ?>&qte=<?= $donnee_article['qte']; ?>&supp-article-control=Valider"><i class="fa fa-times-circle-o"></i></a>
                                             <?php endif; ?>
                                         </td>
                                     </tr>
