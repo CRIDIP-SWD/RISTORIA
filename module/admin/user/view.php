@@ -106,6 +106,7 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
                         </div>
                         <div class="pull-right">
                             <a href="index.php" class="btn btn-primary"><i class="fa fa-arrow-left"></i> Retour à la liste des utilisateurs</a>
+                            <a href="#print-commande" data-toggle="modal" class="btn btn-warning"><i class="fa fa-print"></i> Impression de commande</a>
                             <a href="#modif-user" data-toggle="modal" class="btn btn-info"><i class="gi gi-edit"></i> Modifier l'utilisateur</a>
                         </div>
                     </div>
