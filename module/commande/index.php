@@ -205,7 +205,9 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
                                         </td>
                                         <td>
                                             <a class="btn btn-default btn-xs" href="view.php?idcommande=<?php echo $donnee_commande['idcommande']; ?>"><i class="fa fa-eye"></i></a>
-                                            <a class="btn btn-danger btn-xs" href="<?php echo SITE, FOLDER; ?>inc/control/commande.php?idcommande=<?php echo $donnee_commande['idcommande']; ?>&iduser=<?php echo $donnee_commande['iduser']; ?>&supp-commande-control=Valider"><i class="fa fa-times-circle-o"></i></a>
+                                            <?php if($donnee_commande['etat_commande'] != 1): ?>
+                                                <a class="btn btn-danger btn-xs" href="<?php echo SITE, FOLDER; ?>inc/control/commande.php?idcommande=<?php echo $donnee_commande['idcommande']; ?>&iduser=<?php echo $donnee_commande['iduser']; ?>&supp-commande-control=Valider"><i class="fa fa-times-circle-o"></i></a>
+                                            <?php endif; ?>
                                         </td>
                                     </tr>
                                 <?php
