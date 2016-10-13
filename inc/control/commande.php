@@ -58,9 +58,10 @@ if(isset($_POST['add-article-control']) && $_POST['add-article-control'] == 'Val
     $idcommande = $_POST['idcommande'];
     $idarticle = $_POST['idarticle'];
     $qte = $_POST['qte'];
+    $nom_user = $_POST['nom_user'];
 
     //Import base commande & Article
-    $sql_import_commande = mysql_query("SELECT * FROM commande, utilisateur WHERE commande.iduser = utilisateur.iduser AND idcommande = '$idcommande'")or die(mysql_error());
+    $sql_import_commande = mysql_query("SELECT * FROM commande WHERE  idcommande = '$idcommande'")or die(mysql_error());
     $import_commande = mysql_fetch_array($sql_import_commande);
     $montant_total = $import_commande['montant_total'];
     $nom_salarie = $import_commande['nom_salarie'];

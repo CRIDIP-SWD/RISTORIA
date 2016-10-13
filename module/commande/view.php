@@ -385,6 +385,7 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
 
 
                                     <div class="form-group form-actions">
+                                        <input type="hidden" name="nom_user" value="<?= $donnee_commande['nom_user']; ?>">
                                         <div class="pull-left">
                                             <button type="submit" class="btn btn-success" name="add-article-control" value="Valider"><i class="fa fa-check-circle-o"></i> Valider</button>
                                         </div>
