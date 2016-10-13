@@ -64,7 +64,6 @@ if(isset($_POST['add-article-control']) && $_POST['add-article-control'] == 'Val
     $sql_import_commande = mysql_query("SELECT * FROM commande WHERE  idcommande = '$idcommande'")or die(mysql_error());
     $import_commande = mysql_fetch_array($sql_import_commande);
     $montant_total = $import_commande['montant_total'];
-    $nom_salarie = $import_commande['nom_salarie'];
 
     $sql_import_article = mysql_query("SELECT * FROM article WHERE idarticle = '$idarticle'")or die(mysql_error());
     $import_article = mysql_fetch_array($sql_import_article);
@@ -81,7 +80,7 @@ if(isset($_POST['add-article-control']) && $_POST['add-article-control'] == 'Val
     //Ajout de l'article
 
     $sql_add_article = mysql_query("INSERT INTO `article_commande`(`idarticlecommande`, `idcommande`, `idarticle`, `qte`, `total_ligne`, `nom_salarie`)
-                        VALUES (NULL,'$idcommande','$idarticle','$qte','$calc_ligne', '$nom_salarie')")or die(mysql_error());
+                        VALUES (NULL,'$idcommande','$idarticle','$qte','$calc_ligne', '$nom_user')")or die(mysql_error());
 
     if($sql_add_article == TRUE)
     {
