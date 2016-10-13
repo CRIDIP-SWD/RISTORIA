@@ -42,7 +42,8 @@ ob_start();
         <tr>
             <th style="width: 50%; text-align: center; height: 20px;">Désignation</th>
             <th style="width: 10%; text-align: center; height: 20px;">Tarif Unitaire</th>
-            <th style="width: 40%; text-align: center; height: 20px;">Quantité Commander</th>
+            <th style="width: 10%; text-align: center; height: 20px;">Quantité Commander</th>
+            <th style="width: 30%; text-align: center; height: 20px;">Salarié</th>
         </tr>
         <?php
         $sql_article = mysql_query("SELECT * FROM article WHERE idmenu = '$idmenu'")or die(mysql_error());
@@ -56,11 +57,14 @@ ob_start();
                 <td style="padding-left: 5px; padding-bottom: 5px; padding-top: 5px; border: solid 1px; width: 10%; text-align: center;">
                     <?= number_format($donnee_article['prix_unitaire'], 2, ',', ' ')." €"; ?>
                 </td>
-                <td style="padding-left: 5px; padding-bottom: 5px; padding-top: 5px; border: solid 1px; width: 40%; text-align: center;">
+                <td style="padding-left: 5px; padding-bottom: 5px; padding-top: 5px; border: solid 1px; width: 10%; text-align: center;">
                     <?php
                     $sql_sum_qte_article = mysql_query("SELECT SUM(qte) FROM article_commande WHERE idarticle = ".$donnee_article['idarticle'])or die(mysql_error());
                     echo mysql_result($sql_sum_qte_article, 0);
                     ?>
+                </td>
+                <td style="padding-left: 5px; padding-bottom: 5px; padding-top: 5px; border: solid 1px; width: 10%; text-align: center;">
+
                 </td>
             </tr>
         <?php } ?>
