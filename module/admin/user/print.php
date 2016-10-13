@@ -3,9 +3,9 @@ include('../../../inc/config.php');
 include('../../../inc/db.conf.php');
 $sql_import_centre = mysql_query("SELECT * FROM setting WHERE idsetting = 1")or die(mysql_error());
 $import_centre = mysql_fetch_array($sql_import_centre);
-$iduser = $_GET['iduser'];
-$date_debut = strtotime($_GET['date_debut']);
-$date_fin = strtotime($_GET['date_fin']);
+$iduser = $_POST['iduser'];
+$date_debut = strtotime($_POST['date_debut']);
+$date_fin = strtotime($_POST['date_fin']);
 
 $sql_user = mysql_query("SELECT * FROM utilisateur WHERE iduser = ".$iduser);
 $user = mysql_fetch_array($sql_user);
