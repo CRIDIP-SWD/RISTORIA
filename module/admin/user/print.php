@@ -16,6 +16,7 @@ ob_start();
 $sql_commande = mysql_query("SELECT * FROM commande WHERE date_commande >= $date_debut AND date_commande <= $date_fin AND commande.iduser = $iduser");
 while($commande = mysql_fetch_array($sql_commande)):
     $idcommande = $commande['idcommande'];
+    var_dump($commande);
 ?>
     <page>
         <html>
