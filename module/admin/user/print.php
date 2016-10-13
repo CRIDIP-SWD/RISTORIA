@@ -10,13 +10,7 @@ $date_fin = strtotime($_POST['date_fin']);
 $sql_user = mysql_query("SELECT * FROM utilisateur WHERE iduser = ".$iduser);
 $user = mysql_fetch_array($sql_user);
 
-
-
 ob_start();
-$sql_commande = mysql_query("SELECT * FROM commande WHERE date_commande >= $date_debut AND date_commande <= $date_fin AND commande.iduser = $iduser");
-while($commande = mysql_fetch_array($sql_commande)):
-    $idcommande = $commande['idcommande'];
-    var_dump($commande);
 ?>
     <page>
         <html>
@@ -54,6 +48,11 @@ while($commande = mysql_fetch_array($sql_commande)):
 
         </table>
 
+        <?php
+            $sql_commande = mysql_query("SELECT * FROM commande WHERE date_commande >= $date_debut AND date_commande <= $date_fin AND commande.iduser = $iduser");
+            while($commande = mysql_fetch_array($sql_commande)):
+                $idcommande = $commande['idcommande'];
+        ?>
 
         <div style="padding-top: 15px; padding-bottom: 15px;"></div>
         <div style="font-size: 20px;"><strong>N° de la commande:</strong> <?php echo $commande['num_commande']; ?></div>
@@ -92,12 +91,11 @@ while($commande = mysql_fetch_array($sql_commande)):
                 <td style="text-align: right; font-weight: bold; font-size: 15px; padding-top: 5px; padding-bottom: 5px;"><?php echo number_format($commande['montant_total'], 2, ',', ' ')." €"; ?></td>
             </tr>
         </table>
-
+        <?php endwhile; ?>
         </body>
         </html>
     </page>
 <?php
-endwhile;
 $content = ob_get_clean();
 
 
