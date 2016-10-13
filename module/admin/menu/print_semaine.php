@@ -64,7 +64,12 @@ ob_start();
                     ?>
                 </td>
                 <td style="padding-left: 5px; padding-bottom: 5px; padding-top: 5px; border: solid 1px; width: 10%; text-align: center;">
-
+                    <?php
+                    $sql_article_cmd = mysql_query("SELECT * FROM article_commande WHERE idarticle = ".$donnee_article['idarticle'])or die(mysql_error());
+                    while($article_cmd = mysql_fetch_array($sql_article_cmd)):
+                        ?>
+                        <?= $article_cmd['nom_salarie']; ?> (<?= $article_cmd['qte']; ?>)
+                    <?php endwhile; ?>
                 </td>
             </tr>
         <?php } ?>
