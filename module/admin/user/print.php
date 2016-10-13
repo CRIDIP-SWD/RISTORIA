@@ -93,8 +93,8 @@ ob_start();
     </body>
     </html>
 <?php
-endwhile;
 $content = ob_get_clean();
+endwhile;
 
 // convert in PDF
 require_once('../../../inc/control/pdf/html2pdf.class.php');
