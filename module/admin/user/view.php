@@ -370,6 +370,7 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
                                         </div>
 
                                         <div class="form-group form-actions text-center">
+                                            <input type="hidden" name="iduser" value="<?= $iduser; ?>">
                                             <button type="submit" class="btn btn-success"><i class="fa fa-check-circle-o"></i> Valider </button>
                                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times-circle-o"></i> Fermer la boite de dialogue </button>
                                         </div>
