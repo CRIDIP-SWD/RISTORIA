@@ -43,9 +43,9 @@ if(isset($_GET['supp-commande-control']) && $_GET['supp-commande-control'] == 'V
 
     if($sql_delete_commande == TRUE)
     {
-        header("Location: ../../module/commande/index.php?iduser=$iduser&supp-commande=true");
+        header("Location: ../../module/admin/user/view.php?iduser=$iduser&supp-commande=true");
     }else{
-        header("Location: ../../module/commande/index.php?iduser=$iduser&supp-commande=false");
+        header("Location: ../../module/admin/user/view.php?iduser=$iduser&supp-commande=false");
     }
 }
 
