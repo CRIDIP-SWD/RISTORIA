@@ -242,6 +242,21 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
                                         <input type="hidden" name="idmenu" value="<?php echo $donnee_menu['idmenu']; ?>" />
 
                                         <div class="form-group">
+                                            <label class="control-label col-md-3">Selecteur de désignation</label>
+                                            <div class="col-md-9">
+                                                <select id="example-select2" name="designation" class="select-select2" data-placeholder="Selectionner un article déja existant">
+                                                    <option></option>
+                                                    <?php
+                                                    $sql_article = mysql_query("SELECT * FROM article");
+                                                    while($article = mysql_fetch_array($sql_article)):
+                                                    ?>
+                                                    <option value="<?= $article['designation']; ?>"><?= $article['designation']; ?></option>
+                                                    <?php endwhile; ?>
+                                                </select>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group">
                                             <label class="col-md-3 control-label" for="example-text-input">Designation de l'article</label>
                                             <div class="col-md-9">
                                                 <input type="text" id="example-text-input" name="designation" class="form-control" placeholder="Désignation de l'article">
