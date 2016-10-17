@@ -73,8 +73,6 @@ if (isset($_POST['add-article-control']) && $_POST['add-article-control'] == 'Va
         $designation = htmlentities(addslashes($_POST['designation']));
     }
 
-    var_dump($idmenu, $designation, $description, $prix_unitaire);
-    die();
 
     $sql_add_article = mysql_query("INSERT INTO `article`(`idarticle`, `idmenu`, `designation`, `description`, `prix_unitaire`)
     VALUES (NULL,'$idmenu','$designation','$description','$prix_unitaire')")or die(mysql_error());
