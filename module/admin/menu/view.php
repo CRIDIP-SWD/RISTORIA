@@ -244,7 +244,7 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
                                         <div class="form-group">
                                             <label class="control-label col-md-3">Selecteur de désignation</label>
                                             <div class="col-md-9">
-                                                <select id="example-select2" name="designation" class="select-select2" data-placeholder="Selectionner un article déja existant">
+                                                <select id="example-select2" name="designation_select" class="select-select2" data-placeholder="Selectionner un article déja existant">
                                                     <option></option>
                                                     <?php
                                                     $sql_article = mysql_query("SELECT * FROM article");

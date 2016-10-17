@@ -64,9 +64,14 @@ if (isset($_GET['supp-menu-control']) && $_GET['supp-menu-control'] == 'Valider'
 if (isset($_POST['add-article-control']) && $_POST['add-article-control'] == 'Valider') {
 
     $idmenu = $_POST['idmenu'];
-    $designation = htmlentities(addslashes($_POST['designation']));
     $description = htmlentities(addslashes($_POST['description']));
     $prix_unitaire = $_POST['prix_unitaire'];
+
+    if(empty($_POST['designation'])){
+        $designation = $_POST['designation_select'];
+    }else{
+        $designation = htmlentities(addslashes($_POST['designation']));
+    }
 
     var_dump($idmenu, $designation, $description, $prix_unitaire);
     die();

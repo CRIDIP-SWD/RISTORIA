@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4f6963d-fbd3-4b2a-8030-9176e598d08d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/control/menu.php" afterPath="$PROJECT_DIR$/inc/control/menu.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/admin/menu/view.php" afterPath="$PROJECT_DIR$/module/admin/menu/view.php" />
     </list>
     <list id="abd8df13-1807-42e0-9798-2f2cc9e16a52" name="New changelist" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
@@ -66,14 +66,14 @@
       <file leaf-file-name="view.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/module/admin/menu/view.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="253" column="70" selection-start-line="253" selection-start-column="70" selection-end-line="253" selection-end-column="70" />
+            <state relative-caret-position="180">
+              <caret line="246" column="101" selection-start-line="246" selection-start-column="101" selection-end-line="246" selection-end-column="101" />
               <folding>
-                <marker date="1476701153585" expanded="true" signature="104:147" ph="SELECT * FRO... menu" />
-                <marker date="1476701153585" expanded="true" signature="10881:10927" ph="SELECT * FRO... article" />
-                <marker date="1476701153585" expanded="true" signature="11875:11931" ph="SELECT SUM(q... article_commande" />
-                <marker date="1476701153585" expanded="true" signature="14613:14634" ph="SELECT * FRO... article" />
-                <marker date="1476701153585" expanded="true" signature="15435:15596" ph="..." />
+                <marker date="1476702059884" expanded="true" signature="104:147" ph="SELECT * FRO... menu" />
+                <marker date="1476702059884" expanded="true" signature="10881:10927" ph="SELECT * FRO... article" />
+                <marker date="1476702059884" expanded="true" signature="11875:11931" ph="SELECT SUM(q... article_commande" />
+                <marker date="1476702059884" expanded="true" signature="14620:14641" ph="SELECT * FRO... article" />
+                <marker date="1476702059884" expanded="true" signature="15442:15603" ph="..." />
               </folding>
             </state>
           </provider>
@@ -82,18 +82,18 @@
       <file leaf-file-name="menu.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/inc/control/menu.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="71" column="10" selection-start-line="71" selection-start-column="10" selection-end-line="71" selection-end-column="10" />
+            <state relative-caret-position="216">
+              <caret line="65" column="31" selection-start-line="65" selection-start-column="31" selection-end-line="65" selection-end-column="31" />
               <folding>
                 <element signature="e#59#606#0#PHP" expanded="false" />
                 <element signature="e#641#1221#0#PHP" expanded="false" />
                 <element signature="e#1255#1683#0#PHP" expanded="false" />
-                <marker date="1476702010898" expanded="true" signature="264:371" ph="INSERT INTO `menu`... " />
-                <marker date="1476702010898" expanded="true" signature="885:980" ph="UPDATE `menu... " />
-                <marker date="1476702010898" expanded="true" signature="1406:1445" ph="DELETE FROM " />
-                <marker date="1476702010898" expanded="true" signature="2145:2311" ph="INSERT INTO `article`... " />
-                <marker date="1476702010898" expanded="true" signature="2944:3086" ph="UPDATE artic... " />
-                <marker date="1476702010898" expanded="true" signature="3589:3637" ph="DELETE FROM " />
+                <marker date="1476702120938" expanded="true" signature="264:371" ph="INSERT INTO `menu`... " />
+                <marker date="1476702120938" expanded="true" signature="885:980" ph="UPDATE `menu... " />
+                <marker date="1476702120938" expanded="true" signature="1406:1445" ph="DELETE FROM " />
+                <marker date="1476702120938" expanded="true" signature="2258:2424" ph="INSERT INTO `article`... " />
+                <marker date="1476702120938" expanded="true" signature="3057:3199" ph="UPDATE artic... " />
+                <marker date="1476702120938" expanded="true" signature="3702:3750" ph="DELETE FROM " />
               </folding>
             </state>
           </provider>
@@ -386,7 +386,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1425567824019</updated>
-      <workItem from="1476699073474" duration="1934000" />
+      <workItem from="1476699073474" duration="2047000" />
     </task>
     <task id="LOCAL-00001" summary="RSEY">
       <created>1448615019577</created>
@@ -416,11 +416,18 @@
       <option name="project" value="LOCAL" />
       <updated>1476701190150</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="RSEY">
+      <created>1476702013057</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1476702013057</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1934000" />
+    <option name="totallyTimeSpent" value="2047000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="41" y="24" width="1319" height="744" extended-state="6" />
@@ -829,32 +836,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/module/admin/menu/view.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="253" column="70" selection-start-line="253" selection-start-column="70" selection-end-line="253" selection-end-column="70" />
+        <state relative-caret-position="180">
+          <caret line="246" column="101" selection-start-line="246" selection-start-column="101" selection-end-line="246" selection-end-column="101" />
           <folding>
-            <marker date="1476701153585" expanded="true" signature="104:147" ph="SELECT * FRO... menu" />
-            <marker date="1476701153585" expanded="true" signature="10881:10927" ph="SELECT * FRO... article" />
-            <marker date="1476701153585" expanded="true" signature="11875:11931" ph="SELECT SUM(q... article_commande" />
-            <marker date="1476701153585" expanded="true" signature="14613:14634" ph="SELECT * FRO... article" />
-            <marker date="1476701153585" expanded="true" signature="15435:15596" ph="..." />
+            <marker date="1476702059884" expanded="true" signature="104:147" ph="SELECT * FRO... menu" />
+            <marker date="1476702059884" expanded="true" signature="10881:10927" ph="SELECT * FRO... article" />
+            <marker date="1476702059884" expanded="true" signature="11875:11931" ph="SELECT SUM(q... article_commande" />
+            <marker date="1476702059884" expanded="true" signature="14620:14641" ph="SELECT * FRO... article" />
+            <marker date="1476702059884" expanded="true" signature="15442:15603" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/inc/control/menu.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="71" column="10" selection-start-line="71" selection-start-column="10" selection-end-line="71" selection-end-column="10" />
+        <state relative-caret-position="216">
+          <caret line="65" column="31" selection-start-line="65" selection-start-column="31" selection-end-line="65" selection-end-column="31" />
           <folding>
             <element signature="e#59#606#0#PHP" expanded="false" />
             <element signature="e#641#1221#0#PHP" expanded="false" />
             <element signature="e#1255#1683#0#PHP" expanded="false" />
-            <marker date="1476702010898" expanded="true" signature="264:371" ph="INSERT INTO `menu`... " />
-            <marker date="1476702010898" expanded="true" signature="885:980" ph="UPDATE `menu... " />
-            <marker date="1476702010898" expanded="true" signature="1406:1445" ph="DELETE FROM " />
-            <marker date="1476702010898" expanded="true" signature="2145:2311" ph="INSERT INTO `article`... " />
-            <marker date="1476702010898" expanded="true" signature="2944:3086" ph="UPDATE artic... " />
-            <marker date="1476702010898" expanded="true" signature="3589:3637" ph="DELETE FROM " />
+            <marker date="1476702120938" expanded="true" signature="264:371" ph="INSERT INTO `menu`... " />
+            <marker date="1476702120938" expanded="true" signature="885:980" ph="UPDATE `menu... " />
+            <marker date="1476702120938" expanded="true" signature="1406:1445" ph="DELETE FROM " />
+            <marker date="1476702120938" expanded="true" signature="2258:2424" ph="INSERT INTO `article`... " />
+            <marker date="1476702120938" expanded="true" signature="3057:3199" ph="UPDATE artic... " />
+            <marker date="1476702120938" expanded="true" signature="3702:3750" ph="DELETE FROM " />
           </folding>
         </state>
       </provider>
