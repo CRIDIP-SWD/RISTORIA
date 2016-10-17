@@ -268,7 +268,7 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
                                                 <td><?php echo date("d-m-Y", $donnee_commande['date_commande']); ?></td>
                                                 <td style="text-align: right;"><?php echo number_format($donnee_commande['montant_total'], 2, ',', ' ')." €"; ?></td>
                                                 <td>
-                                                    <a href="<?php echo SITE,FOLDER; ?>inc/control/commande.php?supp-commande-control=valider&iduser=<?php echo $donnee_user['iduser']; ?>&idcommande=<?= $donnee_commande['idcommande']; ?>" class="btn btn-danger"><i class="fa fa-times"></i></a>
+                                                    <a href="<?php echo SITE,FOLDER; ?>inc/control/commande.php?supp-commande-control=Valider&iduser=<?php echo $donnee_user['iduser']; ?>&idcommande=<?= $donnee_commande['idcommande']; ?>" class="btn btn-danger"><i class="fa fa-times"></i></a>
                                                 </td>
                                             </tr>
                                             <?php } ?>                                           
