@@ -253,7 +253,8 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
                                             <tr>
                                                 <th class="text-center">Numéro de la commande</th>
                                                 <th class="text-center">Date de la commande</th>
-                                                <th style="text-align: right;">Montant de la commande</th> 
+                                                <th style="text-align: right;">Montant de la commande</th>
+                                                <th>Action</th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -266,6 +267,9 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
                                                 <td><?php echo $donnee_commande['num_commande']; ?></td>
                                                 <td><?php echo date("d-m-Y", $donnee_commande['date_commande']); ?></td>
                                                 <td style="text-align: right;"><?php echo number_format($donnee_commande['montant_total'], 2, ',', ' ')." €"; ?></td>
+                                                <td>
+                                                    <a href="<?php echo SITE,FOLDER; ?>inc/control/commande.php?supp-commande-control=valider&iduser=<?php echo $donnee_user['iduser']; ?>&idcommande=<?= $donnee_commande['idcommande']; ?>" class="btn btn-danger"><i class="fa fa-times"></i></a>
+                                                </td>
                                             </tr>
                                             <?php } ?>                                           
                                         </tbody>
