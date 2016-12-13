@@ -12,6 +12,11 @@ if(isset($_POST['add-commande-control']) && $_POST['add-commande-control'] == 'V
     $sql_import_menu = mysql_query("SELECT * FROM menu WHERE idmenu = '$idmenu'")or die(mysql_error());
     $import_menu = mysql_fetch_array($sql_import_menu);
     $date_menu = $import_menu['date_menu'];
+    
+    $semaine = date("W", $date_menu);
+    if($semaine >= date("W")){
+        header("Location: ../../module/commande/inde.php?add-commande=warning");   
+    }
 
     $sql_add_commande = mysql_query("INSERT INTO `commande`(`idcommande`, `idmenu`, `num_commande`, `date_commande`, `iduser`, `montant_total`)
 VALUES (NULL,'$idmenu','$num_commande','$date_menu','$iduser','0')")or die(mysql_error());
