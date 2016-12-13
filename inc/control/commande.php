@@ -15,22 +15,22 @@ if(isset($_POST['add-commande-control']) && $_POST['add-commande-control'] == 'V
     
     $semaine = date("W", $date_menu);
     if($semaine >= date("W")){
-        header("Location: ../../module/commande/inde.php?add-commande=warning");   
-    }
-
-    $sql_add_commande = mysql_query("INSERT INTO `commande`(`idcommande`, `idmenu`, `num_commande`, `date_commande`, `iduser`, `montant_total`)
+        header("Location: ../../module/commande/index.php?add-commande=warning");   
+    }else{
+        $sql_add_commande = mysql_query("INSERT INTO `commande`(`idcommande`, `idmenu`, `num_commande`, `date_commande`, `iduser`, `montant_total`)
 VALUES (NULL,'$idmenu','$num_commande','$date_menu','$iduser','0')")or die(mysql_error());
 
-    //Import commande pour redirection
-    $sql_import_commande = mysql_query("SELECT * FROM commande WHERE num_commande = '$num_commande'")or die(mysql_error());
-    $import_commande = mysql_fetch_array($sql_import_commande);
-    $idcommande = $import_commande['idcommande'];
+        //Import commande pour redirection
+        $sql_import_commande = mysql_query("SELECT * FROM commande WHERE num_commande = '$num_commande'")or die(mysql_error());
+        $import_commande = mysql_fetch_array($sql_import_commande);
+        $idcommande = $import_commande['idcommande'];
 
-    if($sql_add_commande == TRUE)
-    {
-        header("Location: ../../module/commande/view.php?idcommande=$idcommande");
-    }else{
-        header("Location: ../../module/commande/inde.php?add-commande=false");
+        if($sql_add_commande == TRUE)
+        {
+            header("Location: ../../module/commande/view.php?idcommande=$idcommande");
+        }else{
+            header("Location: ../../module/commande/inde.php?add-commande=false");
+        }   
     }
 
 }
