@@ -125,6 +125,17 @@ $li_end = "<li><a href='#'>".TITLE_PAGE."</a></li>";
                     <?php
                     }
                     ?>
+                    
+                    <?php if(isset($_GET['add-commande']) && $_GET['add-commande'] == 'warning')
+                    {
+                        ?>
+                        <div class="alert alert-warning alert-dismissable">
+                            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                            <h4><i class="fa fa-warning"></i> Attention</h4> Il est impossible de commander un menu à la date actuel.
+                        </div>
+                    <?php
+                    }
+                    ?>
 
                     <?php if(isset($_GET['supp-commande']) && $_GET['supp-commande'] == 'true')
                     {
